@@ -1,11 +1,11 @@
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
+
 def rank_materials(df):
 
     scaler = MinMaxScaler()
 
-    # Normalize CO2 because lower CO2 is better
     df[['norm_co2']] = scaler.fit_transform(
         df[['predicted_co2']]
     )
@@ -16,6 +16,9 @@ def rank_materials(df):
         0.2 * (df["Recyclability (%)"] / 100)
     )
 
+    # Sort by score
     df = df.sort_values(by="score", ascending=False)
+
+    df = df.drop_duplicates(subset=["Material_Type"])
 
     return df.head(5)

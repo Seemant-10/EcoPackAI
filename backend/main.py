@@ -1,10 +1,10 @@
-from fastapi import FastAPI, Depends
-from sqlalchemy.orm import Session
+from fastapi import FastAPI, Depends # type: ignore
+from sqlalchemy.orm import Session # type: ignore
 import pandas as pd
 import joblib
 
 from database import SessionLocal
-from models import Material
+from models import Material, Prediction
 from schema import ProductRequest
 from ranking import rank_materials
 
@@ -67,6 +67,19 @@ def recommend_material(request: ProductRequest, db: Session = Depends(get_db)):
 
     # Rank materials
     ranked = rank_materials(df)
+
+    for _, row in ranked.iterrows():
+        prediction = Prediction(
+            product_type=request.product_type,
+            recommended_material=row["Material_Type"],
+            predicted_cost=float(row["predicted_cost"]),
+            predicted_co2=float(row["predicted_co2"]),
+            sustainability_score=float(row["score"])
+        )
+
+        db.add(prediction)
+
+    db.commit()
 
     return ranked[
         ["Material_Type", "predicted_cost", "predicted_co2", "score"]
