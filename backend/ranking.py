@@ -16,9 +16,10 @@ def rank_materials(df):
         0.2 * (df["Recyclability (%)"] / 100)
     )
 
-    # Sort by score
+    # Sort highest sustainability first
     df = df.sort_values(by="score", ascending=False)
 
-    df = df.drop_duplicates(subset=["Material_Type"])
+    # Keep only best configuration for each material
+    df = df.groupby("Material_Type").first().reset_index()
 
     return df.head(5)

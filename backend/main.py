@@ -31,12 +31,19 @@ def get_db():
 @app.post("/recommend-material")
 def recommend_material(request: ProductRequest, db: Session = Depends(get_db)):
 
+    product_input = request.product_type.strip()
+
     # Get materials from database
     materials = db.query(Material).filter(
-        Material.product_type == request.product_type
+        Material.product_type.ilike(f"%{product_input}%")
     ).all()
 
-    # Convert to DataFrame
+    if not materials:
+        return {
+            "message": "No materials found for this product type",
+            "suggestion": "Try a different product name"
+        }
+    
     df = pd.DataFrame([m.__dict__ for m in materials])
 
     df = df.drop(columns=["_sa_instance_state", "material_id"])
