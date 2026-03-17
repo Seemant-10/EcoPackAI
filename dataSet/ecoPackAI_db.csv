@@ -73,7 +73,7 @@ Corrugated Cardboard,Food Tray,Food Packaging,7,32.3,8,91.37,1.66,0.858
 Bagasse Fiber,Laptop Box,Electronics,6,12.37,10,81.66,1.14,0.476
 PLA Bioplastic,Action Figure Pack,Toys,7,18.88,8,58.1,1.01,1.121
 Aluminum,Clothing Box,Textiles,8,31.16,1,97.92,4.95,3.479
-Bagasse Fiber,TV Carton,Electronics,5,6.75,8,71.11,2,0.511
+Bagasse Fiber,TV Carton,Electronics,5,6.75,8,71.11,2.0,0.511
 Bagasse Fiber,Makeup Box,Cosmetics,5,10.71,8,73.25,2.04,0.501
 Glass,Medicine Box,Healthcare,10,27.68,1,96.39,5.09,1.909
 Mushroom Packaging,Tile Packaging,Construction,6,10.29,10,61.55,1.37,0.36
@@ -81,7 +81,7 @@ Mushroom Packaging,Electronic Blister Pack,Electronics,7,14.98,9,72.06,2.02,0.36
 Glass,Perfume Bottle,Cosmetics,10,28.33,1,98.07,2.46,1.72
 Mushroom Packaging,Foam Insert Package,Home Appliances,6,16.66,9,75.55,3.19,0.385
 Corrugated Cardboard,Protective Box,Home Appliances,8,24.85,9,84.72,1.43,0.742
-Corrugated Cardboard,Medicine Box,Healthcare,7,10.92,9,90.38,1,0.795
+Corrugated Cardboard,Medicine Box,Healthcare,7,10.92,9,90.38,1.0,0.795
 Aluminum,Medicine Box,Healthcare,8,34.95,1,97.93,2.69,3.497
 Kraft Paper,Spare Parts Box,Automotive,5,8.78,8,94.54,0.67,0.547
 Corrugated Cardboard,Tile Packaging,Construction,6,28.92,8,84.3,0.99,0.793
@@ -92,7 +92,7 @@ Kraft Paper,Board Game Box,Toys,5,8.92,10,85.91,0.87,0.583
 Glass,Appliance Carton,Home Appliances,9,35.67,2,98.49,2.48,1.811
 Mushroom Packaging,Tile Packaging,Construction,5,12.92,10,61.32,2.84,0.306
 Glass,Oil Container,Automotive,9,26.95,2,95.38,5.04,1.735
-Aluminum,TV Carton,Electronics,10,26,2,98.2,4.18,3.533
+Aluminum,TV Carton,Electronics,10,26.0,2,98.2,4.18,3.533
 Mushroom Packaging,Takeaway Container,Food Packaging,5,16.97,9,72.04,2.97,0.423
 Recycled PET,Makeup Box,Cosmetics,8,20.18,3,86.77,2.73,2.101
 Corrugated Cardboard,Oil Container,Automotive,6,21.52,8,81.11,1.28,0.739
@@ -131,7 +131,7 @@ Kraft Paper,Spare Parts Box,Automotive,5,6.86,10,88.99,0.31,0.727
 Corrugated Cardboard,Laptop Box,Electronics,7,30.07,7,87.24,1.27,0.826
 Bagasse Fiber,Makeup Box,Cosmetics,5,13.77,9,81.06,1.51,0.436
 PLA Bioplastic,Medical Container,Healthcare,8,13.43,8,54.96,1.44,1.135
-Bagasse Fiber,TV Carton,Electronics,6,6.3,8,79.48,1,0.554
+Bagasse Fiber,TV Carton,Electronics,6,6.3,8,79.48,1.0,0.554
 Corrugated Cardboard,Appliance Carton,Home Appliances,8,34.39,7,81.78,1.01,0.708
 Bagasse Fiber,Board Game Box,Toys,7,14.97,8,75.96,2.4,0.447
 Mushroom Packaging,Makeup Box,Cosmetics,7,11.49,10,63.81,1.94,0.344
@@ -148,7 +148,7 @@ Kraft Paper,Toy Box,Toys,5,9.87,9,89.71,0.34,0.573
 PLA Bioplastic,Tablet Blister Pack,Healthcare,6,11.22,7,52.79,2.22,1.133
 Kraft Paper,Tile Packaging,Construction,4,6.72,10,91.83,0.9,0.637
 Mushroom Packaging,Board Game Box,Toys,5,16.15,9,73.03,1.32,0.42
-Recycled PET,Fabric Wrap,Textiles,9,17.1,4,94,2.2,2.015
+Recycled PET,Fabric Wrap,Textiles,9,17.1,4,94.0,2.2,2.015
 Mushroom Packaging,Action Figure Pack,Toys,6,14.01,9,76.76,3.29,0.538
 Kraft Paper,Oil Container,Automotive,5,5.47,9,92.38,0.59,0.589
 Bagasse Fiber,Perfume Bottle,Cosmetics,7,8.21,8,83.73,1.05,0.489
@@ -192,7 +192,7 @@ Bagasse Fiber,Hardware Container,Construction,7,6.59,8,74.85,1.21,0.596
 Kraft Paper,Makeup Box,Cosmetics,6,9.46,9,86.02,0.41,0.634
 Aluminum,TV Carton,Electronics,10,32.39,1,96.1,5.19,3.498
 Glass,Protective Box,Home Appliances,10,33.09,1,96.6,5.6,1.708
-Kraft Paper,Action Figure Pack,Toys,4,7,8,91.52,1.06,0.572
+Kraft Paper,Action Figure Pack,Toys,4,7.0,8,91.52,1.06,0.572
 Bagasse Fiber,Protective Box,Home Appliances,7,14.71,9,77.96,1.38,0.492
 Recycled PET,Assembly Kit Box,Furniture,8,28.68,3,91.17,2.37,2.041
 Glass,Mobile Box,Electronics,9,22.5,2,96.13,4.9,1.818
@@ -274,7 +274,7 @@ Aluminum,Appliance Carton,Home Appliances,10,34.76,1,95.85,4.93,3.47
 Bagasse Fiber,Spare Parts Box,Automotive,6,8.39,10,77.64,2.27,0.481
 Recycled PET,Furniture Carton,Furniture,10,18.31,2,91.24,3.78,2.109
 Kraft Paper,Action Figure Pack,Toys,6,12.92,10,88.68,0.91,0.532
-Aluminum,Board Game Box,Toys,8,25.81,1,95.06,4,3.489
+Aluminum,Board Game Box,Toys,8,25.81,1,95.06,4.0,3.489
 PLA Bioplastic,Foam Insert Package,Home Appliances,6,8.23,8,53.79,2.6,1.287
 Recycled PET,Spare Parts Box,Automotive,8,27.51,2,94.76,3.12,2.14
 Recycled PET,Appliance Carton,Home Appliances,8,16.65,4,85.98,3.25,2.16
@@ -345,7 +345,7 @@ Bagasse Fiber,Perfume Bottle,Cosmetics,5,12.09,9,79.83,1.09,0.454
 Aluminum,Medical Container,Healthcare,10,21.16,1,98.47,3.8,3.525
 Glass,TV Carton,Electronics,9,24.25,1,98.8,3.59,1.775
 Aluminum,Hardware Container,Construction,8,31.83,1,99.49,4.35,3.572
-Glass,Perfume Bottle,Cosmetics,9,20,1,97.3,4.54,1.793
+Glass,Perfume Bottle,Cosmetics,9,20.0,1,97.3,4.54,1.793
 Mushroom Packaging,Hardware Container,Construction,6,11.8,10,76.05,1.3,0.351
 Corrugated Cardboard,Hardware Container,Construction,9,28.5,8,90.07,1.06,0.827
 Aluminum,Protective Cushioning Pack,Furniture,8,24.57,1,97.66,4.38,3.544
@@ -422,13 +422,13 @@ PLA Bioplastic,Foam Insert Package,Home Appliances,9,8.03,8,65.35,2.5,1.23
 Recycled PET,Appliance Carton,Home Appliances,10,25.79,2,93.8,3.48,2.081
 Recycled PET,Medical Container,Healthcare,10,24.12,3,88.95,3.47,2.205
 Bagasse Fiber,Beverage Bottle,Food Packaging,6,12.63,9,80.7,0.96,0.441
-Bagasse Fiber,Toy Box,Toys,5,8.59,10,80,1.64,0.582
+Bagasse Fiber,Toy Box,Toys,5,8.59,10,80.0,1.64,0.582
 Glass,Tablet Blister Pack,Healthcare,10,30.88,1,95.1,2.23,1.724
 Kraft Paper,Tile Packaging,Construction,6,9.93,10,88.3,0.96,0.543
 PLA Bioplastic,Toy Box,Toys,6,19.56,7,65.48,1.88,1.141
 Bagasse Fiber,Medical Container,Healthcare,6,13.71,9,70.25,2.31,0.556
 Recycled PET,Mobile Box,Electronics,9,21.53,2,87.23,2.38,2.162
-Bagasse Fiber,Mobile Box,Electronics,7,11.97,8,84.61,1,0.459
+Bagasse Fiber,Mobile Box,Electronics,7,11.97,8,84.61,1.0,0.459
 Mushroom Packaging,Perfume Bottle,Cosmetics,7,16.3,9,67.96,1.53,0.389
 Recycled PET,Cement Liner Bag,Construction,8,29.06,3,89.84,3.4,2.174
 Bagasse Fiber,Protective Cushioning Pack,Furniture,6,14.91,10,71.13,1.85,0.527
@@ -457,8 +457,8 @@ Aluminum,Assembly Kit Box,Furniture,10,32.69,1,97.38,2.83,3.571
 Recycled PET,Appliance Carton,Home Appliances,8,19.44,4,85.33,2.73,2.08
 Bagasse Fiber,TV Carton,Electronics,6,14.47,8,82.4,0.82,0.455
 Recycled PET,Tile Packaging,Construction,9,27.37,3,93.76,2.67,2.096
-Mushroom Packaging,Furniture Carton,Furniture,7,17.31,9,60,1.33,0.417
-Glass,Electronic Blister Pack,Electronics,10,21.09,2,96,2.48,1.776
+Mushroom Packaging,Furniture Carton,Furniture,7,17.31,9,60.0,1.33,0.417
+Glass,Electronic Blister Pack,Electronics,10,21.09,2,96.0,2.48,1.776
 Recycled PET,Protective Cushioning Pack,Furniture,8,21.56,4,91.41,1.79,2.155
 Recycled PET,Laptop Box,Electronics,10,24.14,3,88.25,3.12,2.055
 PLA Bioplastic,Electronic Blister Pack,Electronics,8,10.18,7,65.25,2.49,1.131
@@ -477,7 +477,7 @@ Mushroom Packaging,Protective Cushioning Pack,Furniture,7,13.72,10,64.95,2.41,0.
 Corrugated Cardboard,Takeaway Container,Food Packaging,6,10.49,7,83.68,1.99,0.805
 Corrugated Cardboard,Tablet Blister Pack,Healthcare,6,28.32,8,84.27,0.61,0.728
 PLA Bioplastic,Appliance Carton,Home Appliances,7,11.99,7,54.11,2.11,1.23
-Recycled PET,Furniture Carton,Furniture,9,26,4,92.51,3.92,2.082
+Recycled PET,Furniture Carton,Furniture,9,26.0,4,92.51,3.92,2.082
 Recycled PET,Takeaway Container,Food Packaging,9,29.12,2,94.8,2.81,2.034
 Recycled PET,Garment Bag,Textiles,9,17.69,3,90.55,3.07,2.119
 Bagasse Fiber,Foam Insert Package,Home Appliances,5,7.84,8,75.96,1.98,0.502
@@ -497,7 +497,7 @@ Mushroom Packaging,Foam Insert Package,Home Appliances,7,16.38,10,65.67,2.27,0.3
 PLA Bioplastic,Food Tray,Food Packaging,7,14.16,8,64.76,1.71,1.08
 Glass,Beverage Bottle,Food Packaging,10,28.55,1,96.34,4.33,1.854
 Recycled PET,Tablet Blister Pack,Healthcare,8,15.53,4,89.54,1.69,2.218
-PLA Bioplastic,Fabric Wrap,Textiles,9,18,7,51.28,2.95,1.227
+PLA Bioplastic,Fabric Wrap,Textiles,9,18.0,7,51.28,2.95,1.227
 Glass,Protective Box,Home Appliances,10,28.88,1,96.01,5.94,1.809
 Recycled PET,Action Figure Pack,Toys,10,22.37,4,85.11,3.25,2.149
 Glass,Laptop Box,Electronics,10,22.24,1,95.35,4.14,1.75
@@ -517,7 +517,7 @@ Recycled PET,Spare Parts Box,Automotive,10,17.14,3,92.65,1.61,2.049
 Kraft Paper,Makeup Box,Cosmetics,4,14.51,8,85.18,0.33,0.602
 Corrugated Cardboard,Syringe Pack,Healthcare,8,21.86,9,88.58,1.06,0.787
 Bagasse Fiber,Mobile Box,Electronics,5,10.82,8,76.98,2.18,0.518
-PLA Bioplastic,Toy Box,Toys,9,12,6,66.41,2.97,1.252
+PLA Bioplastic,Toy Box,Toys,9,12.0,6,66.41,2.97,1.252
 Aluminum,Laptop Box,Electronics,10,20.2,2,96.94,2.95,3.656
 PLA Bioplastic,Food Tray,Food Packaging,9,10.44,7,64.86,2.19,1.133
 Corrugated Cardboard,Hardware Container,Construction,6,21.26,7,89.65,1.07,0.796
@@ -530,7 +530,7 @@ Bagasse Fiber,TV Carton,Electronics,6,12.75,8,73.87,1.26,0.535
 Mushroom Packaging,Perfume Bottle,Cosmetics,6,16.89,9,66.14,1.33,0.479
 Corrugated Cardboard,Action Figure Pack,Toys,9,24.99,8,85.1,1.8,0.813
 Aluminum,Fabric Wrap,Textiles,8,28.77,2,98.3,4.94,3.558
-Glass,Medical Container,Healthcare,10,30.67,1,99.7,6,1.779
+Glass,Medical Container,Healthcare,10,30.67,1,99.7,6.0,1.779
 Recycled PET,Tablet Blister Pack,Healthcare,8,25.42,2,85.63,3.99,2.152
 Aluminum,Battery Packaging,Automotive,10,34.75,2,95.44,4.17,3.525
 Bagasse Fiber,Spare Parts Box,Automotive,5,10.18,9,70.58,2.11,0.517
@@ -568,10 +568,10 @@ Aluminum,Protective Box,Home Appliances,10,31.44,2,99.52,4.27,3.565
 Recycled PET,Medicine Box,Healthcare,9,23.52,2,89.03,2.48,2.155
 Recycled PET,Furniture Carton,Furniture,10,17.12,3,93.55,2.59,2.102
 PLA Bioplastic,Oil Container,Automotive,9,13.89,7,68.54,2.81,1.173
-Mushroom Packaging,Beverage Bottle,Food Packaging,6,9.43,10,65.06,2,0.442
+Mushroom Packaging,Beverage Bottle,Food Packaging,6,9.43,10,65.06,2.0,0.442
 Mushroom Packaging,Fabric Wrap,Textiles,7,11.37,9,63.5,2.38,0.42
 Corrugated Cardboard,TV Carton,Electronics,8,15.46,8,86.26,1.68,0.823
-Recycled PET,Toy Box,Toys,10,24,2,86.52,2.49,2.168
+Recycled PET,Toy Box,Toys,10,24.0,2,86.52,2.49,2.168
 Aluminum,Medicine Box,Healthcare,8,21.41,2,96.19,4.37,3.534
 Mushroom Packaging,Protective Cushioning Pack,Furniture,7,10.38,9,72.31,3.18,0.437
 Aluminum,Board Game Box,Toys,8,30.56,1,98.85,5.35,3.55
@@ -643,7 +643,7 @@ Kraft Paper,Cement Liner Bag,Construction,6,13.18,10,86.95,0.32,0.557
 Aluminum,Oil Container,Automotive,9,29.04,2,95.51,3.47,3.338
 Mushroom Packaging,Fabric Wrap,Textiles,6,14.74,9,66.48,1.69,0.434
 Glass,Pizza Box,Food Packaging,10,25.02,2,95.65,3.31,1.797
-Bagasse Fiber,Toy Box,Toys,6,6.4,8,71.9,1,0.42
+Bagasse Fiber,Toy Box,Toys,6,6.4,8,71.9,1.0,0.42
 Kraft Paper,Clothing Box,Textiles,7,13.07,10,91.31,1.37,0.685
 Bagasse Fiber,Syringe Pack,Healthcare,6,8.66,10,82.09,1.81,0.479
 Aluminum,Spare Parts Box,Automotive,8,21.04,2,99.2,4.54,3.563
@@ -652,7 +652,7 @@ Mushroom Packaging,Hardware Container,Construction,5,16.38,10,78.92,2.35,0.363
 Mushroom Packaging,Makeup Box,Cosmetics,5,10.72,9,62.56,1.4,0.389
 Glass,Assembly Kit Box,Furniture,10,33.69,1,98.33,4.15,1.827
 Mushroom Packaging,Protective Cushioning Pack,Furniture,7,8.94,9,66.37,2.55,0.396
-Mushroom Packaging,Cement Liner Bag,Construction,7,10.99,9,60,2.91,0.241
+Mushroom Packaging,Cement Liner Bag,Construction,7,10.99,9,60.0,2.91,0.241
 Bagasse Fiber,Perfume Bottle,Cosmetics,7,7.33,9,84.36,1.53,0.559
 Corrugated Cardboard,Perfume Bottle,Cosmetics,6,12.13,7,84.61,0.69,0.807
 Recycled PET,Appliance Carton,Home Appliances,10,18.6,4,85.81,2.21,2.043
@@ -693,7 +693,7 @@ Kraft Paper,Makeup Box,Cosmetics,7,7.44,10,90.12,0.69,0.594
 Mushroom Packaging,Makeup Box,Cosmetics,7,9.94,9,70.11,2.18,0.372
 Recycled PET,Battery Packaging,Automotive,10,22.81,4,94.6,2.77,2.108
 Aluminum,TV Carton,Electronics,10,20.66,1,99.51,3.23,3.551
-Bagasse Fiber,Medicine Box,Healthcare,5,8.97,9,84.05,1,0.397
+Bagasse Fiber,Medicine Box,Healthcare,5,8.97,9,84.05,1.0,0.397
 Bagasse Fiber,Laptop Box,Electronics,6,12.81,9,73.69,1.84,0.403
 PLA Bioplastic,TV Carton,Electronics,7,16.21,8,63.45,1.58,1.187
 PLA Bioplastic,Electronic Blister Pack,Electronics,9,12.93,8,58.27,2.16,1.175
@@ -701,7 +701,7 @@ Bagasse Fiber,Hardware Container,Construction,6,14.9,10,84.45,1.06,0.503
 Recycled PET,Protective Cushioning Pack,Furniture,8,17.54,3,91.18,2.7,2.125
 Kraft Paper,Foam Insert Package,Home Appliances,6,6.12,10,92.82,0.94,0.555
 Recycled PET,Makeup Box,Cosmetics,9,28.11,3,92.3,1.63,2.034
-Corrugated Cardboard,Pizza Box,Food Packaging,8,28.49,8,84.01,1,0.825
+Corrugated Cardboard,Pizza Box,Food Packaging,8,28.49,8,84.01,1.0,0.825
 Corrugated Cardboard,Assembly Kit Box,Furniture,8,23.05,7,82.17,0.7,0.773
 PLA Bioplastic,Oil Container,Automotive,7,15.83,7,69.93,1.13,1.225
 Recycled PET,Cosmetic Tube,Cosmetics,9,15.17,4,94.49,3.97,1.975
@@ -726,7 +726,7 @@ Recycled PET,Appliance Carton,Home Appliances,9,23.63,3,92.26,3.35,2.055
 PLA Bioplastic,Cream Jar,Cosmetics,7,10.48,6,55.38,2.15,1.175
 Bagasse Fiber,Pizza Box,Food Packaging,7,12.76,10,81.48,2.23,0.429
 Glass,Syringe Pack,Healthcare,10,27.53,1,96.34,2.56,1.808
-Kraft Paper,Cosmetic Tube,Cosmetics,7,11,10,93.75,1.25,0.606
+Kraft Paper,Cosmetic Tube,Cosmetics,7,11.0,10,93.75,1.25,0.606
 Kraft Paper,Assembly Kit Box,Furniture,5,7.74,9,91.83,0.54,0.617
 Corrugated Cardboard,TV Carton,Electronics,7,26.14,8,82.92,0.75,0.807
 PLA Bioplastic,Protective Box,Home Appliances,7,8.06,8,63.25,1.33,1.194
@@ -741,7 +741,7 @@ Kraft Paper,Laptop Box,Electronics,5,9.41,8,88.97,0.83,0.566
 Recycled PET,Appliance Carton,Home Appliances,9,28.04,3,89.15,2.44,2.094
 Recycled PET,Spare Parts Box,Automotive,9,17.94,3,89.58,2.66,2.05
 Kraft Paper,Fabric Wrap,Textiles,7,10.13,9,92.46,0.66,0.691
-Corrugated Cardboard,Syringe Pack,Healthcare,6,16.49,9,80,1.62,0.73
+Corrugated Cardboard,Syringe Pack,Healthcare,6,16.49,9,80.0,1.62,0.73
 Mushroom Packaging,Tile Packaging,Construction,6,15.42,9,75.06,2.36,0.38
 Aluminum,Tablet Blister Pack,Healthcare,8,23.48,1,96.74,3.2,3.502
 Kraft Paper,Medical Container,Healthcare,4,12.49,9,86.08,1.38,0.548
@@ -788,9 +788,9 @@ Bagasse Fiber,Cream Jar,Cosmetics,5,10.64,8,83.46,2.34,0.496
 Bagasse Fiber,Board Game Box,Toys,7,11.53,8,82.82,1.79,0.47
 Recycled PET,Action Figure Pack,Toys,10,16.26,4,93.48,2.5,1.98
 Recycled PET,Cream Jar,Cosmetics,10,26.84,2,87.12,2.66,2.042
-Corrugated Cardboard,Spare Parts Box,Automotive,8,27.61,8,88,1.92,0.826
+Corrugated Cardboard,Spare Parts Box,Automotive,8,27.61,8,88.0,1.92,0.826
 Glass,Makeup Box,Cosmetics,9,34.38,2,95.51,2.61,1.866
-Aluminum,Cream Jar,Cosmetics,10,27.23,1,98,4.26,3.507
+Aluminum,Cream Jar,Cosmetics,10,27.23,1,98.0,4.26,3.507
 Recycled PET,Foam Insert Package,Home Appliances,9,28.48,3,92.62,2.76,2.118
 Mushroom Packaging,Foam Insert Package,Home Appliances,5,14.67,9,60.5,2.61,0.41
 Mushroom Packaging,Mobile Box,Electronics,6,11.34,9,65.15,1.24,0.441
@@ -869,7 +869,7 @@ Aluminum,Electronic Blister Pack,Electronics,10,33.92,1,98.11,2.97,3.475
 Mushroom Packaging,Board Game Box,Toys,6,14.28,9,72.88,1.62,0.357
 Corrugated Cardboard,Pizza Box,Food Packaging,9,16.64,8,87.67,1.79,0.774
 Glass,Spare Parts Box,Automotive,9,25.85,2,96.33,5.78,1.802
-Corrugated Cardboard,Protective Box,Home Appliances,9,12.61,9,88,1.06,0.955
+Corrugated Cardboard,Protective Box,Home Appliances,9,12.61,9,88.0,1.06,0.955
 Bagasse Fiber,Battery Packaging,Automotive,5,7.16,8,71.13,1.26,0.427
 PLA Bioplastic,Clothing Box,Textiles,7,11.09,7,69.39,2.29,1.258
 PLA Bioplastic,Fabric Wrap,Textiles,6,19.19,7,62.78,1.82,1.179
@@ -945,7 +945,7 @@ Recycled PET,Oil Container,Automotive,8,28.55,4,86.26,3.13,2.127
 Kraft Paper,Electronic Blister Pack,Electronics,5,8.23,10,91.48,1.3,0.651
 Recycled PET,Perfume Bottle,Cosmetics,10,24.2,2,92.63,2.02,2.112
 Aluminum,Foam Insert Package,Home Appliances,8,20.47,2,99.09,2.53,3.466
-Recycled PET,Battery Packaging,Automotive,9,28,3,87.61,1.84,2.151
+Recycled PET,Battery Packaging,Automotive,9,28.0,3,87.61,1.84,2.151
 Corrugated Cardboard,Fabric Wrap,Textiles,7,32.94,8,83.15,1.85,0.827
 Kraft Paper,Electronic Blister Pack,Electronics,6,6.01,8,87.74,1.35,0.57
 Mushroom Packaging,Mobile Box,Electronics,6,9.27,9,68.36,2.57,0.414
@@ -986,7 +986,7 @@ Aluminum,Battery Packaging,Automotive,9,23.23,2,97.36,2.73,3.488
 Recycled PET,Action Figure Pack,Toys,8,21.93,3,94.41,3.32,2.136
 Aluminum,Appliance Carton,Home Appliances,9,26.79,2,97.95,3.99,3.486
 Glass,Furniture Carton,Furniture,10,32.14,2,97.81,4.75,1.824
-Bagasse Fiber,Syringe Pack,Healthcare,5,10,8,71.54,1.54,0.477
+Bagasse Fiber,Syringe Pack,Healthcare,5,10.0,8,71.54,1.54,0.477
 Kraft Paper,Pizza Box,Food Packaging,5,8.03,10,88.2,0.6,0.626
 Corrugated Cardboard,Tile Packaging,Construction,8,18.75,9,88.43,1.73,0.794
 Glass,Foam Insert Package,Home Appliances,9,34.06,1,96.91,5.2,1.876
@@ -1027,17 +1027,17 @@ Aluminum,Protective Box,Home Appliances,8,22.34,1,99.8,5.33,3.475
 Recycled PET,Furniture Carton,Furniture,8,25.95,4,85.8,2.69,2.213
 Recycled PET,Pizza Box,Food Packaging,9,18.49,4,91.69,3.66,2.094
 PLA Bioplastic,Protective Cushioning Pack,Furniture,9,10.26,6,61.18,2.69,1.189
-Corrugated Cardboard,Furniture Carton,Furniture,6,23.98,9,89,0.98,0.84
+Corrugated Cardboard,Furniture Carton,Furniture,6,23.98,9,89.0,0.98,0.84
 Recycled PET,Medicine Box,Healthcare,8,15.13,3,85.26,3.57,2.057
 Glass,Syringe Pack,Healthcare,9,25.66,2,95.92,2.15,1.762
 Recycled PET,Protective Cushioning Pack,Furniture,9,25.46,2,91.56,2.99,2.044
 Kraft Paper,Furniture Carton,Furniture,6,10.5,8,94.2,0.58,0.611
-Bagasse Fiber,Hardware Container,Construction,7,13.94,8,83.69,1,0.478
+Bagasse Fiber,Hardware Container,Construction,7,13.94,8,83.69,1.0,0.478
 Kraft Paper,Board Game Box,Toys,5,9.1,10,87.5,0.39,0.551
 Glass,Electronic Blister Pack,Electronics,10,33.9,1,99.27,4.79,1.85
 Aluminum,Cosmetic Tube,Cosmetics,9,20.44,2,97.67,3.52,3.507
 Bagasse Fiber,TV Carton,Electronics,7,10.68,9,71.75,2.03,0.539
-Aluminum,Action Figure Pack,Toys,10,21.3,1,96,2.7,3.515
+Aluminum,Action Figure Pack,Toys,10,21.3,1,96.0,2.7,3.515
 Mushroom Packaging,Fabric Wrap,Textiles,6,12.06,10,75.59,1.93,0.375
 Glass,Medical Container,Healthcare,10,25.72,2,98.5,4.16,1.827
 Corrugated Cardboard,Cement Liner Bag,Construction,6,23.12,8,80.83,1.69,0.892
@@ -1058,7 +1058,7 @@ Recycled PET,Syringe Pack,Healthcare,10,27.41,2,85.35,2.38,2.141
 Glass,Garment Bag,Textiles,10,21.79,1,95.02,5.07,1.796
 Mushroom Packaging,Mobile Box,Electronics,5,13.63,9,63.56,2.12,0.457
 Mushroom Packaging,Food Tray,Food Packaging,5,15.64,9,69.54,2.3,0.454
-Recycled PET,Tablet Blister Pack,Healthcare,8,16.11,4,95,3.07,2.111
+Recycled PET,Tablet Blister Pack,Healthcare,8,16.11,4,95.0,3.07,2.111
 Kraft Paper,Spare Parts Box,Automotive,5,10.18,10,90.72,1.35,0.661
 Recycled PET,Electronic Blister Pack,Electronics,8,23.97,3,85.65,3.96,2.091
 Glass,Appliance Carton,Home Appliances,9,31.2,2,96.64,5.07,1.822
@@ -1067,7 +1067,7 @@ Recycled PET,Clothing Box,Textiles,10,29.84,3,90.52,2.55,2.089
 Bagasse Fiber,Hardware Container,Construction,6,13.01,9,82.08,2.05,0.446
 Aluminum,Tablet Blister Pack,Healthcare,8,24.99,2,97.34,3.22,3.418
 Aluminum,Medical Container,Healthcare,10,24.69,1,95.74,2.83,3.455
-Glass,Appliance Carton,Home Appliances,9,32.56,2,99,3.42,1.679
+Glass,Appliance Carton,Home Appliances,9,32.56,2,99.0,3.42,1.679
 Mushroom Packaging,Mobile Box,Electronics,5,13.65,10,75.48,1.86,0.335
 Bagasse Fiber,Syringe Pack,Healthcare,5,10.58,8,77.23,1.3,0.522
 PLA Bioplastic,Garment Bag,Textiles,7,19.59,7,54.68,1.47,1.237
@@ -1114,7 +1114,7 @@ Kraft Paper,Medicine Box,Healthcare,4,5.09,10,89.6,0.57,0.571
 Mushroom Packaging,Protective Box,Home Appliances,5,14.54,9,75.12,1.71,0.4
 Aluminum,Medicine Box,Healthcare,9,28.89,2,99.19,4.11,3.51
 Corrugated Cardboard,Action Figure Pack,Toys,7,10.23,7,85.83,1.39,0.77
-Kraft Paper,Mobile Box,Electronics,7,14.69,9,87.12,1,0.551
+Kraft Paper,Mobile Box,Electronics,7,14.69,9,87.12,1.0,0.551
 PLA Bioplastic,Cream Jar,Cosmetics,8,9.9,6,61.44,1.18,1.209
 Glass,Takeaway Container,Food Packaging,10,31.68,2,97.41,5.51,1.779
 Corrugated Cardboard,Toy Box,Toys,7,14.31,8,88.06,0.9,0.784
@@ -1191,7 +1191,7 @@ PLA Bioplastic,Laptop Box,Electronics,6,10.8,7,55.85,1.6,1.128
 Mushroom Packaging,Takeaway Container,Food Packaging,5,16.21,10,61.88,2.83,0.463
 Corrugated Cardboard,Tile Packaging,Construction,7,17.45,8,88.81,0.6,0.915
 Glass,Perfume Bottle,Cosmetics,9,33.52,1,97.67,4.33,1.789
-Mushroom Packaging,Laptop Box,Electronics,6,16.25,9,77.9,2,0.425
+Mushroom Packaging,Laptop Box,Electronics,6,16.25,9,77.9,2.0,0.425
 PLA Bioplastic,Appliance Carton,Home Appliances,7,10.51,8,54.63,2.24,1.238
 Aluminum,Clothing Box,Textiles,10,22.65,1,99.2,2.64,3.528
 Mushroom Packaging,Assembly Kit Box,Furniture,7,11.36,9,72.05,3.2,0.387
@@ -1201,7 +1201,7 @@ PLA Bioplastic,TV Carton,Electronics,6,14.16,7,58.12,2.5,1.15
 Bagasse Fiber,Assembly Kit Box,Furniture,5,11.43,9,83.3,1.02,0.482
 PLA Bioplastic,Oil Container,Automotive,8,19.06,7,50.48,2.52,1.172
 Mushroom Packaging,Laptop Box,Electronics,5,12.38,10,64.26,1.26,0.408
-Aluminum,Toy Box,Toys,9,23,1,95.1,2.57,3.553
+Aluminum,Toy Box,Toys,9,23.0,1,95.1,2.57,3.553
 Recycled PET,Action Figure Pack,Toys,10,27.12,2,91.69,2.31,2.135
 Glass,TV Carton,Electronics,9,34.52,1,96.79,3.95,1.8
 Mushroom Packaging,TV Carton,Electronics,5,14.93,10,68.3,2.97,0.477
@@ -1258,7 +1258,7 @@ PLA Bioplastic,Makeup Box,Cosmetics,9,11.72,7,56.46,1.86,1.251
 Glass,Perfume Bottle,Cosmetics,10,36.77,1,98.04,2.8,1.828
 Kraft Paper,Appliance Carton,Home Appliances,5,11.27,10,89.55,0.89,0.613
 Bagasse Fiber,Mobile Box,Electronics,5,12.48,9,70.94,0.91,0.49
-Kraft Paper,Hardware Container,Construction,7,11.74,9,93.39,1,0.556
+Kraft Paper,Hardware Container,Construction,7,11.74,9,93.39,1.0,0.556
 Recycled PET,Hardware Container,Construction,10,22.83,4,87.72,2.17,2.147
 Kraft Paper,Oil Container,Automotive,6,13.42,9,89.11,1.26,0.569
 Glass,Cement Liner Bag,Construction,10,36.52,1,95.3,3.24,1.831
@@ -1278,7 +1278,7 @@ Kraft Paper,Action Figure Pack,Toys,4,9.83,10,92.4,0.43,0.651
 PLA Bioplastic,Electronic Blister Pack,Electronics,9,15.14,7,55.25,1.48,1.163
 Bagasse Fiber,Laptop Box,Electronics,7,10.68,9,78.42,2.48,0.485
 Recycled PET,Oil Container,Automotive,10,20.94,2,93.75,1.86,2.059
-PLA Bioplastic,Clothing Box,Textiles,7,12.49,6,64.17,2,1.282
+PLA Bioplastic,Clothing Box,Textiles,7,12.49,6,64.17,2.0,1.282
 PLA Bioplastic,Action Figure Pack,Toys,9,17.38,8,66.48,2.24,1.211
 Mushroom Packaging,Beverage Bottle,Food Packaging,7,9.81,10,77.4,2.82,0.318
 Glass,Action Figure Pack,Toys,10,31.44,1,97.4,4.24,1.789
@@ -1316,11 +1316,11 @@ Mushroom Packaging,Oil Container,Automotive,7,16.34,10,70.97,3.08,0.419
 PLA Bioplastic,Action Figure Pack,Toys,6,14.37,7,50.21,1.9,1.18
 Bagasse Fiber,Spare Parts Box,Automotive,6,11.86,8,81.85,1.89,0.551
 PLA Bioplastic,Protective Cushioning Pack,Furniture,6,13.71,8,61.61,2.05,1.273
-PLA Bioplastic,Foam Insert Package,Home Appliances,8,14,8,58.47,2.46,1.169
-Recycled PET,Appliance Carton,Home Appliances,10,16,2,94.76,1.7,2.097
+PLA Bioplastic,Foam Insert Package,Home Appliances,8,14.0,8,58.47,2.46,1.169
+Recycled PET,Appliance Carton,Home Appliances,10,16.0,2,94.76,1.7,2.097
 PLA Bioplastic,Electronic Blister Pack,Electronics,7,15.27,7,69.39,1.12,1.115
 PLA Bioplastic,Cosmetic Tube,Cosmetics,6,8.77,7,66.14,1.49,1.133
-Glass,Spare Parts Box,Automotive,10,37,1,97.69,2.64,1.757
+Glass,Spare Parts Box,Automotive,10,37.0,1,97.69,2.64,1.757
 Bagasse Fiber,Furniture Carton,Furniture,6,6.03,8,84.96,2.28,0.394
 PLA Bioplastic,Makeup Box,Cosmetics,9,19.46,8,65.51,1.44,1.216
 Mushroom Packaging,TV Carton,Electronics,5,12.73,10,62.34,3.44,0.38
@@ -1336,7 +1336,7 @@ Kraft Paper,Toy Box,Toys,4,6.56,8,85.03,1.5,0.624
 Aluminum,Electronic Blister Pack,Electronics,8,20.53,1,96.16,5.42,3.502
 Mushroom Packaging,Hardware Container,Construction,5,12.69,9,77.35,2.7,0.355
 Kraft Paper,Medical Container,Healthcare,7,9.27,8,89.24,0.54,0.574
-Glass,Board Game Box,Toys,9,33.82,2,95,4.72,1.754
+Glass,Board Game Box,Toys,9,33.82,2,95.0,4.72,1.754
 Mushroom Packaging,Oil Container,Automotive,5,17.23,9,73.76,1.37,0.466
 Corrugated Cardboard,Spare Parts Box,Automotive,6,33.08,9,90.15,0.55,0.847
 Glass,Cosmetic Tube,Cosmetics,9,23.14,2,98.49,3.03,1.798
@@ -1346,16 +1346,16 @@ Bagasse Fiber,Tile Packaging,Construction,5,11.27,8,71.91,2.04,0.48
 Mushroom Packaging,Beverage Bottle,Food Packaging,7,11.35,10,67.76,2.91,0.375
 Aluminum,Medicine Box,Healthcare,9,34.89,2,95.34,3.78,3.56
 Aluminum,Cement Liner Bag,Construction,8,29.96,2,99.41,3.54,3.515
-Kraft Paper,Furniture Carton,Furniture,7,14,10,87.02,0.75,0.637
+Kraft Paper,Furniture Carton,Furniture,7,14.0,10,87.02,0.75,0.637
 Glass,Mobile Box,Electronics,10,23.97,2,96.72,5.95,1.752
 Kraft Paper,Tile Packaging,Construction,6,8.13,10,89.64,0.35,0.626
 Kraft Paper,Assembly Kit Box,Furniture,4,12.98,10,85.1,1.34,0.645
 Recycled PET,Cement Liner Bag,Construction,10,15.13,4,90.3,2.95,2.122
 Glass,Laptop Box,Electronics,9,33.11,2,99.12,3.75,1.883
-Corrugated Cardboard,Takeaway Container,Food Packaging,9,25.77,9,83,1.59,0.799
+Corrugated Cardboard,Takeaway Container,Food Packaging,9,25.77,9,83.0,1.59,0.799
 Bagasse Fiber,Mobile Box,Electronics,5,9.76,8,83.54,1.63,0.585
 Bagasse Fiber,Food Tray,Food Packaging,6,6.88,10,79.66,2.28,0.409
-PLA Bioplastic,Medical Container,Healthcare,9,14.03,8,66,2.8,1.253
+PLA Bioplastic,Medical Container,Healthcare,9,14.03,8,66.0,2.8,1.253
 Kraft Paper,Electronic Blister Pack,Electronics,6,9.3,9,91.74,0.81,0.622
 Corrugated Cardboard,Toy Box,Toys,7,20.23,8,91.36,0.92,0.812
 Mushroom Packaging,Fabric Wrap,Textiles,5,12.18,10,65.3,2.56,0.467
@@ -1383,7 +1383,7 @@ Aluminum,Laptop Box,Electronics,8,32.7,1,99.74,2.99,3.395
 Recycled PET,Oil Container,Automotive,8,19.18,3,88.39,2.48,2.167
 Bagasse Fiber,Garment Bag,Textiles,6,7.47,8,77.44,2.45,0.446
 Recycled PET,Makeup Box,Cosmetics,10,25.02,2,94.65,2.15,2.228
-Mushroom Packaging,Board Game Box,Toys,6,13,10,75.27,2.71,0.397
+Mushroom Packaging,Board Game Box,Toys,6,13.0,10,75.27,2.71,0.397
 Bagasse Fiber,Food Tray,Food Packaging,7,14.93,9,81.29,1.35,0.446
 Glass,Tile Packaging,Construction,9,30.44,2,97.01,5.09,1.787
 Bagasse Fiber,Medicine Box,Healthcare,5,12.83,10,78.66,1.02,0.484
@@ -1398,7 +1398,7 @@ Glass,Food Tray,Food Packaging,10,20.26,2,99.16,5.32,1.919
 Bagasse Fiber,Beverage Bottle,Food Packaging,5,12.23,9,75.6,1.53,0.486
 Kraft Paper,Medicine Box,Healthcare,4,5.34,9,90.46,0.6,0.566
 Glass,Garment Bag,Textiles,10,28.58,2,99.16,4.47,1.786
-Bagasse Fiber,Takeaway Container,Food Packaging,7,11.39,10,74.83,2,0.475
+Bagasse Fiber,Takeaway Container,Food Packaging,7,11.39,10,74.83,2.0,0.475
 Recycled PET,Syringe Pack,Healthcare,10,19.88,3,92.55,1.92,2.103
 PLA Bioplastic,Cosmetic Tube,Cosmetics,7,15.66,6,52.95,1.34,1.204
 Aluminum,Foam Insert Package,Home Appliances,9,32.08,2,97.57,2.61,3.498
@@ -1440,7 +1440,7 @@ Kraft Paper,Fabric Wrap,Textiles,7,9.81,9,94.39,1.15,0.641
 Kraft Paper,Garment Bag,Textiles,4,5.31,8,88.55,0.54,0.57
 Recycled PET,Laptop Box,Electronics,9,23.16,2,86.85,3.18,2.178
 Bagasse Fiber,Foam Insert Package,Home Appliances,5,11.77,10,74.77,2.45,0.443
-Corrugated Cardboard,Oil Container,Automotive,7,25.95,9,84,0.64,0.831
+Corrugated Cardboard,Oil Container,Automotive,7,25.95,9,84.0,0.64,0.831
 PLA Bioplastic,Medical Container,Healthcare,6,11.32,8,55.71,2.35,1.173
 Recycled PET,Protective Cushioning Pack,Furniture,9,16.14,2,91.01,2.61,2.061
 Aluminum,Oil Container,Automotive,10,34.02,1,97.04,5.1,3.499
@@ -1450,7 +1450,7 @@ Glass,Mobile Box,Electronics,9,36.57,2,99.8,5.35,1.73
 Corrugated Cardboard,Cream Jar,Cosmetics,7,33.64,9,81.94,1.92,0.673
 Glass,Cream Jar,Cosmetics,9,27.51,2,99.54,4.73,1.816
 Recycled PET,Laptop Box,Electronics,10,24.47,4,94.11,2.74,2.122
-Recycled PET,Food Tray,Food Packaging,9,22.99,2,87.91,3.04,2
+Recycled PET,Food Tray,Food Packaging,9,22.99,2,87.91,3.04,2.0
 PLA Bioplastic,Tile Packaging,Construction,8,14.02,8,64.74,2.74,1.187
 PLA Bioplastic,Fabric Wrap,Textiles,9,19.14,8,64.69,2.14,1.243
 Bagasse Fiber,Food Tray,Food Packaging,7,9.05,10,80.43,0.85,0.446
@@ -1463,7 +1463,7 @@ Mushroom Packaging,Assembly Kit Box,Furniture,7,8.77,10,70.82,2.11,0.337
 Mushroom Packaging,Tile Packaging,Construction,5,13.13,9,74.43,2.7,0.351
 Kraft Paper,Electronic Blister Pack,Electronics,4,12.32,9,91.26,0.43,0.565
 Recycled PET,Appliance Carton,Home Appliances,9,22.01,2,90.65,3.14,2.216
-Recycled PET,Toy Box,Toys,8,15.27,4,93.47,4,2.098
+Recycled PET,Toy Box,Toys,8,15.27,4,93.47,4.0,2.098
 Recycled PET,Takeaway Container,Food Packaging,9,17.08,3,89.94,1.62,2.013
 Aluminum,Toy Box,Toys,10,24.03,1,96.84,5.43,3.566
 PLA Bioplastic,Hardware Container,Construction,9,17.43,8,57.12,1.81,1.152
@@ -1495,7 +1495,7 @@ Recycled PET,Hardware Container,Construction,8,20.4,3,86.69,2.07,2.069
 Mushroom Packaging,Action Figure Pack,Toys,5,17.79,9,61.56,1.37,0.418
 Kraft Paper,Appliance Carton,Home Appliances,6,11.71,9,87.96,1.02,0.714
 Glass,Spare Parts Box,Automotive,10,32.94,1,97.92,4.67,1.803
-PLA Bioplastic,Board Game Box,Toys,8,13.58,6,69,2.24,1.202
+PLA Bioplastic,Board Game Box,Toys,8,13.58,6,69.0,2.24,1.202
 Kraft Paper,Protective Cushioning Pack,Furniture,4,7.88,8,85.62,0.86,0.619
 Corrugated Cardboard,Protective Box,Home Appliances,6,15.47,8,82.61,1.07,0.733
 Recycled PET,Tile Packaging,Construction,10,29.09,4,87.85,3.66,2.143
@@ -1569,7 +1569,7 @@ Recycled PET,Medical Container,Healthcare,8,19.34,4,94.14,3.17,2.047
 Corrugated Cardboard,Foam Insert Package,Home Appliances,8,33.2,9,84.65,0.64,0.789
 Bagasse Fiber,Tile Packaging,Construction,7,12.68,8,84.67,1.86,0.529
 PLA Bioplastic,Appliance Carton,Home Appliances,7,18.29,7,57.25,1.9,1.23
-Kraft Paper,Spare Parts Box,Automotive,6,6.78,9,86.86,1,0.596
+Kraft Paper,Spare Parts Box,Automotive,6,6.78,9,86.86,1.0,0.596
 Recycled PET,Cream Jar,Cosmetics,9,29.26,4,86.24,1.92,2.066
 Aluminum,Takeaway Container,Food Packaging,9,33.65,1,97.4,4.71,3.433
 PLA Bioplastic,Furniture Carton,Furniture,7,19.37,8,66.37,2.73,1.226
@@ -1629,7 +1629,7 @@ Kraft Paper,Hardware Container,Construction,5,11.13,8,86.66,0.54,0.613
 Glass,Mobile Box,Electronics,10,35.61,1,99.29,4.14,1.772
 Glass,Board Game Box,Toys,9,22.84,2,95.04,2.39,1.784
 Aluminum,Appliance Carton,Home Appliances,10,31.48,1,97.18,3.85,3.523
-Glass,Perfume Bottle,Cosmetics,10,27.54,2,98,5.02,1.824
+Glass,Perfume Bottle,Cosmetics,10,27.54,2,98.0,5.02,1.824
 PLA Bioplastic,Makeup Box,Cosmetics,9,12.6,7,57.6,1.7,1.166
 Glass,Electronic Blister Pack,Electronics,10,32.03,2,95.66,4.66,1.735
 Kraft Paper,Cream Jar,Cosmetics,4,7.43,10,92.77,1.25,0.611
@@ -1667,7 +1667,7 @@ Glass,Foam Insert Package,Home Appliances,9,25.94,2,97.25,5.97,1.763
 Corrugated Cardboard,Action Figure Pack,Toys,9,34.77,7,80.12,1.78,0.755
 Recycled PET,Hardware Container,Construction,9,17.42,2,86.4,2.02,2.104
 Recycled PET,Action Figure Pack,Toys,10,24.59,2,93.6,3.83,2.105
-Bagasse Fiber,Board Game Box,Toys,6,6.51,8,83.85,1,0.438
+Bagasse Fiber,Board Game Box,Toys,6,6.51,8,83.85,1.0,0.438
 Glass,Action Figure Pack,Toys,10,33.32,1,98.76,5.27,1.741
 Recycled PET,Laptop Box,Electronics,10,27.02,2,88.58,2.45,2.091
 Mushroom Packaging,Protective Cushioning Pack,Furniture,7,11.97,9,76.76,3.22,0.39
@@ -1679,7 +1679,7 @@ Corrugated Cardboard,Garment Bag,Textiles,6,22.81,7,83.11,0.62,0.892
 Glass,Toy Box,Toys,9,29.24,1,96.08,3.61,1.753
 Aluminum,Medical Container,Healthcare,10,31.23,2,95.94,3.02,3.514
 Corrugated Cardboard,Protective Cushioning Pack,Furniture,6,33.86,9,81.72,1.54,0.847
-Mushroom Packaging,Medicine Box,Healthcare,6,11.88,10,61.37,2,0.441
+Mushroom Packaging,Medicine Box,Healthcare,6,11.88,10,61.37,2.0,0.441
 Glass,Protective Box,Home Appliances,10,37.65,1,95.36,5.9,1.754
 Corrugated Cardboard,Protective Cushioning Pack,Furniture,9,14.61,8,89.99,1.46,0.791
 Corrugated Cardboard,Protective Box,Home Appliances,9,12.9,9,83.8,1.73,0.77
@@ -1757,7 +1757,7 @@ Bagasse Fiber,Battery Packaging,Automotive,7,9.74,10,70.71,2.46,0.528
 Bagasse Fiber,Hardware Container,Construction,7,8.92,10,81.43,2.16,0.466
 Glass,Food Tray,Food Packaging,10,21.23,1,97.08,5.84,1.809
 Aluminum,Medical Container,Healthcare,10,25.08,2,99.7,3.96,3.47
-Aluminum,Hardware Container,Construction,10,34.65,1,96,2.83,3.474
+Aluminum,Hardware Container,Construction,10,34.65,1,96.0,2.83,3.474
 Aluminum,Hardware Container,Construction,9,25.74,2,99.95,4.14,3.451
 Aluminum,Garment Bag,Textiles,8,31.17,2,98.11,3.86,3.48
 Glass,Medical Container,Healthcare,9,36.7,1,98.92,5.38,1.776
@@ -1800,10 +1800,10 @@ Bagasse Fiber,Medicine Box,Healthcare,7,6.07,8,76.73,0.92,0.506
 Aluminum,Hardware Container,Construction,8,26.97,1,97.13,2.71,3.542
 Recycled PET,Tile Packaging,Construction,10,16.76,2,87.24,1.53,2.115
 Glass,Perfume Bottle,Cosmetics,10,36.63,1,96.97,5.83,1.875
-Kraft Paper,Appliance Carton,Home Appliances,7,7.78,8,89,1.19,0.576
+Kraft Paper,Appliance Carton,Home Appliances,7,7.78,8,89.0,1.19,0.576
 Bagasse Fiber,Food Tray,Food Packaging,6,10.23,8,71.22,1.4,0.482
 Corrugated Cardboard,Electronic Blister Pack,Electronics,9,26.8,7,88.2,0.94,0.826
-Mushroom Packaging,Protective Cushioning Pack,Furniture,6,16.58,10,76.46,2,0.385
+Mushroom Packaging,Protective Cushioning Pack,Furniture,6,16.58,10,76.46,2.0,0.385
 Corrugated Cardboard,Clothing Box,Textiles,8,29.59,7,89.95,1.66,0.815
 Glass,Cement Liner Bag,Construction,9,31.54,1,96.25,4.65,1.816
 Kraft Paper,Hardware Container,Construction,4,11.89,8,89.16,0.52,0.636
@@ -1857,7 +1857,7 @@ Mushroom Packaging,Laptop Box,Electronics,5,15.39,10,76.36,3.31,0.496
 Glass,Medical Container,Healthcare,9,23.66,1,97.25,3.01,1.752
 Kraft Paper,Garment Bag,Textiles,4,8.95,8,91.67,1.21,0.549
 Aluminum,Tile Packaging,Construction,8,30.89,1,98.58,3.88,3.452
-Glass,Cosmetic Tube,Cosmetics,9,26,2,96.2,5.37,1.778
+Glass,Cosmetic Tube,Cosmetics,9,26.0,2,96.2,5.37,1.778
 Mushroom Packaging,Appliance Carton,Home Appliances,5,10.22,10,71.41,2.88,0.38
 PLA Bioplastic,Tile Packaging,Construction,9,18.91,8,56.79,2.55,1.171
 Aluminum,Protective Cushioning Pack,Furniture,9,20.63,2,98.93,4.47,3.544
@@ -1930,7 +1930,7 @@ Mushroom Packaging,Tablet Blister Pack,Healthcare,6,17.36,10,77.11,2.31,0.38
 Bagasse Fiber,Laptop Box,Electronics,5,7.02,9,70.14,1.89,0.51
 Corrugated Cardboard,TV Carton,Electronics,6,29.4,7,80.09,0.6,0.764
 Glass,Medical Container,Healthcare,10,31.43,2,99.91,4.32,1.865
-Kraft Paper,Battery Packaging,Automotive,6,6,8,88.71,0.97,0.607
+Kraft Paper,Battery Packaging,Automotive,6,6.0,8,88.71,0.97,0.607
 Kraft Paper,Tablet Blister Pack,Healthcare,6,11.11,9,88.3,0.97,0.609
 Corrugated Cardboard,Food Tray,Food Packaging,8,25.04,9,91.34,1.41,0.819
 Aluminum,Cream Jar,Cosmetics,10,23.21,2,96.69,4.53,3.568
@@ -2006,12 +2006,12 @@ Aluminum,Laptop Box,Electronics,10,31.02,2,99.14,3.25,3.52
 Mushroom Packaging,Garment Bag,Textiles,7,11.91,9,65.17,1.83,0.345
 Aluminum,Cream Jar,Cosmetics,8,33.85,1,95.03,4.78,3.522
 Glass,Protective Cushioning Pack,Furniture,9,35.26,1,95.46,3.8,1.786
-Bagasse Fiber,Protective Cushioning Pack,Furniture,5,7,8,72.06,2.12,0.522
+Bagasse Fiber,Protective Cushioning Pack,Furniture,5,7.0,8,72.06,2.12,0.522
 Aluminum,Cement Liner Bag,Construction,8,29.85,1,98.34,2.7,3.56
 Recycled PET,Appliance Carton,Home Appliances,10,19.48,2,91.13,2.72,2.161
 Bagasse Fiber,Cement Liner Bag,Construction,5,8.78,10,79.17,0.86,0.568
 Glass,Board Game Box,Toys,9,23.87,2,95.89,2.25,1.756
-Aluminum,Oil Container,Automotive,10,27.22,2,95,5.22,3.515
+Aluminum,Oil Container,Automotive,10,27.22,2,95.0,5.22,3.515
 Corrugated Cardboard,Spare Parts Box,Automotive,8,27.28,9,91.81,0.71,0.755
 Bagasse Fiber,Cream Jar,Cosmetics,6,8.63,8,77.37,1.71,0.517
 Corrugated Cardboard,Cream Jar,Cosmetics,6,22.03,9,84.5,1.12,0.743
@@ -2027,13 +2027,13 @@ PLA Bioplastic,Furniture Carton,Furniture,8,12.01,8,52.35,1.84,1.113
 Kraft Paper,Syringe Pack,Healthcare,5,14.32,8,90.2,0.61,0.627
 Mushroom Packaging,Makeup Box,Cosmetics,5,15.3,9,74.25,2.88,0.488
 Corrugated Cardboard,Laptop Box,Electronics,6,11.88,9,85.22,1.97,0.845
-Bagasse Fiber,Medical Container,Healthcare,5,10.92,9,83,1.24,0.501
+Bagasse Fiber,Medical Container,Healthcare,5,10.92,9,83.0,1.24,0.501
 Corrugated Cardboard,Mobile Box,Electronics,7,16.71,7,83.73,1.48,0.705
 PLA Bioplastic,Food Tray,Food Packaging,6,15.92,7,59.74,1.4,1.281
 Corrugated Cardboard,Foam Insert Package,Home Appliances,9,19.88,8,84.06,1.35,0.767
 Aluminum,Protective Cushioning Pack,Furniture,9,32.72,2,98.95,3.89,3.527
 Bagasse Fiber,Garment Bag,Textiles,5,11.17,8,84.94,2.45,0.485
-Glass,Clothing Box,Textiles,10,30,2,99.71,4.43,1.829
+Glass,Clothing Box,Textiles,10,30.0,2,99.71,4.43,1.829
 Glass,Toy Box,Toys,9,38.79,1,98.07,3.4,1.687
 Bagasse Fiber,Cosmetic Tube,Cosmetics,7,11.69,8,78.01,0.99,0.566
 Mushroom Packaging,Protective Box,Home Appliances,6,11.67,9,61.13,1.55,0.39
@@ -2068,7 +2068,7 @@ PLA Bioplastic,Beverage Bottle,Food Packaging,8,15.86,7,63.85,2.57,1.213
 Corrugated Cardboard,TV Carton,Electronics,7,10.56,8,91.1,0.8,0.786
 Mushroom Packaging,Oil Container,Automotive,6,13.74,10,68.24,1.79,0.45
 Bagasse Fiber,Tablet Blister Pack,Healthcare,6,9.18,10,71.68,1.08,0.461
-Corrugated Cardboard,Foam Insert Package,Home Appliances,9,27.9,7,91.09,1,0.789
+Corrugated Cardboard,Foam Insert Package,Home Appliances,9,27.9,7,91.09,1.0,0.789
 Bagasse Fiber,Cosmetic Tube,Cosmetics,5,9.91,9,83.72,2.09,0.491
 Mushroom Packaging,Hardware Container,Construction,6,13.93,9,64.11,2.39,0.393
 Mushroom Packaging,Medicine Box,Healthcare,5,13.37,10,73.86,1.67,0.413
@@ -2099,7 +2099,7 @@ Glass,Fabric Wrap,Textiles,9,24.91,1,95.91,4.31,1.811
 Mushroom Packaging,Assembly Kit Box,Furniture,6,16.63,9,77.87,2.66,0.396
 Recycled PET,Takeaway Container,Food Packaging,8,20.89,2,85.55,3.49,2.068
 Bagasse Fiber,Electronic Blister Pack,Electronics,6,13.42,8,78.1,1.47,0.43
-Bagasse Fiber,Medical Container,Healthcare,6,12,9,79.66,2.36,0.53
+Bagasse Fiber,Medical Container,Healthcare,6,12.0,9,79.66,2.36,0.53
 Bagasse Fiber,Mobile Box,Electronics,5,14.98,10,74.46,1.71,0.48
 Recycled PET,Clothing Box,Textiles,9,20.59,2,85.03,1.89,2.164
 Kraft Paper,Furniture Carton,Furniture,7,12.86,8,91.19,1.14,0.641
@@ -2108,7 +2108,7 @@ PLA Bioplastic,Garment Bag,Textiles,9,12.33,6,62.15,1.63,1.097
 Mushroom Packaging,Fabric Wrap,Textiles,5,15.34,9,77.78,3.17,0.343
 Kraft Paper,Perfume Bottle,Cosmetics,4,9.81,10,92.3,1.39,0.564
 Corrugated Cardboard,Cement Liner Bag,Construction,7,24.14,8,82.21,0.92,0.841
-Recycled PET,Medical Container,Healthcare,9,18.22,2,92,3.96,2.116
+Recycled PET,Medical Container,Healthcare,9,18.22,2,92.0,3.96,2.116
 Recycled PET,Oil Container,Automotive,9,25.89,4,91.9,1.85,2.128
 Kraft Paper,Appliance Carton,Home Appliances,4,6.43,9,87.62,0.54,0.577
 Glass,Mobile Box,Electronics,10,38.7,1,96.01,2.74,1.771
@@ -2212,7 +2212,7 @@ Bagasse Fiber,Makeup Box,Cosmetics,5,6.99,8,83.67,2.35,0.51
 Recycled PET,Pizza Box,Food Packaging,8,23.23,4,89.92,3.38,2.127
 Mushroom Packaging,Laptop Box,Electronics,6,16.41,10,79.32,3.05,0.379
 Aluminum,Cosmetic Tube,Cosmetics,8,33.2,2,96.22,2.55,3.489
-Bagasse Fiber,Pizza Box,Food Packaging,7,9.13,8,70,2.44,0.435
+Bagasse Fiber,Pizza Box,Food Packaging,7,9.13,8,70.0,2.44,0.435
 Bagasse Fiber,Syringe Pack,Healthcare,5,7.09,10,79.43,2.04,0.454
 PLA Bioplastic,Beverage Bottle,Food Packaging,7,16.76,7,64.96,1.61,1.302
 Corrugated Cardboard,Hardware Container,Construction,7,23.53,7,88.34,1.74,0.822
@@ -2244,7 +2244,7 @@ Bagasse Fiber,Assembly Kit Box,Furniture,7,14.53,9,76.5,0.86,0.488
 Aluminum,Cosmetic Tube,Cosmetics,9,30.15,2,99.09,4.25,3.565
 Bagasse Fiber,Takeaway Container,Food Packaging,6,14.55,9,82.48,2.49,0.496
 Mushroom Packaging,TV Carton,Electronics,7,17.01,10,64.19,3.17,0.427
-Recycled PET,Assembly Kit Box,Furniture,10,21.83,3,90,2.8,2.138
+Recycled PET,Assembly Kit Box,Furniture,10,21.83,3,90.0,2.8,2.138
 Recycled PET,Toy Box,Toys,10,25.48,4,92.43,1.66,2.258
 Corrugated Cardboard,Clothing Box,Textiles,9,33.75,9,88.27,1.75,0.826
 Kraft Paper,Food Tray,Food Packaging,7,10.38,10,87.45,1.02,0.619
@@ -2289,7 +2289,7 @@ Recycled PET,Cosmetic Tube,Cosmetics,8,26.78,2,89.69,3.93,2.051
 PLA Bioplastic,Toy Box,Toys,6,13.59,8,59.04,1.66,1.126
 Aluminum,Hardware Container,Construction,8,20.9,1,97.94,3.95,3.532
 Mushroom Packaging,Laptop Box,Electronics,5,11.35,9,66.58,1.65,0.463
-Glass,Protective Cushioning Pack,Furniture,10,36.93,2,98,4.44,1.818
+Glass,Protective Cushioning Pack,Furniture,10,36.93,2,98.0,4.44,1.818
 Bagasse Fiber,Action Figure Pack,Toys,5,14.72,8,82.76,1.28,0.391
 Kraft Paper,Garment Bag,Textiles,7,9.99,10,92.21,0.55,0.584
 Aluminum,Fabric Wrap,Textiles,9,32.42,2,95.94,4.05,3.506
@@ -2326,7 +2326,7 @@ Recycled PET,Tile Packaging,Construction,10,20.3,2,90.52,2.27,2.109
 Bagasse Fiber,Foam Insert Package,Home Appliances,7,10.84,8,82.54,2.2,0.575
 Kraft Paper,Electronic Blister Pack,Electronics,6,12.36,8,93.96,1.45,0.452
 Corrugated Cardboard,Perfume Bottle,Cosmetics,6,24.5,9,90.68,1.73,0.829
-PLA Bioplastic,Tablet Blister Pack,Healthcare,6,11.71,6,57.27,1,1.193
+PLA Bioplastic,Tablet Blister Pack,Healthcare,6,11.71,6,57.27,1.0,1.193
 Glass,Cement Liner Bag,Construction,9,30.82,1,97.03,4.55,1.756
 Corrugated Cardboard,Assembly Kit Box,Furniture,6,30.23,7,89.35,0.58,0.77
 Corrugated Cardboard,Appliance Carton,Home Appliances,7,25.46,7,81.18,0.89,0.865
@@ -2354,7 +2354,7 @@ Aluminum,Medical Container,Healthcare,9,33.26,1,95.25,5.24,3.467
 Aluminum,Oil Container,Automotive,8,26.28,2,96.66,4.34,3.52
 Mushroom Packaging,Oil Container,Automotive,7,16.89,9,76.23,3.21,0.375
 PLA Bioplastic,Protective Box,Home Appliances,9,15.29,6,56.64,2.45,1.182
-Bagasse Fiber,Clothing Box,Textiles,5,14,8,73.13,1,0.573
+Bagasse Fiber,Clothing Box,Textiles,5,14.0,8,73.13,1.0,0.573
 Kraft Paper,Garment Bag,Textiles,4,13.52,8,87.59,1.38,0.654
 Aluminum,Oil Container,Automotive,9,25.61,1,99.21,2.7,3.543
 PLA Bioplastic,Electronic Blister Pack,Electronics,6,18.66,6,60.98,2.07,1.166
@@ -2394,7 +2394,7 @@ Recycled PET,Makeup Box,Cosmetics,9,23.41,4,87.43,1.92,1.965
 PLA Bioplastic,Laptop Box,Electronics,7,14.76,6,62.74,1.86,1.21
 Aluminum,Tile Packaging,Construction,10,22.88,1,95.79,2.93,3.429
 Aluminum,Laptop Box,Electronics,8,22.67,1,95.29,5.17,3.557
-Mushroom Packaging,Oil Container,Automotive,6,8.98,10,65.29,2,0.406
+Mushroom Packaging,Oil Container,Automotive,6,8.98,10,65.29,2.0,0.406
 Bagasse Fiber,Hardware Container,Construction,6,9.65,8,83.39,1.06,0.551
 Mushroom Packaging,Makeup Box,Cosmetics,7,17.17,9,79.96,1.26,0.376
 PLA Bioplastic,Food Tray,Food Packaging,7,19.75,7,69.88,2.29,1.184
@@ -2453,12 +2453,12 @@ Aluminum,Hardware Container,Construction,10,33.62,1,95.93,3.31,3.497
 Bagasse Fiber,Mobile Box,Electronics,6,7.09,10,74.83,2.44,0.403
 Aluminum,Action Figure Pack,Toys,8,26.66,1,97.32,4.17,3.514
 Glass,Electronic Blister Pack,Electronics,10,35.03,2,99.56,3.39,1.74
-Kraft Paper,Medicine Box,Healthcare,4,13.6,10,88.97,1,0.554
+Kraft Paper,Medicine Box,Healthcare,4,13.6,10,88.97,1.0,0.554
 Aluminum,Tablet Blister Pack,Healthcare,10,20.98,2,98.54,2.92,3.466
 PLA Bioplastic,Mobile Box,Electronics,9,9.52,6,54.03,1.89,1.224
 PLA Bioplastic,Cream Jar,Cosmetics,7,9.01,7,54.2,2.25,1.233
 Aluminum,Food Tray,Food Packaging,8,30.21,1,99.99,3.97,3.542
-Bagasse Fiber,Appliance Carton,Home Appliances,7,10.1,10,85,1.48,0.594
+Bagasse Fiber,Appliance Carton,Home Appliances,7,10.1,10,85.0,1.48,0.594
 Kraft Paper,Perfume Bottle,Cosmetics,7,13.43,9,89.75,1.49,0.662
 PLA Bioplastic,Clothing Box,Textiles,9,13.98,6,58.57,2.76,1.198
 Recycled PET,Mobile Box,Electronics,10,25.17,3,91.33,3.06,2.079
@@ -2474,7 +2474,7 @@ Mushroom Packaging,Cosmetic Tube,Cosmetics,5,14.15,10,63.54,3.42,0.439
 Bagasse Fiber,Cream Jar,Cosmetics,6,8.62,10,78.23,2.35,0.453
 Recycled PET,Pizza Box,Food Packaging,10,25.46,2,94.39,3.31,2.113
 PLA Bioplastic,Board Game Box,Toys,9,13.02,8,68.76,2.07,1.195
-Aluminum,Hardware Container,Construction,8,31.9,2,95,5.11,3.451
+Aluminum,Hardware Container,Construction,8,31.9,2,95.0,5.11,3.451
 Recycled PET,Takeaway Container,Food Packaging,8,26.37,3,85.71,1.83,2.069
 Corrugated Cardboard,TV Carton,Electronics,7,33.05,7,83.25,1.69,0.875
 PLA Bioplastic,Hardware Container,Construction,8,8.58,7,57.67,1.25,1.175
@@ -2487,7 +2487,7 @@ Aluminum,Board Game Box,Toys,9,29.48,2,95.42,3.89,3.485
 Kraft Paper,Fabric Wrap,Textiles,4,12.18,9,94.8,1.48,0.682
 Kraft Paper,TV Carton,Electronics,7,11.43,9,86.13,0.88,0.601
 Aluminum,Foam Insert Package,Home Appliances,8,25.9,2,97.18,5.09,3.535
-Mushroom Packaging,Assembly Kit Box,Furniture,6,10.56,9,64,2.55,0.39
+Mushroom Packaging,Assembly Kit Box,Furniture,6,10.56,9,64.0,2.55,0.39
 Recycled PET,Electronic Blister Pack,Electronics,10,24.22,3,93.8,2.44,2.17
 Recycled PET,Perfume Bottle,Cosmetics,8,24.29,2,89.35,2.21,2.023
 Mushroom Packaging,Assembly Kit Box,Furniture,5,11.11,10,62.27,1.67,0.509
@@ -2534,7 +2534,7 @@ Kraft Paper,Medical Container,Healthcare,5,7.82,8,90.59,1.29,0.597
 Kraft Paper,Protective Box,Home Appliances,5,7.57,9,85.85,0.65,0.546
 Bagasse Fiber,Protective Box,Home Appliances,5,7.58,10,79.63,0.82,0.466
 Recycled PET,TV Carton,Electronics,9,20.44,3,92.1,3.34,2.097
-Aluminum,Foam Insert Package,Home Appliances,10,33.03,2,96.96,5,3.442
+Aluminum,Foam Insert Package,Home Appliances,10,33.03,2,96.96,5.0,3.442
 Recycled PET,Perfume Bottle,Cosmetics,10,20.86,4,85.45,3.35,2.12
 Corrugated Cardboard,Beverage Bottle,Food Packaging,6,29.46,9,85.15,0.71,0.848
 PLA Bioplastic,Fabric Wrap,Textiles,9,16.41,7,69.96,2.51,1.165
@@ -2547,7 +2547,7 @@ Kraft Paper,Battery Packaging,Automotive,6,9.79,9,94.66,0.41,0.606
 Glass,Protective Box,Home Appliances,10,38.54,2,97.92,3.95,1.739
 Glass,Perfume Bottle,Cosmetics,9,25.05,2,96.63,2.31,1.901
 PLA Bioplastic,Garment Bag,Textiles,6,15.64,6,69.76,1.82,1.237
-Mushroom Packaging,Garment Bag,Textiles,5,11,10,71.28,2.14,0.328
+Mushroom Packaging,Garment Bag,Textiles,5,11.0,10,71.28,2.14,0.328
 Glass,Electronic Blister Pack,Electronics,9,38.19,2,98.96,2.26,1.91
 Recycled PET,Electronic Blister Pack,Electronics,8,19.68,3,90.59,2.37,2.158
 Recycled PET,Mobile Box,Electronics,10,24.42,3,90.37,1.78,2.168
@@ -2558,7 +2558,7 @@ Aluminum,Fabric Wrap,Textiles,9,34.71,1,98.49,5.37,3.452
 Corrugated Cardboard,Food Tray,Food Packaging,6,14.49,8,82.91,1.28,0.819
 Kraft Paper,Fabric Wrap,Textiles,7,6.52,10,91.08,0.66,0.593
 Bagasse Fiber,Action Figure Pack,Toys,6,8.62,10,83.18,0.93,0.547
-Kraft Paper,Cream Jar,Cosmetics,6,5.6,8,87,0.9,0.669
+Kraft Paper,Cream Jar,Cosmetics,6,5.6,8,87.0,0.9,0.669
 Glass,Food Tray,Food Packaging,10,27.8,1,97.99,5.18,1.778
 Kraft Paper,Toy Box,Toys,4,7.36,8,91.93,1.15,0.643
 Recycled PET,Furniture Carton,Furniture,10,26.23,4,94.23,1.63,2.171
@@ -2585,7 +2585,7 @@ Mushroom Packaging,Battery Packaging,Automotive,6,15.35,10,66.9,2.36,0.405
 Kraft Paper,Action Figure Pack,Toys,6,13.45,9,86.73,0.84,0.587
 Mushroom Packaging,Oil Container,Automotive,6,17.74,10,74.02,2.55,0.312
 Bagasse Fiber,Toy Box,Toys,7,13.81,10,73.58,1.86,0.431
-Mushroom Packaging,Foam Insert Package,Home Appliances,5,17,10,72.16,1.37,0.359
+Mushroom Packaging,Foam Insert Package,Home Appliances,5,17.0,10,72.16,1.37,0.359
 Recycled PET,Tablet Blister Pack,Healthcare,9,29.51,4,92.65,3.21,2.049
 Aluminum,TV Carton,Electronics,10,23.87,1,99.46,3.23,3.462
 PLA Bioplastic,Perfume Bottle,Cosmetics,6,13.33,6,55.82,2.43,1.192
@@ -2603,7 +2603,7 @@ PLA Bioplastic,Protective Box,Home Appliances,7,15.34,7,61.45,2.26,1.24
 Bagasse Fiber,Protective Box,Home Appliances,5,11.18,9,77.07,0.89,0.504
 Glass,Makeup Box,Cosmetics,9,29.62,2,95.61,4.99,1.784
 Recycled PET,Pizza Box,Food Packaging,10,19.12,4,91.32,2.29,2.022
-PLA Bioplastic,Board Game Box,Toys,9,19.54,8,66.16,1,1.213
+PLA Bioplastic,Board Game Box,Toys,9,19.54,8,66.16,1.0,1.213
 PLA Bioplastic,Clothing Box,Textiles,7,8.21,8,57.65,2.02,1.161
 Aluminum,Makeup Box,Cosmetics,9,26.36,2,98.26,2.64,3.514
 Aluminum,Clothing Box,Textiles,8,24.87,2,95.8,3.33,3.579
@@ -2641,13 +2641,13 @@ Bagasse Fiber,Electronic Blister Pack,Electronics,5,14.11,8,83.75,2.42,0.548
 Aluminum,Fabric Wrap,Textiles,9,26.44,1,99.53,4.61,3.518
 Glass,Cement Liner Bag,Construction,9,36.71,2,99.04,3.19,1.772
 PLA Bioplastic,Makeup Box,Cosmetics,7,13.87,6,62.68,1.21,1.226
-Mushroom Packaging,Oil Container,Automotive,7,13.19,9,73.22,3,0.483
+Mushroom Packaging,Oil Container,Automotive,7,13.19,9,73.22,3.0,0.483
 Glass,Spare Parts Box,Automotive,9,35.09,2,97.64,4.58,1.793
 Corrugated Cardboard,Foam Insert Package,Home Appliances,6,24.11,8,81.1,0.57,0.833
 Aluminum,Protective Box,Home Appliances,10,29.72,2,97.06,3.58,3.454
 PLA Bioplastic,Hardware Container,Construction,8,13.22,8,55.83,2.91,1.177
 Recycled PET,Action Figure Pack,Toys,8,23.23,2,94.55,2.75,2.045
-Mushroom Packaging,Hardware Container,Construction,6,8.95,10,74,2.2,0.405
+Mushroom Packaging,Hardware Container,Construction,6,8.95,10,74.0,2.2,0.405
 Bagasse Fiber,Medical Container,Healthcare,6,13.94,8,82.49,1.58,0.546
 PLA Bioplastic,Syringe Pack,Healthcare,9,8.85,8,65.14,1.42,1.264
 Corrugated Cardboard,Laptop Box,Electronics,8,18.3,9,89.81,1.05,0.803
@@ -2672,14 +2672,14 @@ Kraft Paper,Appliance Carton,Home Appliances,6,6.39,9,85.36,0.68,0.538
 Bagasse Fiber,Protective Box,Home Appliances,6,7.68,10,79.01,1.9,0.558
 Aluminum,Battery Packaging,Automotive,9,21.25,1,98.57,3.69,3.521
 Bagasse Fiber,Tablet Blister Pack,Healthcare,7,7.82,9,80.47,2.01,0.5
-Recycled PET,Assembly Kit Box,Furniture,9,27.41,3,91.22,2,2.058
+Recycled PET,Assembly Kit Box,Furniture,9,27.41,3,91.22,2.0,2.058
 Recycled PET,Makeup Box,Cosmetics,10,27.03,3,94.04,3.73,2.037
 Glass,Makeup Box,Cosmetics,10,35.82,2,95.8,3.15,1.836
 Mushroom Packaging,Appliance Carton,Home Appliances,6,16.11,10,77.8,2.05,0.347
 Aluminum,Medicine Box,Healthcare,8,27.07,2,95.16,2.67,3.451
 Mushroom Packaging,Medical Container,Healthcare,6,14.61,10,70.76,1.46,0.415
 Glass,Toy Box,Toys,9,37.88,2,98.32,4.06,1.729
-Kraft Paper,Clothing Box,Textiles,4,8,10,87.91,0.62,0.554
+Kraft Paper,Clothing Box,Textiles,4,8.0,10,87.91,0.62,0.554
 Mushroom Packaging,Fabric Wrap,Textiles,6,8.93,10,77.41,3.12,0.413
 Corrugated Cardboard,Board Game Box,Toys,6,21.72,8,90.25,0.52,0.767
 Recycled PET,Hardware Container,Construction,10,19.87,3,93.35,2.45,2.152
@@ -2716,7 +2716,7 @@ Bagasse Fiber,Fabric Wrap,Textiles,6,11.53,10,70.46,1.43,0.475
 Aluminum,Tablet Blister Pack,Healthcare,9,28.95,2,99.75,2.5,3.461
 PLA Bioplastic,Appliance Carton,Home Appliances,9,17.73,6,64.57,1.6,1.206
 Mushroom Packaging,Syringe Pack,Healthcare,7,9.69,10,79.07,2.69,0.469
-Recycled PET,Tablet Blister Pack,Healthcare,9,19.69,3,89,3.94,2.076
+Recycled PET,Tablet Blister Pack,Healthcare,9,19.69,3,89.0,3.94,2.076
 Glass,Cream Jar,Cosmetics,9,33.97,2,97.13,5.39,1.818
 Kraft Paper,Protective Cushioning Pack,Furniture,7,12.82,10,87.18,0.33,0.539
 Kraft Paper,Fabric Wrap,Textiles,6,12.6,9,86.77,1.38,0.642
@@ -2730,7 +2730,7 @@ Bagasse Fiber,Protective Cushioning Pack,Furniture,5,12.53,8,78.77,1.19,0.419
 Glass,Assembly Kit Box,Furniture,9,22.9,1,99.02,2.99,1.8
 Mushroom Packaging,Toy Box,Toys,5,15.86,10,69.82,2.31,0.375
 Mushroom Packaging,Cement Liner Bag,Construction,5,17.05,10,63.56,2.92,0.445
-Corrugated Cardboard,Cream Jar,Cosmetics,8,28,7,88.32,1.21,0.758
+Corrugated Cardboard,Cream Jar,Cosmetics,8,28.0,7,88.32,1.21,0.758
 Corrugated Cardboard,Battery Packaging,Automotive,7,21.11,8,86.82,0.59,0.753
 Kraft Paper,Action Figure Pack,Toys,5,6.81,9,91.56,1.45,0.5
 Recycled PET,Perfume Bottle,Cosmetics,9,19.2,4,87.26,3.86,2.147
@@ -2744,7 +2744,7 @@ Bagasse Fiber,Tile Packaging,Construction,5,14.79,9,70.99,1.18,0.445
 Kraft Paper,Cosmetic Tube,Cosmetics,6,5.65,9,89.72,0.53,0.55
 PLA Bioplastic,Pizza Box,Food Packaging,7,12.65,8,51.53,1.28,1.199
 Mushroom Packaging,Action Figure Pack,Toys,5,11.97,9,62.75,2.63,0.465
-Mushroom Packaging,Protective Box,Home Appliances,5,11.17,10,62.95,3,0.333
+Mushroom Packaging,Protective Box,Home Appliances,5,11.17,10,62.95,3.0,0.333
 Bagasse Fiber,Laptop Box,Electronics,5,8.51,10,82.94,1.78,0.413
 Mushroom Packaging,Tile Packaging,Construction,7,15.47,9,78.68,1.54,0.418
 Mushroom Packaging,Pizza Box,Food Packaging,6,12.8,9,62.79,3.07,0.382
@@ -2767,7 +2767,7 @@ Mushroom Packaging,Laptop Box,Electronics,5,9.31,10,74.28,1.51,0.399
 Recycled PET,Medicine Box,Healthcare,8,27.85,2,88.69,3.89,2.11
 Glass,Protective Box,Home Appliances,10,34.68,2,98.52,4.12,1.885
 Glass,Clothing Box,Textiles,10,30.87,2,98.01,2.97,1.926
-Aluminum,TV Carton,Electronics,8,31.71,1,95.39,4,3.452
+Aluminum,TV Carton,Electronics,8,31.71,1,95.39,4.0,3.452
 Kraft Paper,Foam Insert Package,Home Appliances,5,12.28,8,92.31,1.12,0.614
 PLA Bioplastic,Food Tray,Food Packaging,7,9.27,6,67.36,1.15,1.236
 PLA Bioplastic,Assembly Kit Box,Furniture,6,15.7,6,55.01,1.55,1.273
@@ -2815,7 +2815,7 @@ Mushroom Packaging,Hardware Container,Construction,5,16.42,9,76.18,2.73,0.391
 Glass,Tile Packaging,Construction,10,29.94,2,97.74,2.65,1.723
 PLA Bioplastic,Protective Cushioning Pack,Furniture,8,9.82,8,61.52,2.13,1.234
 Kraft Paper,Battery Packaging,Automotive,4,11.75,10,94.57,1.23,0.617
-Glass,Mobile Box,Electronics,10,34.63,1,95.1,4,1.79
+Glass,Mobile Box,Electronics,10,34.63,1,95.1,4.0,1.79
 Mushroom Packaging,Perfume Bottle,Cosmetics,6,16.08,9,78.43,1.23,0.332
 Mushroom Packaging,Garment Bag,Textiles,7,15.81,10,65.14,1.22,0.411
 Corrugated Cardboard,Protective Cushioning Pack,Furniture,8,26.99,8,84.72,1.04,0.762
@@ -2844,7 +2844,7 @@ Kraft Paper,Furniture Carton,Furniture,5,13.43,10,91.25,1.21,0.609
 Kraft Paper,Hardware Container,Construction,4,10.93,9,89.92,1.4,0.657
 Mushroom Packaging,Clothing Box,Textiles,6,11.59,9,61.22,3.39,0.397
 Glass,Fabric Wrap,Textiles,10,22.77,2,95.53,4.31,1.764
-Bagasse Fiber,Beverage Bottle,Food Packaging,5,14,8,78.36,1.41,0.633
+Bagasse Fiber,Beverage Bottle,Food Packaging,5,14.0,8,78.36,1.41,0.633
 Recycled PET,Protective Cushioning Pack,Furniture,10,18.67,3,87.03,3.47,2.175
 Corrugated Cardboard,Hardware Container,Construction,6,27.46,9,90.42,0.88,0.826
 Kraft Paper,Cosmetic Tube,Cosmetics,7,11.07,8,88.75,0.98,0.599
@@ -2864,15 +2864,15 @@ Aluminum,Food Tray,Food Packaging,8,26.48,2,95.26,3.35,3.514
 Recycled PET,Cream Jar,Cosmetics,9,25.06,2,94.64,3.88,2.156
 Bagasse Fiber,Hardware Container,Construction,7,8.64,8,83.87,1.79,0.57
 Mushroom Packaging,Tile Packaging,Construction,6,16.82,10,74.64,2.2,0.426
-Kraft Paper,Toy Box,Toys,7,6.08,10,87.08,1,0.628
+Kraft Paper,Toy Box,Toys,7,6.08,10,87.08,1.0,0.628
 Recycled PET,Spare Parts Box,Automotive,10,23.48,4,86.64,2.79,2.095
 Aluminum,Medical Container,Healthcare,10,28.41,1,97.15,4.78,3.446
 Glass,Cosmetic Tube,Cosmetics,9,22.59,2,98.61,3.13,1.836
-Recycled PET,Hardware Container,Construction,8,22.79,3,93,2.38,2.009
+Recycled PET,Hardware Container,Construction,8,22.79,3,93.0,2.38,2.009
 PLA Bioplastic,Pizza Box,Food Packaging,6,8.24,7,63.43,2.79,1.153
 Recycled PET,Electronic Blister Pack,Electronics,8,17.58,4,91.8,3.87,2.171
 Aluminum,Furniture Carton,Furniture,8,23.37,2,96.6,5.18,3.576
-Mushroom Packaging,Cement Liner Bag,Construction,5,11,9,77.62,2.16,0.429
+Mushroom Packaging,Cement Liner Bag,Construction,5,11.0,9,77.62,2.16,0.429
 Mushroom Packaging,Protective Box,Home Appliances,5,11.58,9,66.69,2.99,0.429
 Bagasse Fiber,Electronic Blister Pack,Electronics,7,12.04,10,74.16,1.61,0.537
 Recycled PET,Foam Insert Package,Home Appliances,9,19.6,2,94.93,2.74,2.123
@@ -2935,7 +2935,7 @@ Corrugated Cardboard,Furniture Carton,Furniture,9,28.32,7,84.37,0.62,0.777
 PLA Bioplastic,Fabric Wrap,Textiles,6,11.88,7,64.28,2.09,1.22
 Recycled PET,Fabric Wrap,Textiles,9,24.41,3,90.12,3.27,2.206
 Glass,Clothing Box,Textiles,10,27.67,2,99.16,2.67,1.812
-Mushroom Packaging,Appliance Carton,Home Appliances,7,10.24,9,65.21,3,0.346
+Mushroom Packaging,Appliance Carton,Home Appliances,7,10.24,9,65.21,3.0,0.346
 PLA Bioplastic,Perfume Bottle,Cosmetics,8,13.2,8,66.78,2.17,1.263
 Aluminum,Cosmetic Tube,Cosmetics,10,34.15,2,97.86,5.36,3.419
 PLA Bioplastic,Cream Jar,Cosmetics,7,12.18,7,56.08,1.08,1.25
@@ -3014,7 +3014,7 @@ Corrugated Cardboard,Battery Packaging,Automotive,8,23.06,7,80.61,0.93,0.736
 Glass,Laptop Box,Electronics,10,39.42,2,95.05,3.23,1.731
 Bagasse Fiber,Furniture Carton,Furniture,6,14.45,8,72.59,1.4,0.559
 Mushroom Packaging,Oil Container,Automotive,6,14.99,9,63.95,2.63,0.355
-Corrugated Cardboard,Protective Box,Home Appliances,7,24.88,7,81.47,1,0.748
+Corrugated Cardboard,Protective Box,Home Appliances,7,24.88,7,81.47,1.0,0.748
 Corrugated Cardboard,Assembly Kit Box,Furniture,9,30.53,7,83.13,1.6,0.833
 PLA Bioplastic,Toy Box,Toys,9,13.51,6,64.3,1.81,1.249
 PLA Bioplastic,Beverage Bottle,Food Packaging,8,11.26,7,65.06,1.14,1.283
@@ -3046,7 +3046,7 @@ Corrugated Cardboard,Medical Container,Healthcare,7,31.15,7,84.18,1.11,0.824
 Aluminum,Food Tray,Food Packaging,10,26.13,2,98.39,4.71,3.518
 Recycled PET,Battery Packaging,Automotive,10,16.16,2,92.66,3.26,2.034
 Glass,Protective Box,Home Appliances,9,37.94,2,99.38,3.69,1.833
-Mushroom Packaging,Tile Packaging,Construction,7,17.58,9,75.77,2,0.316
+Mushroom Packaging,Tile Packaging,Construction,7,17.58,9,75.77,2.0,0.316
 Bagasse Fiber,Battery Packaging,Automotive,7,12.68,8,78.02,1.48,0.548
 Recycled PET,Appliance Carton,Home Appliances,8,19.3,3,90.89,2.16,2.152
 Bagasse Fiber,Protective Cushioning Pack,Furniture,6,13.82,9,76.24,1.15,0.52
@@ -3128,7 +3128,7 @@ PLA Bioplastic,Assembly Kit Box,Furniture,7,17.55,8,61.58,2.21,1.274
 Kraft Paper,Takeaway Container,Food Packaging,5,12.34,9,94.12,1.11,0.643
 Mushroom Packaging,Cream Jar,Cosmetics,6,9.15,9,73.08,1.39,0.39
 Aluminum,Fabric Wrap,Textiles,10,32.72,2,95.86,5.35,3.419
-Glass,Protective Box,Home Appliances,10,39,2,99.73,5.35,1.778
+Glass,Protective Box,Home Appliances,10,39.0,2,99.73,5.35,1.778
 Kraft Paper,Cream Jar,Cosmetics,6,6.73,9,88.12,1.27,0.635
 Kraft Paper,Protective Box,Home Appliances,6,5.47,10,85.15,1.29,0.573
 Recycled PET,Tile Packaging,Construction,9,16.73,2,90.04,3.83,2.089
@@ -3141,7 +3141,7 @@ Mushroom Packaging,Hardware Container,Construction,7,16.21,9,64.78,2.4,0.445
 Kraft Paper,Protective Box,Home Appliances,5,7.47,9,91.84,0.38,0.559
 Mushroom Packaging,Board Game Box,Toys,6,10.82,10,65.59,2.05,0.469
 Recycled PET,Cement Liner Bag,Construction,9,22.83,4,92.02,3.8,1.98
-Kraft Paper,Laptop Box,Electronics,4,12.99,8,89.14,1,0.622
+Kraft Paper,Laptop Box,Electronics,4,12.99,8,89.14,1.0,0.622
 Aluminum,Board Game Box,Toys,10,20.64,2,95.82,4.11,3.516
 Kraft Paper,Makeup Box,Cosmetics,6,7.73,8,88.07,0.62,0.589
 Mushroom Packaging,Makeup Box,Cosmetics,7,9.69,9,77.37,2.05,0.433
@@ -3195,7 +3195,7 @@ PLA Bioplastic,Battery Packaging,Automotive,6,18.12,8,58.08,2.91,1.111
 Corrugated Cardboard,Protective Box,Home Appliances,6,28.47,9,81.73,0.99,0.789
 Bagasse Fiber,Oil Container,Automotive,5,13.53,8,83.67,1.4,0.504
 Recycled PET,Furniture Carton,Furniture,9,25.63,4,93.55,2.76,2.168
-Corrugated Cardboard,Oil Container,Automotive,9,11,8,91.89,1.91,0.782
+Corrugated Cardboard,Oil Container,Automotive,9,11.0,8,91.89,1.91,0.782
 Bagasse Fiber,Furniture Carton,Furniture,6,8.98,10,74.18,2.29,0.617
 Aluminum,Makeup Box,Cosmetics,9,31.73,1,98.08,2.81,3.459
 Mushroom Packaging,Electronic Blister Pack,Electronics,6,14.98,10,64.88,2.1,0.33
@@ -3311,7 +3311,7 @@ Mushroom Packaging,Spare Parts Box,Automotive,7,8.43,9,75.27,2.05,0.388
 Glass,Medical Container,Healthcare,9,32.53,2,98.9,3.86,1.82
 Glass,Laptop Box,Electronics,10,34.26,1,95.64,4.89,1.852
 Recycled PET,Battery Packaging,Automotive,9,29.73,4,85.15,3.14,2.078
-Bagasse Fiber,TV Carton,Electronics,6,10.57,8,79.58,2,0.5
+Bagasse Fiber,TV Carton,Electronics,6,10.57,8,79.58,2.0,0.5
 PLA Bioplastic,Mobile Box,Electronics,6,19.71,8,67.39,1.02,1.212
 Mushroom Packaging,Clothing Box,Textiles,7,16.71,9,64.36,1.7,0.402
 Aluminum,Assembly Kit Box,Furniture,9,33.05,2,99.8,4.49,3.479
@@ -3353,7 +3353,7 @@ Recycled PET,Action Figure Pack,Toys,8,24.78,2,85.02,2.04,2.145
 Mushroom Packaging,Protective Box,Home Appliances,6,14.06,9,75.78,2.18,0.398
 Corrugated Cardboard,Oil Container,Automotive,9,19.88,9,84.03,1.86,0.751
 Mushroom Packaging,Cream Jar,Cosmetics,6,15.49,10,68.67,2.37,0.376
-Kraft Paper,Furniture Carton,Furniture,7,13.15,8,93,0.53,0.595
+Kraft Paper,Furniture Carton,Furniture,7,13.15,8,93.0,0.53,0.595
 Kraft Paper,Hardware Container,Construction,5,11.65,8,90.52,0.39,0.604
 PLA Bioplastic,Protective Cushioning Pack,Furniture,7,17.65,6,53.34,2.39,1.16
 Corrugated Cardboard,Mobile Box,Electronics,7,13.38,8,91.65,1.07,0.838
@@ -3411,7 +3411,7 @@ PLA Bioplastic,Hardware Container,Construction,8,8.99,7,57.49,1.48,1.262
 Glass,Assembly Kit Box,Furniture,10,24.11,1,99.84,2.16,1.891
 Kraft Paper,Assembly Kit Box,Furniture,7,6.61,9,90.35,0.79,0.62
 Aluminum,Protective Box,Home Appliances,10,28.31,2,96.34,2.89,3.482
-Recycled PET,Medical Container,Healthcare,8,19,4,93.2,1.56,2.107
+Recycled PET,Medical Container,Healthcare,8,19.0,4,93.2,1.56,2.107
 Corrugated Cardboard,Laptop Box,Electronics,7,18.55,9,87.67,1.04,0.784
 Corrugated Cardboard,Electronic Blister Pack,Electronics,6,28.51,7,84.16,1.68,0.848
 Mushroom Packaging,Board Game Box,Toys,7,9.09,10,67.26,2.5,0.402
@@ -3438,7 +3438,7 @@ Aluminum,Makeup Box,Cosmetics,8,23.91,2,96.23,3.67,3.551
 PLA Bioplastic,Mobile Box,Electronics,7,12.35,8,51.4,1.46,1.298
 Bagasse Fiber,Protective Box,Home Appliances,7,10.4,9,72.93,1.81,0.557
 PLA Bioplastic,Toy Box,Toys,9,17.38,8,51.18,2.86,1.29
-Recycled PET,Tile Packaging,Construction,10,24.19,2,94,3.82,2.057
+Recycled PET,Tile Packaging,Construction,10,24.19,2,94.0,3.82,2.057
 Bagasse Fiber,Makeup Box,Cosmetics,6,7.63,8,77.73,1.38,0.558
 Mushroom Packaging,Protective Cushioning Pack,Furniture,6,11.45,9,62.32,2.41,0.48
 PLA Bioplastic,Medical Container,Healthcare,7,16.38,7,65.29,1.42,1.175
@@ -3711,7 +3711,7 @@ Kraft Paper,Action Figure Pack,Toys,4,8.9,10,94.38,0.64,0.639
 PLA Bioplastic,Oil Container,Automotive,6,18.14,7,55.08,2.93,1.113
 Mushroom Packaging,Toy Box,Toys,5,13.18,10,72.66,1.22,0.422
 Aluminum,Furniture Carton,Furniture,8,28.27,2,98.49,4.65,3.42
-Bagasse Fiber,Cream Jar,Cosmetics,6,13.21,10,73.28,2,0.495
+Bagasse Fiber,Cream Jar,Cosmetics,6,13.21,10,73.28,2.0,0.495
 Corrugated Cardboard,Tile Packaging,Construction,9,33.62,8,90.43,1.43,0.705
 PLA Bioplastic,Electronic Blister Pack,Electronics,7,16.27,6,64.72,2.98,1.186
 PLA Bioplastic,Spare Parts Box,Automotive,6,10.77,7,66.22,1.62,1.1
@@ -3732,7 +3732,7 @@ PLA Bioplastic,Tile Packaging,Construction,6,19.29,6,64.23,2.19,1.215
 Recycled PET,Spare Parts Box,Automotive,8,21.62,2,89.89,1.88,2.108
 Aluminum,Assembly Kit Box,Furniture,9,22.94,2,95.49,5.4,3.499
 Bagasse Fiber,Toy Box,Toys,7,8.32,10,72.95,1.56,0.491
-Aluminum,Makeup Box,Cosmetics,9,31.74,2,96.88,4,3.451
+Aluminum,Makeup Box,Cosmetics,9,31.74,2,96.88,4.0,3.451
 Recycled PET,Laptop Box,Electronics,8,27.32,4,87.24,2.12,2.052
 PLA Bioplastic,Takeaway Container,Food Packaging,6,8.76,6,60.62,1.94,1.146
 Aluminum,Tablet Blister Pack,Healthcare,9,22.75,1,97.86,4.49,3.502
@@ -3787,7 +3787,7 @@ Kraft Paper,Garment Bag,Textiles,4,9.29,9,85.58,1.26,0.605
 PLA Bioplastic,Oil Container,Automotive,6,14.51,6,57.61,1.21,1.101
 Corrugated Cardboard,Pizza Box,Food Packaging,9,24.85,7,88.72,1.37,0.779
 PLA Bioplastic,Garment Bag,Textiles,9,19.31,6,69.35,1.93,1.212
-Bagasse Fiber,Garment Bag,Textiles,5,6.56,10,70.32,1,0.544
+Bagasse Fiber,Garment Bag,Textiles,5,6.56,10,70.32,1.0,0.544
 Glass,Takeaway Container,Food Packaging,10,21.32,1,95.66,5.92,1.809
 Corrugated Cardboard,Cement Liner Bag,Construction,6,34.49,7,84.04,0.82,0.687
 Glass,Battery Packaging,Automotive,10,35.55,1,97.26,2.27,1.729
@@ -3896,14 +3896,14 @@ Bagasse Fiber,Garment Bag,Textiles,7,14.63,10,81.06,1.53,0.517
 Glass,Garment Bag,Textiles,10,34.75,2,97.61,4.93,1.802
 Recycled PET,Spare Parts Box,Automotive,9,19.26,4,92.57,3.56,2.049
 Glass,Protective Cushioning Pack,Furniture,10,20.82,1,99.61,2.59,1.749
-Kraft Paper,Toy Box,Toys,6,12,10,92.23,1.3,0.561
+Kraft Paper,Toy Box,Toys,6,12.0,10,92.23,1.3,0.561
 Corrugated Cardboard,Clothing Box,Textiles,8,13.96,7,86.53,1.31,0.772
 Recycled PET,Furniture Carton,Furniture,10,25.71,2,94.65,3.61,2.054
 Recycled PET,Battery Packaging,Automotive,8,29.71,3,86.51,2.58,2.1
 Mushroom Packaging,Assembly Kit Box,Furniture,6,10.05,10,73.54,2.07,0.388
 Corrugated Cardboard,Oil Container,Automotive,8,26.65,8,85.59,1.87,0.85
 Mushroom Packaging,Cement Liner Bag,Construction,7,10.15,10,69.06,1.78,0.374
-Mushroom Packaging,Oil Container,Automotive,5,17,9,78.69,3.14,0.401
+Mushroom Packaging,Oil Container,Automotive,5,17.0,9,78.69,3.14,0.401
 Glass,Clothing Box,Textiles,9,32.46,1,96.61,3.94,1.856
 Corrugated Cardboard,Medical Container,Healthcare,6,32.35,9,84.64,1.27,0.713
 Corrugated Cardboard,Pizza Box,Food Packaging,9,24.97,7,87.52,0.96,0.863
@@ -3950,7 +3950,7 @@ Recycled PET,Garment Bag,Textiles,9,29.31,3,85.12,3.01,2.055
 Bagasse Fiber,Cosmetic Tube,Cosmetics,5,8.88,10,84.42,1.08,0.565
 Aluminum,Foam Insert Package,Home Appliances,8,33.95,1,98.78,3.2,3.43
 Glass,Syringe Pack,Healthcare,9,32.4,1,97.48,2.09,1.809
-Aluminum,Pizza Box,Food Packaging,8,24.65,2,95.83,5,3.517
+Aluminum,Pizza Box,Food Packaging,8,24.65,2,95.83,5.0,3.517
 Kraft Paper,Takeaway Container,Food Packaging,7,5.32,10,94.36,1.47,0.625
 PLA Bioplastic,Furniture Carton,Furniture,9,13.6,6,59.5,1.27,1.215
 Recycled PET,Medical Container,Healthcare,8,15.79,4,86.74,2.08,2.088
@@ -3962,7 +3962,7 @@ PLA Bioplastic,Action Figure Pack,Toys,9,10.28,8,69.1,1.08,1.154
 Mushroom Packaging,Makeup Box,Cosmetics,5,14.68,9,78.98,2.52,0.461
 Aluminum,Electronic Blister Pack,Electronics,8,21.22,1,98.34,3.68,3.505
 Kraft Paper,Furniture Carton,Furniture,4,9.01,8,91.33,0.33,0.614
-Kraft Paper,Action Figure Pack,Toys,5,13.83,10,86.32,1,0.622
+Kraft Paper,Action Figure Pack,Toys,5,13.83,10,86.32,1.0,0.622
 Bagasse Fiber,Makeup Box,Cosmetics,6,13.17,10,77.24,0.82,0.574
 Glass,Food Tray,Food Packaging,9,22.46,1,97.86,5.15,1.791
 Aluminum,Electronic Blister Pack,Electronics,8,23.41,2,99.97,3.42,3.497
@@ -4070,7 +4070,7 @@ Bagasse Fiber,Board Game Box,Toys,5,8.49,10,80.14,2.46,0.607
 Kraft Paper,Medical Container,Healthcare,5,8.96,9,90.6,1.11,0.575
 Glass,Oil Container,Automotive,9,30.29,2,98.66,5.39,1.738
 Recycled PET,Pizza Box,Food Packaging,8,18.81,4,90.42,2.31,2.095
-Corrugated Cardboard,Garment Bag,Textiles,6,21,8,90.22,1.51,0.717
+Corrugated Cardboard,Garment Bag,Textiles,6,21.0,8,90.22,1.51,0.717
 Recycled PET,Perfume Bottle,Cosmetics,8,28.51,4,89.23,2.99,2.157
 Glass,Battery Packaging,Automotive,10,37.46,2,96.16,4.41,1.782
 Glass,TV Carton,Electronics,9,36.53,1,97.44,4.73,1.816
@@ -4122,7 +4122,7 @@ Corrugated Cardboard,Cement Liner Bag,Construction,7,11.53,7,82.72,1.57,0.799
 PLA Bioplastic,Cement Liner Bag,Construction,7,12.97,8,55.3,1.59,1.098
 Aluminum,Spare Parts Box,Automotive,8,26.55,1,95.08,4.08,3.483
 Kraft Paper,Tile Packaging,Construction,7,10.8,9,92.09,1.14,0.669
-Glass,Cement Liner Bag,Construction,9,28.56,2,98,5.6,1.777
+Glass,Cement Liner Bag,Construction,9,28.56,2,98.0,5.6,1.777
 Aluminum,Furniture Carton,Furniture,10,24.09,1,98.74,4.88,3.535
 Corrugated Cardboard,Mobile Box,Electronics,8,28.3,8,83.53,1.51,0.82
 Recycled PET,Tile Packaging,Construction,8,28.5,3,90.13,3.2,2.059
@@ -4191,7 +4191,7 @@ Mushroom Packaging,Perfume Bottle,Cosmetics,7,13.81,9,78.03,2.79,0.446
 Aluminum,Toy Box,Toys,10,30.03,1,98.64,4.6,3.528
 Bagasse Fiber,Protective Box,Home Appliances,6,9.78,10,75.67,2.08,0.435
 Mushroom Packaging,Tablet Blister Pack,Healthcare,7,16.29,10,73.48,3.21,0.394
-Aluminum,Oil Container,Automotive,9,20.59,1,98.37,4,3.538
+Aluminum,Oil Container,Automotive,9,20.59,1,98.37,4.0,3.538
 Glass,Food Tray,Food Packaging,9,24.87,2,97.88,4.92,1.776
 Glass,Tile Packaging,Construction,10,36.67,1,97.44,4.48,1.761
 Aluminum,Appliance Carton,Home Appliances,9,22.3,1,95.72,3.06,3.435
@@ -4205,12 +4205,12 @@ Glass,Board Game Box,Toys,9,35.28,1,95.73,2.5,1.807
 Corrugated Cardboard,Fabric Wrap,Textiles,6,26.64,9,86.82,1.95,0.794
 Mushroom Packaging,Hardware Container,Construction,6,16.49,10,71.57,1.45,0.469
 Corrugated Cardboard,Furniture Carton,Furniture,7,11.29,7,87.4,1.22,0.792
-Glass,Protective Box,Home Appliances,10,21.1,2,95,4.34,1.762
+Glass,Protective Box,Home Appliances,10,21.1,2,95.0,4.34,1.762
 Aluminum,Laptop Box,Electronics,9,28.67,2,96.55,4.12,3.531
 Aluminum,Makeup Box,Cosmetics,10,34.06,1,98.09,2.76,3.542
 PLA Bioplastic,Garment Bag,Textiles,6,10.68,7,68.35,1.11,1.279
 Recycled PET,Mobile Box,Electronics,9,18.93,4,92.11,1.76,1.959
-Kraft Paper,Food Tray,Food Packaging,7,9.66,8,85.57,1,0.655
+Kraft Paper,Food Tray,Food Packaging,7,9.66,8,85.57,1.0,0.655
 Kraft Paper,Beverage Bottle,Food Packaging,6,14.71,9,91.33,0.95,0.69
 Kraft Paper,Spare Parts Box,Automotive,4,12.28,8,85.92,0.58,0.574
 Kraft Paper,Beverage Bottle,Food Packaging,5,10.25,8,91.31,1.07,0.546
@@ -4223,7 +4223,7 @@ Kraft Paper,Electronic Blister Pack,Electronics,5,12.03,9,89.9,0.67,0.542
 Kraft Paper,Appliance Carton,Home Appliances,7,12.65,10,93.3,1.04,0.55
 Bagasse Fiber,Foam Insert Package,Home Appliances,7,13.87,8,79.13,2.33,0.572
 Glass,Protective Box,Home Appliances,10,20.75,1,98.48,5.24,1.826
-Kraft Paper,Garment Bag,Textiles,6,9.18,9,94.15,1,0.605
+Kraft Paper,Garment Bag,Textiles,6,9.18,9,94.15,1.0,0.605
 Glass,Perfume Bottle,Cosmetics,10,21.31,1,99.64,4.92,1.709
 PLA Bioplastic,Toy Box,Toys,6,12.77,7,57.85,1.73,1.263
 Corrugated Cardboard,Cream Jar,Cosmetics,7,29.3,8,81.48,1.46,0.83
@@ -4238,7 +4238,7 @@ Glass,Food Tray,Food Packaging,10,28.3,1,95.39,3.26,1.799
 Aluminum,Laptop Box,Electronics,9,23.41,1,98.42,2.67,3.466
 Aluminum,Appliance Carton,Home Appliances,9,28.31,2,96.96,4.8,3.6
 PLA Bioplastic,Cosmetic Tube,Cosmetics,8,13.65,6,61.14,2.4,1.296
-Corrugated Cardboard,Fabric Wrap,Textiles,6,12.78,8,84.82,1,0.846
+Corrugated Cardboard,Fabric Wrap,Textiles,6,12.78,8,84.82,1.0,0.846
 Mushroom Packaging,Protective Box,Home Appliances,7,10.72,10,61.35,2.75,0.382
 Kraft Paper,TV Carton,Electronics,4,12.06,9,85.23,0.78,0.622
 PLA Bioplastic,Cosmetic Tube,Cosmetics,9,9.02,8,61.78,2.51,1.227
@@ -4255,7 +4255,7 @@ Recycled PET,Beverage Bottle,Food Packaging,9,22.2,2,88.55,2.35,2.102
 Recycled PET,Takeaway Container,Food Packaging,10,23.11,2,90.08,2.76,2.13
 Recycled PET,Mobile Box,Electronics,10,26.25,3,91.3,1.9,2.109
 Recycled PET,Takeaway Container,Food Packaging,8,19.33,4,94.3,3.15,2.085
-PLA Bioplastic,Mobile Box,Electronics,6,18.87,8,51.33,3,1.253
+PLA Bioplastic,Mobile Box,Electronics,6,18.87,8,51.33,3.0,1.253
 Mushroom Packaging,Makeup Box,Cosmetics,6,9.06,10,64.34,2.24,0.416
 Corrugated Cardboard,Garment Bag,Textiles,8,13.87,9,86.43,1.03,0.753
 Corrugated Cardboard,Beverage Bottle,Food Packaging,8,21.34,7,84.73,1.1,0.765
@@ -4273,7 +4273,7 @@ Corrugated Cardboard,Board Game Box,Toys,9,30.77,7,84.8,1.47,0.75
 Glass,Garment Bag,Textiles,10,31.31,2,96.42,5.82,1.83
 Corrugated Cardboard,Appliance Carton,Home Appliances,7,30.66,7,91.12,0.73,0.758
 Recycled PET,Mobile Box,Electronics,8,22.01,3,87.86,2.69,2.066
-Recycled PET,Protective Box,Home Appliances,8,27.62,4,85.55,3,2.054
+Recycled PET,Protective Box,Home Appliances,8,27.62,4,85.55,3.0,2.054
 Glass,Furniture Carton,Furniture,9,27.28,2,95.35,4.33,1.822
 Corrugated Cardboard,Medical Container,Healthcare,8,19.89,7,88.19,1.1,0.791
 Bagasse Fiber,Clothing Box,Textiles,7,8.75,10,80.07,1.37,0.483
@@ -4303,7 +4303,7 @@ Glass,Action Figure Pack,Toys,10,22.27,2,95.78,2.32,1.868
 Glass,Spare Parts Box,Automotive,9,31.94,2,99.73,5.76,1.8
 Kraft Paper,Hardware Container,Construction,4,12.24,8,88.66,1.21,0.565
 Glass,Spare Parts Box,Automotive,10,32.1,2,96.68,4.35,1.765
-Aluminum,Fabric Wrap,Textiles,9,28,1,96.95,4.99,3.45
+Aluminum,Fabric Wrap,Textiles,9,28.0,1,96.95,4.99,3.45
 Mushroom Packaging,Tile Packaging,Construction,5,15.49,10,61.18,1.38,0.306
 Corrugated Cardboard,TV Carton,Electronics,9,13.65,9,89.83,1.22,0.763
 Recycled PET,Board Game Box,Toys,10,26.06,2,92.26,3.08,2.08
@@ -4343,7 +4343,7 @@ Mushroom Packaging,Cement Liner Bag,Construction,5,9.54,10,68.4,2.22,0.517
 Recycled PET,Clothing Box,Textiles,8,15.33,4,87.2,1.62,2.118
 PLA Bioplastic,Laptop Box,Electronics,6,14.84,6,60.18,2.64,1.166
 Recycled PET,Cement Liner Bag,Construction,9,24.44,3,93.64,3.57,2.029
-Aluminum,TV Carton,Electronics,8,24.57,1,99,4.26,3.565
+Aluminum,TV Carton,Electronics,8,24.57,1,99.0,4.26,3.565
 PLA Bioplastic,TV Carton,Electronics,7,19.5,8,54.5,1.71,1.183
 PLA Bioplastic,Beverage Bottle,Food Packaging,8,16.4,7,51.92,2.6,1.101
 Recycled PET,Protective Box,Home Appliances,10,22.73,2,92.92,2.89,2.091
@@ -4494,14 +4494,14 @@ PLA Bioplastic,Garment Bag,Textiles,7,12.82,8,57.77,2.39,1.164
 Aluminum,Clothing Box,Textiles,9,23.58,1,95.2,4.2,3.435
 Corrugated Cardboard,Food Tray,Food Packaging,6,15.14,9,91.91,1.69,0.698
 Glass,Syringe Pack,Healthcare,9,30.54,1,99.04,4.94,1.794
-Aluminum,Electronic Blister Pack,Electronics,9,27.63,2,97,4.33,3.472
+Aluminum,Electronic Blister Pack,Electronics,9,27.63,2,97.0,4.33,3.472
 Kraft Paper,Battery Packaging,Automotive,7,10.03,10,85.92,0.89,0.562
 Bagasse Fiber,Beverage Bottle,Food Packaging,5,13.28,8,77.17,1.03,0.587
 Mushroom Packaging,Cream Jar,Cosmetics,6,16.1,10,72.04,1.8,0.396
 Mushroom Packaging,Oil Container,Automotive,7,14.52,9,78.52,2.16,0.547
 Corrugated Cardboard,Hardware Container,Construction,9,25.41,8,83.74,1.4,0.773
 Aluminum,Beverage Bottle,Food Packaging,10,32.31,2,99.16,4.04,3.53
-Glass,Action Figure Pack,Toys,9,33,1,98.24,3.15,1.745
+Glass,Action Figure Pack,Toys,9,33.0,1,98.24,3.15,1.745
 Mushroom Packaging,Action Figure Pack,Toys,6,11.07,9,70.45,1.21,0.523
 Mushroom Packaging,Takeaway Container,Food Packaging,5,10.49,9,77.3,2.34,0.411
 Kraft Paper,Cement Liner Bag,Construction,6,12.59,8,88.45,0.64,0.576
@@ -4573,7 +4573,7 @@ Kraft Paper,Takeaway Container,Food Packaging,6,10.39,10,93.61,0.9,0.697
 PLA Bioplastic,Cream Jar,Cosmetics,6,19.7,7,58.53,2.35,1.182
 Aluminum,Appliance Carton,Home Appliances,9,25.12,1,95.16,3.22,3.516
 Glass,Food Tray,Food Packaging,9,27.39,2,98.99,5.03,1.818
-PLA Bioplastic,Action Figure Pack,Toys,6,10.96,8,53,2.52,1.19
+PLA Bioplastic,Action Figure Pack,Toys,6,10.96,8,53.0,2.52,1.19
 Kraft Paper,Medicine Box,Healthcare,7,6.44,10,88.5,0.68,0.669
 Aluminum,Laptop Box,Electronics,10,32.64,2,99.33,3.73,3.522
 Aluminum,Electronic Blister Pack,Electronics,9,21.77,2,99.56,3.13,3.482
@@ -4600,7 +4600,7 @@ Recycled PET,Medicine Box,Healthcare,10,25.6,3,90.29,2.08,2.153
 Corrugated Cardboard,Pizza Box,Food Packaging,9,32.52,9,88.27,1.11,0.709
 Kraft Paper,Medicine Box,Healthcare,4,9.33,9,89.21,0.62,0.618
 Corrugated Cardboard,Garment Bag,Textiles,9,28.57,7,85.46,0.8,0.778
-Mushroom Packaging,Tablet Blister Pack,Healthcare,6,10.09,9,77.1,3,0.323
+Mushroom Packaging,Tablet Blister Pack,Healthcare,6,10.09,9,77.1,3.0,0.323
 PLA Bioplastic,Cosmetic Tube,Cosmetics,7,12.95,6,50.53,2.82,1.211
 Bagasse Fiber,Cement Liner Bag,Construction,5,14.61,8,80.7,1.43,0.486
 Bagasse Fiber,Medicine Box,Healthcare,6,7.54,8,72.25,2.08,0.5
@@ -4619,13 +4619,13 @@ Glass,Takeaway Container,Food Packaging,9,27.31,1,95.16,5.24,1.838
 Aluminum,Furniture Carton,Furniture,10,28.13,2,98.8,5.13,3.571
 Mushroom Packaging,Cosmetic Tube,Cosmetics,5,14.06,10,68.58,1.9,0.38
 Glass,Cream Jar,Cosmetics,9,28.84,2,95.95,5.43,1.88
-Glass,Spare Parts Box,Automotive,10,36.8,2,98,5.43,1.813
+Glass,Spare Parts Box,Automotive,10,36.8,2,98.0,5.43,1.813
 Mushroom Packaging,Garment Bag,Textiles,6,15.57,10,70.02,2.96,0.367
 Kraft Paper,Clothing Box,Textiles,5,11.68,10,94.44,0.48,0.603
 Bagasse Fiber,Medicine Box,Healthcare,7,13.58,8,76.41,1.97,0.564
 Aluminum,Spare Parts Box,Automotive,8,28.96,2,96.93,5.34,3.478
 Kraft Paper,Cosmetic Tube,Cosmetics,4,14.66,8,93.61,1.12,0.606
-Corrugated Cardboard,Takeaway Container,Food Packaging,9,28.55,8,88.59,1,0.695
+Corrugated Cardboard,Takeaway Container,Food Packaging,9,28.55,8,88.59,1.0,0.695
 Mushroom Packaging,Beverage Bottle,Food Packaging,5,14.78,9,66.32,2.35,0.397
 Mushroom Packaging,Cosmetic Tube,Cosmetics,5,8.53,9,61.3,2.69,0.419
 Kraft Paper,Protective Box,Home Appliances,6,14.79,9,94.06,0.91,0.471
@@ -4662,8 +4662,8 @@ Corrugated Cardboard,Cosmetic Tube,Cosmetics,9,25.66,9,81.73,1.58,0.879
 Mushroom Packaging,Foam Insert Package,Home Appliances,6,10.6,10,75.11,2.38,0.45
 Kraft Paper,Makeup Box,Cosmetics,7,9.51,9,91.42,1.03,0.561
 Glass,Garment Bag,Textiles,10,30.71,1,96.65,3.84,1.75
-PLA Bioplastic,Tile Packaging,Construction,6,12.32,6,54,2.66,1.266
-Recycled PET,Furniture Carton,Furniture,8,23.58,2,92,3.57,2.088
+PLA Bioplastic,Tile Packaging,Construction,6,12.32,6,54.0,2.66,1.266
+Recycled PET,Furniture Carton,Furniture,8,23.58,2,92.0,3.57,2.088
 Mushroom Packaging,Appliance Carton,Home Appliances,5,15.73,10,72.78,2.83,0.436
 Aluminum,Battery Packaging,Automotive,10,32.41,1,99.54,2.82,3.441
 Recycled PET,Fabric Wrap,Textiles,8,26.12,2,87.58,3.6,2.122
@@ -4673,14 +4673,14 @@ Glass,Action Figure Pack,Toys,10,32.52,2,96.34,3.45,1.837
 PLA Bioplastic,Oil Container,Automotive,6,14.08,6,54.51,2.76,1.174
 Mushroom Packaging,Food Tray,Food Packaging,7,13.89,10,61.54,2.87,0.483
 Recycled PET,Mobile Box,Electronics,10,25.47,3,91.74,1.78,2.189
-PLA Bioplastic,Syringe Pack,Healthcare,8,14,7,62.41,1.82,1.23
+PLA Bioplastic,Syringe Pack,Healthcare,8,14.0,7,62.41,1.82,1.23
 Recycled PET,Clothing Box,Textiles,10,21.03,2,89.63,3.72,2.085
 PLA Bioplastic,Beverage Bottle,Food Packaging,7,11.93,7,66.78,1.09,1.168
 Corrugated Cardboard,Takeaway Container,Food Packaging,6,31.65,7,89.12,1.94,0.821
 Recycled PET,Furniture Carton,Furniture,10,25.72,3,85.16,3.2,2.129
 Aluminum,Protective Cushioning Pack,Furniture,10,34.92,1,98.76,4.39,3.531
 Mushroom Packaging,Mobile Box,Electronics,6,12.87,10,73.34,1.82,0.396
-Glass,Hardware Container,Construction,10,23.54,2,98.08,3,1.753
+Glass,Hardware Container,Construction,10,23.54,2,98.08,3.0,1.753
 PLA Bioplastic,Toy Box,Toys,6,12.67,8,58.29,2.88,1.147
 Bagasse Fiber,Battery Packaging,Automotive,7,6.03,10,81.62,1.31,0.459
 Mushroom Packaging,Furniture Carton,Furniture,5,10.64,9,68.63,2.98,0.427
@@ -4785,16 +4785,16 @@ Recycled PET,Board Game Box,Toys,10,22.89,2,88.77,2.89,2.111
 Corrugated Cardboard,Tablet Blister Pack,Healthcare,9,12.98,8,90.69,0.94,0.86
 Glass,Makeup Box,Cosmetics,10,25.84,2,99.73,3.67,1.831
 Corrugated Cardboard,Action Figure Pack,Toys,8,26.79,9,87.08,1.07,0.811
-Aluminum,Tile Packaging,Construction,9,32.32,2,98,5.13,3.466
+Aluminum,Tile Packaging,Construction,9,32.32,2,98.0,5.13,3.466
 Kraft Paper,Medicine Box,Healthcare,4,12.94,8,85.53,1.39,0.564
-Aluminum,Hardware Container,Construction,8,31.87,1,99,3.98,3.548
+Aluminum,Hardware Container,Construction,8,31.87,1,99.0,3.98,3.548
 Kraft Paper,Makeup Box,Cosmetics,4,14.63,9,89.86,0.7,0.628
 Recycled PET,Perfume Bottle,Cosmetics,10,22.38,2,85.48,1.77,2.134
 Recycled PET,TV Carton,Electronics,9,28.83,4,88.26,3.88,2.066
 Glass,Assembly Kit Box,Furniture,10,34.4,1,99.08,2.24,1.885
 Kraft Paper,Foam Insert Package,Home Appliances,4,9.39,9,88.66,0.66,0.659
 Mushroom Packaging,Protective Box,Home Appliances,6,16.02,9,62.99,1.89,0.341
-PLA Bioplastic,Oil Container,Automotive,9,14.33,6,52,1.64,1.214
+PLA Bioplastic,Oil Container,Automotive,9,14.33,6,52.0,1.64,1.214
 Corrugated Cardboard,Medicine Box,Healthcare,8,23.63,9,81.3,0.75,0.874
 Aluminum,Garment Bag,Textiles,9,27.52,2,95.46,4.85,3.383
 PLA Bioplastic,TV Carton,Electronics,7,13.59,8,53.37,1.24,1.204
@@ -4855,7 +4855,7 @@ PLA Bioplastic,Clothing Box,Textiles,6,10.34,7,61.23,2.55,1.201
 Corrugated Cardboard,Action Figure Pack,Toys,8,12.66,9,83.73,1.01,0.833
 PLA Bioplastic,Tile Packaging,Construction,8,12.91,6,58.14,2.26,1.22
 PLA Bioplastic,Foam Insert Package,Home Appliances,9,9.24,8,52.34,1.38,1.167
-Glass,Pizza Box,Food Packaging,10,20,1,96.17,2.58,1.802
+Glass,Pizza Box,Food Packaging,10,20.0,1,96.17,2.58,1.802
 Kraft Paper,Fabric Wrap,Textiles,6,5.43,9,86.64,1.43,0.473
 Corrugated Cardboard,Makeup Box,Cosmetics,9,11.66,9,89.01,1.88,0.787
 Kraft Paper,Toy Box,Toys,6,6.94,8,88.42,1.36,0.605
@@ -4911,9 +4911,9 @@ Kraft Paper,Fabric Wrap,Textiles,7,14.11,9,86.81,1.19,0.561
 Mushroom Packaging,Makeup Box,Cosmetics,7,15.68,10,76.22,2.46,0.388
 Kraft Paper,Garment Bag,Textiles,4,7.43,8,93.36,1.36,0.573
 Aluminum,Beverage Bottle,Food Packaging,10,25.7,2,96.86,4.16,3.571
-Bagasse Fiber,Medical Container,Healthcare,7,7.52,8,74,1.71,0.521
+Bagasse Fiber,Medical Container,Healthcare,7,7.52,8,74.0,1.71,0.521
 Recycled PET,Food Tray,Food Packaging,9,29.24,2,94.5,1.99,2.118
-Aluminum,Protective Box,Home Appliances,8,26.74,1,96.06,3,3.465
+Aluminum,Protective Box,Home Appliances,8,26.74,1,96.06,3.0,3.465
 Glass,Medical Container,Healthcare,9,21.23,1,96.95,5.67,1.975
 Glass,Laptop Box,Electronics,10,26.55,1,96.12,3.31,1.842
 Corrugated Cardboard,Laptop Box,Electronics,8,34.97,8,91.24,1.06,0.79
@@ -4932,10 +4932,10 @@ Bagasse Fiber,Cosmetic Tube,Cosmetics,5,12.94,8,77.39,2.36,0.524
 Bagasse Fiber,Garment Bag,Textiles,7,10.23,8,81.21,1.52,0.46
 Kraft Paper,Battery Packaging,Automotive,4,13.41,9,93.55,0.71,0.617
 Bagasse Fiber,Clothing Box,Textiles,5,9.76,9,72.24,2.43,0.51
-Bagasse Fiber,Garment Bag,Textiles,5,8,8,73.79,1.56,0.569
+Bagasse Fiber,Garment Bag,Textiles,5,8.0,8,73.79,1.56,0.569
 Corrugated Cardboard,Furniture Carton,Furniture,7,27.46,8,82.1,1.23,0.851
 Mushroom Packaging,Medical Container,Healthcare,5,15.24,10,63.69,2.01,0.427
-Mushroom Packaging,Tablet Blister Pack,Healthcare,7,11,10,76.95,3.29,0.45
+Mushroom Packaging,Tablet Blister Pack,Healthcare,7,11.0,10,76.95,3.29,0.45
 Aluminum,Protective Cushioning Pack,Furniture,9,25.24,2,99.91,4.21,3.5
 Kraft Paper,Action Figure Pack,Toys,5,7.63,9,90.57,1.21,0.534
 Aluminum,Oil Container,Automotive,10,20.64,1,99.49,4.94,3.54
@@ -4954,7 +4954,7 @@ Kraft Paper,Medicine Box,Healthcare,4,10.23,8,94.44,0.36,0.615
 Corrugated Cardboard,Cream Jar,Cosmetics,8,26.15,7,88.06,1.1,0.837
 Mushroom Packaging,Tablet Blister Pack,Healthcare,7,12.4,10,60.52,2.75,0.351
 PLA Bioplastic,Pizza Box,Food Packaging,9,17.09,8,60.39,1.9,1.147
-Glass,Hardware Container,Construction,9,25.34,2,98.96,5,1.814
+Glass,Hardware Container,Construction,9,25.34,2,98.96,5.0,1.814
 Aluminum,Tile Packaging,Construction,8,34.77,1,97.33,3.57,3.441
 Glass,Mobile Box,Electronics,10,39.15,2,97.38,4.54,1.797
 Corrugated Cardboard,Mobile Box,Electronics,8,31.26,8,84.29,0.78,0.852
@@ -4966,7 +4966,7 @@ Glass,Furniture Carton,Furniture,10,36.32,1,98.95,4.99,1.892
 Aluminum,Medical Container,Healthcare,10,26.09,2,99.6,3.95,3.368
 Aluminum,Oil Container,Automotive,9,22.27,1,97.71,3.15,3.387
 Corrugated Cardboard,Fabric Wrap,Textiles,8,26.31,8,91.23,1.95,0.799
-Kraft Paper,Furniture Carton,Furniture,5,6.52,10,88,1.16,0.615
+Kraft Paper,Furniture Carton,Furniture,5,6.52,10,88.0,1.16,0.615
 Aluminum,Action Figure Pack,Toys,9,23.54,1,99.76,5.37,3.497
 Aluminum,Laptop Box,Electronics,9,28.36,2,97.08,3.78,3.521
 Mushroom Packaging,Oil Container,Automotive,6,10.97,9,76.02,2.29,0.419
@@ -4977,11 +4977,11 @@ PLA Bioplastic,Makeup Box,Cosmetics,8,12.88,7,61.67,1.5,1.17
 Bagasse Fiber,Furniture Carton,Furniture,7,12.83,8,79.06,1.56,0.496
 PLA Bioplastic,Fabric Wrap,Textiles,9,19.03,6,50.09,1.25,1.285
 Recycled PET,Battery Packaging,Automotive,8,29.24,2,90.12,2.01,2.043
-Glass,Action Figure Pack,Toys,10,22.6,1,96.63,2,1.785
+Glass,Action Figure Pack,Toys,10,22.6,1,96.63,2.0,1.785
 Glass,Medicine Box,Healthcare,10,23.88,2,95.94,2.16,1.833
 Recycled PET,Garment Bag,Textiles,9,29.72,3,92.25,3.94,2.103
 Aluminum,Beverage Bottle,Food Packaging,8,20.26,1,98.74,3.23,3.448
-Recycled PET,Garment Bag,Textiles,9,15,4,88.9,3.16,2.122
+Recycled PET,Garment Bag,Textiles,9,15.0,4,88.9,3.16,2.122
 PLA Bioplastic,Toy Box,Toys,9,14.43,8,54.48,2.68,1.216
 Bagasse Fiber,Clothing Box,Textiles,6,9.65,9,84.56,1.74,0.382
 Glass,TV Carton,Electronics,10,24.93,1,95.83,2.61,1.814
@@ -5009,11 +5009,11 @@ Recycled PET,Protective Cushioning Pack,Furniture,9,20.5,3,86.02,3.44,2.152
 Corrugated Cardboard,Garment Bag,Textiles,6,14.58,8,90.69,1.77,0.759
 PLA Bioplastic,Mobile Box,Electronics,6,11.16,7,65.55,1.36,1.266
 Kraft Paper,Oil Container,Automotive,4,8.17,8,85.68,0.82,0.556
-Aluminum,TV Carton,Electronics,8,29.78,1,95.09,3,3.466
+Aluminum,TV Carton,Electronics,8,29.78,1,95.09,3.0,3.466
 Glass,Hardware Container,Construction,9,27.91,1,99.9,4.83,1.713
 Corrugated Cardboard,Protective Box,Home Appliances,6,12.97,7,81.56,1.3,0.8
 Bagasse Fiber,Spare Parts Box,Automotive,5,7.95,8,73.6,1.88,0.477
-Mushroom Packaging,Oil Container,Automotive,5,8.7,10,69,1.65,0.353
+Mushroom Packaging,Oil Container,Automotive,5,8.7,10,69.0,1.65,0.353
 Corrugated Cardboard,Electronic Blister Pack,Electronics,6,22.09,9,81.62,0.82,0.803
 Kraft Paper,Spare Parts Box,Automotive,5,7.3,8,86.07,0.35,0.609
 Glass,TV Carton,Electronics,9,20.56,1,97.74,3.29,1.814
@@ -5047,7 +5047,7 @@ Kraft Paper,Electronic Blister Pack,Electronics,5,6.88,10,89.35,1.05,0.536
 Glass,Protective Cushioning Pack,Furniture,9,31.77,2,98.75,4.41,1.839
 Mushroom Packaging,Fabric Wrap,Textiles,6,16.39,9,76.37,2.33,0.401
 PLA Bioplastic,Cosmetic Tube,Cosmetics,9,11.27,8,54.72,2.06,1.165
-Corrugated Cardboard,Toy Box,Toys,7,19.46,9,80.86,1,0.843
+Corrugated Cardboard,Toy Box,Toys,7,19.46,9,80.86,1.0,0.843
 PLA Bioplastic,Pizza Box,Food Packaging,6,10.28,7,57.6,2.04,1.189
 Aluminum,Garment Bag,Textiles,10,29.05,1,98.41,3.09,3.55
 Mushroom Packaging,Medical Container,Healthcare,6,15.97,10,72.74,3.05,0.506
@@ -5064,7 +5064,7 @@ Aluminum,Laptop Box,Electronics,8,34.57,2,97.27,5.27,3.529
 Bagasse Fiber,Pizza Box,Food Packaging,6,10.12,9,73.14,1.65,0.477
 Bagasse Fiber,Board Game Box,Toys,7,12.83,8,83.97,1.36,0.487
 Corrugated Cardboard,Assembly Kit Box,Furniture,6,12.36,7,90.46,1.61,0.743
-Kraft Paper,Furniture Carton,Furniture,7,12.21,9,85,0.34,0.678
+Kraft Paper,Furniture Carton,Furniture,7,12.21,9,85.0,0.34,0.678
 Bagasse Fiber,Fabric Wrap,Textiles,7,9.5,8,83.82,1.61,0.461
 Glass,Pizza Box,Food Packaging,10,27.27,2,99.32,3.35,1.685
 Glass,Spare Parts Box,Automotive,9,20.2,2,99.6,5.68,1.845
@@ -5160,13 +5160,13 @@ Bagasse Fiber,Medical Container,Healthcare,7,13.82,8,76.73,2.09,0.52
 Recycled PET,Medical Container,Healthcare,8,24.99,4,94.79,2.69,2.045
 Corrugated Cardboard,Furniture Carton,Furniture,9,20.89,7,81.27,0.84,0.786
 Kraft Paper,Foam Insert Package,Home Appliances,4,12.48,9,92.54,1.04,0.479
-Kraft Paper,Oil Container,Automotive,5,8.87,9,88,0.35,0.622
+Kraft Paper,Oil Container,Automotive,5,8.87,9,88.0,0.35,0.622
 PLA Bioplastic,Tile Packaging,Construction,6,8.08,6,54.64,1.65,1.166
 Mushroom Packaging,Clothing Box,Textiles,5,11.79,10,75.85,2.28,0.432
 Mushroom Packaging,Hardware Container,Construction,5,10.98,10,71.14,1.54,0.461
 Recycled PET,Clothing Box,Textiles,9,20.2,2,90.83,3.96,2.057
 Bagasse Fiber,Fabric Wrap,Textiles,6,8.45,9,72.34,1.16,0.464
-PLA Bioplastic,Garment Bag,Textiles,8,9.64,7,50,1.26,1.179
+PLA Bioplastic,Garment Bag,Textiles,8,9.64,7,50.0,1.26,1.179
 Glass,Medical Container,Healthcare,10,23.42,2,97.95,2.81,1.717
 Corrugated Cardboard,Tile Packaging,Construction,9,22.62,7,83.2,1.65,0.787
 Kraft Paper,Protective Box,Home Appliances,6,11.98,8,85.65,0.81,0.565
@@ -5180,7 +5180,7 @@ Corrugated Cardboard,Fabric Wrap,Textiles,6,15.35,9,90.34,0.63,0.763
 Glass,Cream Jar,Cosmetics,10,31.47,2,99.29,4.15,1.798
 Kraft Paper,Appliance Carton,Home Appliances,5,6.58,9,94.78,1.4,0.588
 Recycled PET,Makeup Box,Cosmetics,10,15.19,2,88.34,2.47,2.132
-Glass,Furniture Carton,Furniture,9,34,1,98.71,5.32,1.743
+Glass,Furniture Carton,Furniture,9,34.0,1,98.71,5.32,1.743
 Recycled PET,Protective Cushioning Pack,Furniture,9,16.74,3,85.94,1.83,2.056
 Recycled PET,Protective Box,Home Appliances,8,21.78,2,88.26,3.84,2.171
 Kraft Paper,Takeaway Container,Food Packaging,5,7.55,10,89.4,1.2,0.606
@@ -5221,7 +5221,7 @@ Kraft Paper,TV Carton,Electronics,5,12.73,10,90.09,0.57,0.604
 Bagasse Fiber,Battery Packaging,Automotive,5,6.76,9,73.9,0.9,0.63
 Corrugated Cardboard,Tablet Blister Pack,Healthcare,7,25.29,7,83.91,0.95,0.841
 Kraft Paper,Appliance Carton,Home Appliances,5,8.57,9,89.95,0.87,0.605
-Aluminum,Food Tray,Food Packaging,8,32.51,2,95.62,3,3.423
+Aluminum,Food Tray,Food Packaging,8,32.51,2,95.62,3.0,3.423
 Kraft Paper,Protective Cushioning Pack,Furniture,5,8.48,8,90.91,0.73,0.619
 PLA Bioplastic,Board Game Box,Toys,9,14.3,6,60.85,1.8,1.151
 Kraft Paper,Perfume Bottle,Cosmetics,6,6.55,10,89.81,0.37,0.595
@@ -5235,7 +5235,7 @@ PLA Bioplastic,Fabric Wrap,Textiles,6,15.12,7,53.43,2.4,1.18
 Kraft Paper,Clothing Box,Textiles,5,9.48,9,90.4,0.79,0.679
 Kraft Paper,Electronic Blister Pack,Electronics,5,10.4,10,86.83,0.91,0.638
 PLA Bioplastic,Appliance Carton,Home Appliances,8,13.14,6,57.49,1.01,1.159
-Corrugated Cardboard,Mobile Box,Electronics,8,15.9,8,87,1.54,0.757
+Corrugated Cardboard,Mobile Box,Electronics,8,15.9,8,87.0,1.54,0.757
 Corrugated Cardboard,Pizza Box,Food Packaging,7,34.71,7,88.46,1.49,0.757
 Bagasse Fiber,Hardware Container,Construction,5,14.26,10,71.48,0.87,0.54
 PLA Bioplastic,TV Carton,Electronics,9,12.82,6,64.35,1.74,1.192
@@ -5272,10 +5272,10 @@ Bagasse Fiber,Cream Jar,Cosmetics,7,13.72,8,78.39,1.32,0.442
 Bagasse Fiber,Assembly Kit Box,Furniture,6,10.17,8,72.5,1.13,0.564
 Mushroom Packaging,Perfume Bottle,Cosmetics,6,12.1,9,77.3,1.5,0.287
 Kraft Paper,Takeaway Container,Food Packaging,7,5.99,9,88.94,0.66,0.574
-Recycled PET,Board Game Box,Toys,10,22.86,2,87,3.45,2.044
+Recycled PET,Board Game Box,Toys,10,22.86,2,87.0,3.45,2.044
 PLA Bioplastic,Oil Container,Automotive,6,18.05,7,50.18,1.94,1.125
 Corrugated Cardboard,Board Game Box,Toys,7,17.19,9,90.86,0.84,0.746
-Aluminum,TV Carton,Electronics,8,25.49,1,98.5,3,3.532
+Aluminum,TV Carton,Electronics,8,25.49,1,98.5,3.0,3.532
 Mushroom Packaging,Protective Box,Home Appliances,7,13.42,9,73.91,1.97,0.462
 Aluminum,Clothing Box,Textiles,9,24.76,1,95.98,5.32,3.528
 Recycled PET,Protective Box,Home Appliances,8,29.88,2,87.22,2.36,2.145
@@ -5319,7 +5319,7 @@ Mushroom Packaging,Foam Insert Package,Home Appliances,6,13.14,9,68.46,1.84,0.34
 Recycled PET,Food Tray,Food Packaging,8,24.54,2,87.45,3.9,2.062
 PLA Bioplastic,Cosmetic Tube,Cosmetics,8,12.27,6,53.41,1.29,1.165
 PLA Bioplastic,Perfume Bottle,Cosmetics,9,19.88,8,69.64,2.16,1.157
-Bagasse Fiber,Laptop Box,Electronics,6,15,10,72.16,1.28,0.478
+Bagasse Fiber,Laptop Box,Electronics,6,15.0,10,72.16,1.28,0.478
 Kraft Paper,Furniture Carton,Furniture,4,12.9,9,92.29,0.63,0.657
 Bagasse Fiber,Battery Packaging,Automotive,6,14.83,10,74.4,1.49,0.564
 Aluminum,Toy Box,Toys,9,32.04,2,99.11,5.5,3.32
@@ -5331,10 +5331,10 @@ Recycled PET,Assembly Kit Box,Furniture,8,16.42,4,91.57,2.6,2.164
 Glass,Foam Insert Package,Home Appliances,9,23.18,2,96.93,4.04,1.82
 Corrugated Cardboard,Toy Box,Toys,7,26.2,7,86.52,0.89,0.77
 Bagasse Fiber,Action Figure Pack,Toys,7,8.35,9,75.57,1.34,0.626
-Aluminum,Cream Jar,Cosmetics,9,25,1,97.84,2.76,3.468
+Aluminum,Cream Jar,Cosmetics,9,25.0,1,97.84,2.76,3.468
 Kraft Paper,Hardware Container,Construction,5,7.15,10,86.38,0.66,0.651
 Glass,Board Game Box,Toys,10,33.88,2,99.29,5.87,1.844
-Bagasse Fiber,Takeaway Container,Food Packaging,6,14,9,70.93,2.41,0.388
+Bagasse Fiber,Takeaway Container,Food Packaging,6,14.0,9,70.93,2.41,0.388
 Recycled PET,Hardware Container,Construction,9,18.61,4,86.95,2.34,2.15
 Corrugated Cardboard,Protective Box,Home Appliances,7,30.74,9,88.84,1.36,0.773
 Mushroom Packaging,Board Game Box,Toys,6,13.89,10,78.9,3.29,0.403
@@ -5351,7 +5351,7 @@ Bagasse Fiber,Tablet Blister Pack,Healthcare,7,7.96,10,70.02,1.56,0.48
 Glass,Pizza Box,Food Packaging,10,23.02,2,98.64,4.77,1.87
 Bagasse Fiber,Protective Cushioning Pack,Furniture,5,7.21,9,71.82,2.05,0.484
 Bagasse Fiber,Garment Bag,Textiles,5,13.9,9,70.43,2.49,0.483
-Recycled PET,Electronic Blister Pack,Electronics,8,15.85,2,86,2.22,2.132
+Recycled PET,Electronic Blister Pack,Electronics,8,15.85,2,86.0,2.22,2.132
 Kraft Paper,Tile Packaging,Construction,7,12.09,10,86.43,0.95,0.6
 Recycled PET,Mobile Box,Electronics,9,26.77,3,86.01,2.83,2.11
 Mushroom Packaging,Clothing Box,Textiles,7,10.34,9,62.49,2.13,0.389
@@ -5376,7 +5376,7 @@ Recycled PET,Assembly Kit Box,Furniture,8,28.46,4,91.87,3.45,2.103
 Kraft Paper,Fabric Wrap,Textiles,7,7.25,8,89.3,0.88,0.585
 PLA Bioplastic,Board Game Box,Toys,7,9.16,7,65.9,2.59,1.151
 PLA Bioplastic,Tile Packaging,Construction,6,14.65,8,58.4,2.15,1.178
-Corrugated Cardboard,Protective Box,Home Appliances,7,10,8,87.62,1.01,0.776
+Corrugated Cardboard,Protective Box,Home Appliances,7,10.0,8,87.62,1.01,0.776
 Kraft Paper,Cement Liner Bag,Construction,6,11.65,9,86.47,1.27,0.627
 PLA Bioplastic,Fabric Wrap,Textiles,6,16.75,6,68.46,1.48,1.134
 Glass,Tablet Blister Pack,Healthcare,10,31.45,2,96.27,2.9,1.851
@@ -5392,7 +5392,7 @@ Bagasse Fiber,Hardware Container,Construction,6,11.03,10,77.87,2.27,0.387
 PLA Bioplastic,Spare Parts Box,Automotive,6,17.54,7,50.51,1.28,1.199
 Corrugated Cardboard,Garment Bag,Textiles,6,20.12,7,91.12,1.35,0.742
 Recycled PET,Tile Packaging,Construction,8,28.72,3,88.37,3.67,2.102
-Kraft Paper,Foam Insert Package,Home Appliances,6,14.76,8,93.4,1,0.593
+Kraft Paper,Foam Insert Package,Home Appliances,6,14.76,8,93.4,1.0,0.593
 Aluminum,Fabric Wrap,Textiles,10,28.07,2,96.71,4.65,3.479
 Mushroom Packaging,Tile Packaging,Construction,7,12.11,10,63.25,2.06,0.359
 Bagasse Fiber,Laptop Box,Electronics,6,8.52,9,73.52,0.96,0.502
@@ -5448,7 +5448,7 @@ Aluminum,Beverage Bottle,Food Packaging,9,25.61,1,95.58,3.1,3.604
 Kraft Paper,Appliance Carton,Home Appliances,6,13.56,8,91.11,0.72,0.583
 Mushroom Packaging,Perfume Bottle,Cosmetics,5,13.32,9,70.23,2.63,0.386
 Aluminum,Food Tray,Food Packaging,9,33.17,2,99.88,4.13,3.512
-Corrugated Cardboard,Fabric Wrap,Textiles,9,27,9,89.12,0.69,0.839
+Corrugated Cardboard,Fabric Wrap,Textiles,9,27.0,9,89.12,0.69,0.839
 PLA Bioplastic,Protective Box,Home Appliances,9,15.39,7,57.85,1.58,1.256
 Mushroom Packaging,Battery Packaging,Automotive,5,12.18,9,69.5,1.75,0.39
 Aluminum,Assembly Kit Box,Furniture,8,27.41,2,99.21,3.14,3.49
@@ -5462,7 +5462,7 @@ Recycled PET,Battery Packaging,Automotive,10,29.16,2,86.45,3.89,2.101
 Mushroom Packaging,Pizza Box,Food Packaging,7,10.11,9,67.25,3.04,0.23
 Recycled PET,Medicine Box,Healthcare,9,22.58,4,88.6,2.1,2.185
 Mushroom Packaging,Oil Container,Automotive,5,16.97,10,62.83,1.36,0.384
-Kraft Paper,Syringe Pack,Healthcare,6,13,8,85.2,0.68,0.595
+Kraft Paper,Syringe Pack,Healthcare,6,13.0,8,85.2,0.68,0.595
 Bagasse Fiber,Spare Parts Box,Automotive,7,9.72,9,77.78,1.25,0.618
 Glass,Takeaway Container,Food Packaging,9,25.64,1,98.69,4.02,1.769
 Mushroom Packaging,Cement Liner Bag,Construction,5,8.84,9,73.88,2.99,0.389
@@ -5483,7 +5483,7 @@ Corrugated Cardboard,Protective Box,Home Appliances,8,22.49,8,83.24,1.72,0.796
 PLA Bioplastic,Tile Packaging,Construction,9,9.83,8,69.74,1.59,1.301
 Aluminum,Assembly Kit Box,Furniture,10,33.57,2,99.18,3.84,3.462
 Recycled PET,Cream Jar,Cosmetics,10,16.29,2,89.9,3.32,2.04
-PLA Bioplastic,Furniture Carton,Furniture,7,14,7,52.94,2.39,1.109
+PLA Bioplastic,Furniture Carton,Furniture,7,14.0,7,52.94,2.39,1.109
 Bagasse Fiber,Spare Parts Box,Automotive,5,11.72,9,84.03,2.48,0.517
 PLA Bioplastic,Garment Bag,Textiles,9,14.81,6,68.71,1.45,1.158
 Recycled PET,Oil Container,Automotive,9,19.65,2,86.42,3.16,1.997
@@ -5641,7 +5641,7 @@ Mushroom Packaging,Protective Box,Home Appliances,6,15.72,9,79.97,1.24,0.379
 Recycled PET,Battery Packaging,Automotive,10,27.77,2,86.06,1.62,2.215
 PLA Bioplastic,Action Figure Pack,Toys,7,12.66,7,60.39,2.15,1.204
 Mushroom Packaging,Hardware Container,Construction,7,17.93,9,67.54,3.08,0.433
-PLA Bioplastic,Spare Parts Box,Automotive,8,11.12,8,57,1.65,1.207
+PLA Bioplastic,Spare Parts Box,Automotive,8,11.12,8,57.0,1.65,1.207
 Corrugated Cardboard,Furniture Carton,Furniture,8,22.05,8,88.31,1.02,0.803
 Recycled PET,Tile Packaging,Construction,10,15.62,4,89.51,2.99,2.055
 Kraft Paper,Electronic Blister Pack,Electronics,4,5.79,10,88.9,0.63,0.658
@@ -5703,7 +5703,7 @@ Corrugated Cardboard,Beverage Bottle,Food Packaging,6,12.43,8,85.18,0.94,0.776
 Recycled PET,Laptop Box,Electronics,10,29.07,2,87.09,2.39,2.138
 Aluminum,Makeup Box,Cosmetics,8,25.89,2,99.77,4.19,3.519
 Kraft Paper,Oil Container,Automotive,5,7.45,10,92.8,0.6,0.679
-Corrugated Cardboard,Medicine Box,Healthcare,7,14,8,86.86,1.87,0.728
+Corrugated Cardboard,Medicine Box,Healthcare,7,14.0,8,86.86,1.87,0.728
 Corrugated Cardboard,Tile Packaging,Construction,6,18.34,8,89.83,0.9,0.774
 Aluminum,Spare Parts Box,Automotive,10,28.91,1,98.37,5.19,3.534
 Mushroom Packaging,Garment Bag,Textiles,5,15.77,9,62.25,1.44,0.42
@@ -5727,7 +5727,7 @@ Bagasse Fiber,Medicine Box,Healthcare,7,8.22,10,72.26,1.02,0.418
 Glass,Cement Liner Bag,Construction,9,31.29,1,97.01,4.57,1.759
 Glass,Cream Jar,Cosmetics,10,25.61,2,95.82,2.79,1.751
 Mushroom Packaging,Furniture Carton,Furniture,5,10.71,9,70.05,1.42,0.457
-Aluminum,Cosmetic Tube,Cosmetics,10,26.81,1,98.52,3,3.49
+Aluminum,Cosmetic Tube,Cosmetics,10,26.81,1,98.52,3.0,3.49
 Glass,TV Carton,Electronics,9,25.22,2,96.62,5.69,1.785
 Recycled PET,Medical Container,Healthcare,8,23.86,3,93.74,3.55,2.11
 Aluminum,Cement Liner Bag,Construction,9,28.91,2,96.38,3.56,3.498
@@ -5782,12 +5782,12 @@ Glass,Medical Container,Healthcare,9,30.06,2,98.21,2.94,1.788
 Recycled PET,Tablet Blister Pack,Healthcare,9,25.13,2,90.25,3.13,2.015
 Mushroom Packaging,Hardware Container,Construction,7,11.38,10,63.23,2.13,0.359
 Corrugated Cardboard,Tablet Blister Pack,Healthcare,8,20.42,7,85.35,1.39,0.785
-Corrugated Cardboard,Action Figure Pack,Toys,8,23.59,8,87,0.66,0.778
+Corrugated Cardboard,Action Figure Pack,Toys,8,23.59,8,87.0,0.66,0.778
 Corrugated Cardboard,Medical Container,Healthcare,6,19.17,8,81.42,0.53,0.773
 Mushroom Packaging,Protective Box,Home Appliances,6,14.37,10,79.9,3.29,0.477
-Recycled PET,Cosmetic Tube,Cosmetics,8,19,3,90.95,2.17,2.14
+Recycled PET,Cosmetic Tube,Cosmetics,8,19.0,3,90.95,2.17,2.14
 Mushroom Packaging,Appliance Carton,Home Appliances,7,8.88,10,73.08,3.09,0.415
-Glass,Clothing Box,Textiles,10,21.39,2,95.21,6,1.864
+Glass,Clothing Box,Textiles,10,21.39,2,95.21,6.0,1.864
 Bagasse Fiber,Battery Packaging,Automotive,7,14.93,9,82.93,1.16,0.542
 Corrugated Cardboard,Foam Insert Package,Home Appliances,8,13.37,9,83.43,0.9,0.854
 Mushroom Packaging,Toy Box,Toys,6,10.75,10,64.75,2.72,0.457
@@ -5867,7 +5867,7 @@ Bagasse Fiber,Toy Box,Toys,6,14.11,9,80.26,2.02,0.481
 Kraft Paper,Cement Liner Bag,Construction,6,5.55,8,87.44,0.83,0.665
 Glass,Syringe Pack,Healthcare,10,37.54,1,99.7,4.93,1.738
 PLA Bioplastic,Garment Bag,Textiles,6,15.95,6,56.25,1.47,1.192
-PLA Bioplastic,Garment Bag,Textiles,6,10,8,59.34,2.63,1.173
+PLA Bioplastic,Garment Bag,Textiles,6,10.0,8,59.34,2.63,1.173
 PLA Bioplastic,Hardware Container,Construction,8,16.94,7,58.5,2.18,1.222
 Aluminum,Takeaway Container,Food Packaging,10,33.76,1,99.64,3.13,3.512
 Mushroom Packaging,Furniture Carton,Furniture,6,17.19,10,60.93,1.74,0.478
@@ -5892,14 +5892,14 @@ Bagasse Fiber,Furniture Carton,Furniture,7,11.35,9,72.03,1.57,0.52
 Bagasse Fiber,Beverage Bottle,Food Packaging,7,12.53,9,80.37,2.02,0.493
 Glass,Laptop Box,Electronics,10,36.41,1,95.19,4.34,1.846
 Recycled PET,Medicine Box,Healthcare,8,15.08,2,85.07,2.73,2.129
-Kraft Paper,Action Figure Pack,Toys,5,9,10,88.92,0.53,0.696
+Kraft Paper,Action Figure Pack,Toys,5,9.0,10,88.92,0.53,0.696
 Mushroom Packaging,Food Tray,Food Packaging,6,15.49,9,60.53,2.27,0.453
 Bagasse Fiber,Garment Bag,Textiles,7,8.81,10,75.13,1.22,0.475
 Mushroom Packaging,Hardware Container,Construction,6,14.28,10,71.43,3.3,0.383
 Kraft Paper,Perfume Bottle,Cosmetics,5,7.87,10,94.72,0.7,0.662
 Recycled PET,Medicine Box,Healthcare,10,17.23,4,89.02,3.88,2.077
 Recycled PET,Hardware Container,Construction,10,19.13,3,93.07,2.83,2.143
-Mushroom Packaging,Cement Liner Bag,Construction,6,13,10,74.91,2.65,0.388
+Mushroom Packaging,Cement Liner Bag,Construction,6,13.0,10,74.91,2.65,0.388
 Bagasse Fiber,Hardware Container,Construction,7,7.26,9,74.2,1.72,0.473
 Aluminum,Fabric Wrap,Textiles,10,26.68,1,95.99,2.89,3.445
 Bagasse Fiber,Fabric Wrap,Textiles,5,10.76,9,70.74,1.44,0.504
@@ -5949,7 +5949,7 @@ Aluminum,Cream Jar,Cosmetics,9,27.25,1,96.89,3.52,3.578
 Kraft Paper,Appliance Carton,Home Appliances,4,12.07,9,86.72,0.31,0.588
 Glass,Perfume Bottle,Cosmetics,9,32.87,2,99.32,4.72,1.92
 Bagasse Fiber,Battery Packaging,Automotive,6,6.79,10,74.48,2.2,0.404
-Corrugated Cardboard,Garment Bag,Textiles,9,32,9,89.45,0.72,0.789
+Corrugated Cardboard,Garment Bag,Textiles,9,32.0,9,89.45,0.72,0.789
 Corrugated Cardboard,Fabric Wrap,Textiles,6,31.66,8,84.86,0.74,0.785
 Mushroom Packaging,Fabric Wrap,Textiles,6,13.5,9,72.97,3.02,0.325
 Bagasse Fiber,Takeaway Container,Food Packaging,7,7.97,10,72.44,1.85,0.552
@@ -5966,7 +5966,7 @@ PLA Bioplastic,TV Carton,Electronics,6,15.36,8,57.29,2.54,1.066
 Mushroom Packaging,Electronic Blister Pack,Electronics,5,13.9,9,78.27,2.31,0.313
 Recycled PET,Hardware Container,Construction,10,28.48,4,89.95,3.74,2.056
 Corrugated Cardboard,Clothing Box,Textiles,8,30.62,9,87.47,1.86,0.711
-Corrugated Cardboard,Furniture Carton,Furniture,8,30,8,89.33,0.63,0.819
+Corrugated Cardboard,Furniture Carton,Furniture,8,30.0,8,89.33,0.63,0.819
 Glass,Protective Box,Home Appliances,10,34.68,2,99.92,5.75,1.78
 Mushroom Packaging,Tile Packaging,Construction,7,8.4,9,64.69,3.1,0.438
 Kraft Paper,Medicine Box,Healthcare,4,9.53,8,86.02,1.25,0.551
@@ -5976,7 +5976,7 @@ Mushroom Packaging,Foam Insert Package,Home Appliances,7,17.64,10,75.75,3.16,0.3
 Recycled PET,Makeup Box,Cosmetics,8,29.24,3,90.4,2.22,2.108
 PLA Bioplastic,Action Figure Pack,Toys,7,14.86,6,60.4,2.9,1.169
 Mushroom Packaging,Board Game Box,Toys,6,16.62,9,60.9,1.31,0.379
-Aluminum,Board Game Box,Toys,8,30,1,96.4,2.95,3.433
+Aluminum,Board Game Box,Toys,8,30.0,1,96.4,2.95,3.433
 PLA Bioplastic,Furniture Carton,Furniture,9,14.49,8,61.84,2.08,1.247
 Bagasse Fiber,Tile Packaging,Construction,5,14.53,9,81.85,1.78,0.48
 Recycled PET,Toy Box,Toys,8,25.18,2,89.45,3.11,2.171
@@ -5985,7 +5985,7 @@ Glass,Makeup Box,Cosmetics,9,24.94,2,95.24,5.84,1.736
 Mushroom Packaging,Syringe Pack,Healthcare,6,8.46,10,74.76,1.3,0.4
 Corrugated Cardboard,Tile Packaging,Construction,9,22.14,9,85.99,0.71,0.813
 Corrugated Cardboard,Takeaway Container,Food Packaging,9,22.31,8,86.1,0.52,0.787
-PLA Bioplastic,Tablet Blister Pack,Healthcare,6,17.38,8,65,2.13,1.221
+PLA Bioplastic,Tablet Blister Pack,Healthcare,6,17.38,8,65.0,2.13,1.221
 Kraft Paper,Action Figure Pack,Toys,5,10.78,8,89.06,1.42,0.739
 Corrugated Cardboard,Makeup Box,Cosmetics,8,13.69,7,91.56,1.5,0.793
 Glass,Hardware Container,Construction,10,26.47,2,95.65,5.29,1.773
@@ -6014,7 +6014,7 @@ Glass,Action Figure Pack,Toys,9,36.58,1,98.39,5.27,1.739
 PLA Bioplastic,Board Game Box,Toys,8,17.56,8,61.39,2.96,1.215
 Glass,Oil Container,Automotive,9,35.83,1,98.87,4.01,1.77
 Glass,Garment Bag,Textiles,10,39.82,1,96.28,3.82,1.829
-Mushroom Packaging,TV Carton,Electronics,6,14,9,60.13,2.93,0.329
+Mushroom Packaging,TV Carton,Electronics,6,14.0,9,60.13,2.93,0.329
 Bagasse Fiber,Cosmetic Tube,Cosmetics,7,9.54,10,78.78,1.03,0.52
 Aluminum,Makeup Box,Cosmetics,10,27.97,2,97.38,4.14,3.571
 Glass,Cement Liner Bag,Construction,10,34.48,2,97.94,4.18,1.808
@@ -6045,7 +6045,7 @@ Corrugated Cardboard,Cosmetic Tube,Cosmetics,6,29.42,9,86.19,1.14,0.78
 Corrugated Cardboard,Food Tray,Food Packaging,8,30.75,7,80.79,0.74,0.801
 Corrugated Cardboard,TV Carton,Electronics,6,31.11,9,83.53,1.55,0.82
 Bagasse Fiber,Fabric Wrap,Textiles,6,10.51,8,79.04,2.09,0.536
-Recycled PET,Clothing Box,Textiles,9,19.39,4,90,1.76,2.036
+Recycled PET,Clothing Box,Textiles,9,19.39,4,90.0,1.76,2.036
 Aluminum,Cement Liner Bag,Construction,10,28.89,2,97.49,4.02,3.593
 Bagasse Fiber,Foam Insert Package,Home Appliances,6,8.64,10,83.28,2.18,0.471
 Bagasse Fiber,Protective Box,Home Appliances,5,9.78,8,83.93,2.39,0.443
@@ -6055,7 +6055,7 @@ Mushroom Packaging,Tablet Blister Pack,Healthcare,6,11.97,10,60.01,2.43,0.36
 Recycled PET,Mobile Box,Electronics,9,18.68,2,85.14,2.49,2.068
 Kraft Paper,Furniture Carton,Furniture,5,5.39,9,85.85,1.32,0.604
 Recycled PET,Protective Box,Home Appliances,10,15.94,3,89.47,2.73,2.153
-Aluminum,Battery Packaging,Automotive,9,32,1,95.03,3.92,3.458
+Aluminum,Battery Packaging,Automotive,9,32.0,1,95.03,3.92,3.458
 Recycled PET,Board Game Box,Toys,10,24.79,4,94.31,2.73,2.2
 Recycled PET,Foam Insert Package,Home Appliances,9,19.16,2,85.35,3.62,2.057
 Recycled PET,Appliance Carton,Home Appliances,10,29.38,4,93.48,3.58,2.083
@@ -6066,7 +6066,7 @@ Corrugated Cardboard,Foam Insert Package,Home Appliances,7,17.99,7,89.74,1.36,0.
 Mushroom Packaging,Board Game Box,Toys,6,15.53,9,72.28,1.75,0.324
 Corrugated Cardboard,Medicine Box,Healthcare,8,29.98,8,86.31,1.69,0.765
 Glass,Action Figure Pack,Toys,10,36.61,2,96.77,3.95,1.711
-Corrugated Cardboard,Medical Container,Healthcare,6,23.69,7,86.2,1,0.78
+Corrugated Cardboard,Medical Container,Healthcare,6,23.69,7,86.2,1.0,0.78
 Glass,TV Carton,Electronics,9,24.6,2,97.09,2.43,1.797
 Aluminum,Action Figure Pack,Toys,8,34.37,2,95.34,3.22,3.487
 Bagasse Fiber,Laptop Box,Electronics,6,12.68,10,83.44,2.41,0.572
@@ -6105,7 +6105,7 @@ Glass,Tile Packaging,Construction,9,37.1,2,95.82,3.28,1.845
 Kraft Paper,Garment Bag,Textiles,6,9.11,8,94.55,1.39,0.629
 Kraft Paper,Food Tray,Food Packaging,7,12.18,9,90.13,0.45,0.669
 Corrugated Cardboard,Food Tray,Food Packaging,8,25.76,7,87.74,0.77,0.789
-Aluminum,Laptop Box,Electronics,8,31,2,99.7,3.98,3.492
+Aluminum,Laptop Box,Electronics,8,31.0,2,99.7,3.98,3.492
 Corrugated Cardboard,Food Tray,Food Packaging,7,20.75,7,91.69,0.62,0.758
 Mushroom Packaging,Cream Jar,Cosmetics,5,11.77,10,70.09,1.65,0.44
 Corrugated Cardboard,Cosmetic Tube,Cosmetics,6,10.5,7,89.16,1.92,0.675
@@ -6130,7 +6130,7 @@ Corrugated Cardboard,Tile Packaging,Construction,7,14.4,8,87.03,0.95,0.782
 Aluminum,Fabric Wrap,Textiles,8,29.5,1,96.31,2.95,3.494
 Kraft Paper,Toy Box,Toys,4,9.35,9,86.15,0.64,0.616
 Aluminum,Foam Insert Package,Home Appliances,8,27.38,1,95.26,3.63,3.574
-Mushroom Packaging,Cement Liner Bag,Construction,7,9,10,66.97,2.94,0.407
+Mushroom Packaging,Cement Liner Bag,Construction,7,9.0,10,66.97,2.94,0.407
 Mushroom Packaging,Garment Bag,Textiles,6,8.4,9,65.79,2.44,0.387
 Mushroom Packaging,Protective Cushioning Pack,Furniture,7,14.17,10,62.96,1.38,0.356
 Aluminum,Syringe Pack,Healthcare,8,21.15,1,99.95,2.55,3.48
@@ -6227,9 +6227,9 @@ Mushroom Packaging,Cement Liner Bag,Construction,6,12.31,10,71.43,1.44,0.334
 Glass,Food Tray,Food Packaging,10,20.74,1,96.8,4.51,1.908
 Recycled PET,Pizza Box,Food Packaging,10,29.19,2,93.43,1.8,2.097
 PLA Bioplastic,Pizza Box,Food Packaging,8,10.94,8,59.1,2.97,1.216
-Mushroom Packaging,Laptop Box,Electronics,6,15.17,9,71.57,3,0.465
+Mushroom Packaging,Laptop Box,Electronics,6,15.17,9,71.57,3.0,0.465
 Mushroom Packaging,Foam Insert Package,Home Appliances,6,16.46,10,62.31,2.1,0.482
-PLA Bioplastic,Cement Liner Bag,Construction,8,16,7,57.34,2.16,1.163
+PLA Bioplastic,Cement Liner Bag,Construction,8,16.0,7,57.34,2.16,1.163
 Bagasse Fiber,Fabric Wrap,Textiles,7,13.36,8,84.3,2.35,0.53
 Corrugated Cardboard,Battery Packaging,Automotive,7,29.95,9,90.23,1.33,0.789
 Glass,Mobile Box,Electronics,10,22.35,1,98.58,2.7,1.784
@@ -6259,12 +6259,12 @@ Kraft Paper,Tablet Blister Pack,Healthcare,4,14.69,9,88.96,1.04,0.608
 PLA Bioplastic,Medicine Box,Healthcare,6,16.03,8,64.03,2.33,1.19
 Bagasse Fiber,Clothing Box,Textiles,5,13.34,9,72.23,2.22,0.528
 Glass,Appliance Carton,Home Appliances,9,33.87,2,96.54,2.86,1.722
-Bagasse Fiber,Hardware Container,Construction,6,9.17,10,73.27,1,0.408
+Bagasse Fiber,Hardware Container,Construction,6,9.17,10,73.27,1.0,0.408
 Recycled PET,Tablet Blister Pack,Healthcare,10,20.76,3,93.92,3.63,2.052
 Bagasse Fiber,Makeup Box,Cosmetics,6,10.17,8,70.01,1.07,0.572
 Kraft Paper,Protective Cushioning Pack,Furniture,7,6.01,10,94.67,1.47,0.606
 PLA Bioplastic,Food Tray,Food Packaging,9,9.4,8,62.52,2.69,1.246
-Aluminum,Laptop Box,Electronics,10,22.53,1,97.98,4,3.508
+Aluminum,Laptop Box,Electronics,10,22.53,1,97.98,4.0,3.508
 Corrugated Cardboard,Protective Cushioning Pack,Furniture,7,18.07,7,82.33,1.97,0.824
 Glass,Fabric Wrap,Textiles,9,32.37,1,96.73,2.39,1.781
 Glass,Foam Insert Package,Home Appliances,10,22.49,2,98.32,3.21,1.834
@@ -6273,7 +6273,7 @@ Glass,Food Tray,Food Packaging,9,34.09,2,95.6,3.4,1.83
 Glass,Garment Bag,Textiles,9,35.22,1,95.25,5.71,1.727
 Corrugated Cardboard,Spare Parts Box,Automotive,9,23.03,7,85.71,0.6,0.774
 Corrugated Cardboard,Garment Bag,Textiles,9,16.42,8,88.9,1.32,0.746
-Bagasse Fiber,Protective Cushioning Pack,Furniture,6,9.05,10,73,1.8,0.479
+Bagasse Fiber,Protective Cushioning Pack,Furniture,6,9.05,10,73.0,1.8,0.479
 Aluminum,Syringe Pack,Healthcare,10,32.84,1,95.68,4.46,3.435
 Bagasse Fiber,Assembly Kit Box,Furniture,7,7.43,10,74.05,1.23,0.454
 Corrugated Cardboard,Perfume Bottle,Cosmetics,6,16.25,9,84.67,1.05,0.798
@@ -6310,7 +6310,7 @@ Glass,Pizza Box,Food Packaging,9,38.49,2,95.59,3.47,1.773
 Aluminum,Laptop Box,Electronics,10,24.48,1,96.7,4.08,3.465
 Mushroom Packaging,Board Game Box,Toys,6,12.56,9,78.45,3.06,0.388
 Glass,Protective Cushioning Pack,Furniture,9,38.66,1,96.77,3.45,1.713
-Bagasse Fiber,Takeaway Container,Food Packaging,5,7,9,81.59,1.69,0.406
+Bagasse Fiber,Takeaway Container,Food Packaging,5,7.0,9,81.59,1.69,0.406
 Kraft Paper,Foam Insert Package,Home Appliances,6,10.15,8,88.81,1.1,0.635
 Recycled PET,Clothing Box,Textiles,9,16.32,4,87.7,2.17,2.074
 Bagasse Fiber,Medical Container,Healthcare,7,7.12,10,77.53,1.27,0.384
@@ -6364,7 +6364,7 @@ Bagasse Fiber,Fabric Wrap,Textiles,5,8.35,8,84.78,1.59,0.397
 Corrugated Cardboard,Takeaway Container,Food Packaging,9,22.41,7,83.73,0.86,0.729
 Bagasse Fiber,Cream Jar,Cosmetics,6,12.3,10,80.86,1.6,0.524
 PLA Bioplastic,Board Game Box,Toys,8,19.95,6,57.6,1.91,1.18
-Bagasse Fiber,Foam Insert Package,Home Appliances,6,10,10,84.14,1.79,0.461
+Bagasse Fiber,Foam Insert Package,Home Appliances,6,10.0,10,84.14,1.79,0.461
 Kraft Paper,Spare Parts Box,Automotive,4,14.86,8,94.72,0.73,0.584
 Corrugated Cardboard,Fabric Wrap,Textiles,7,26.55,7,80.04,0.75,0.768
 PLA Bioplastic,Cosmetic Tube,Cosmetics,8,17.17,6,62.98,2.01,1.28
@@ -6430,7 +6430,7 @@ Aluminum,Hardware Container,Construction,8,21.96,2,97.94,4.8,3.567
 Corrugated Cardboard,Cosmetic Tube,Cosmetics,6,24.48,7,91.45,0.9,0.749
 Corrugated Cardboard,Food Tray,Food Packaging,8,34.88,9,80.4,1.39,0.773
 Bagasse Fiber,Beverage Bottle,Food Packaging,5,8.13,10,82.34,2.03,0.417
-Kraft Paper,Toy Box,Toys,5,7.23,10,90,1.43,0.553
+Kraft Paper,Toy Box,Toys,5,7.23,10,90.0,1.43,0.553
 Corrugated Cardboard,Appliance Carton,Home Appliances,8,31.24,9,80.57,1.82,0.827
 Corrugated Cardboard,Oil Container,Automotive,6,19.14,9,89.09,1.27,0.812
 Kraft Paper,Furniture Carton,Furniture,5,10.8,8,85.49,1.23,0.61
@@ -6460,7 +6460,7 @@ Corrugated Cardboard,Tile Packaging,Construction,9,31.97,9,81.1,1.11,0.874
 Corrugated Cardboard,Appliance Carton,Home Appliances,9,19.98,9,82.03,0.56,0.73
 Bagasse Fiber,Action Figure Pack,Toys,7,14.05,8,73.74,1.39,0.463
 Aluminum,Tile Packaging,Construction,9,31.67,2,96.63,3.3,3.459
-Corrugated Cardboard,Takeaway Container,Food Packaging,6,23.92,9,84,1.53,0.838
+Corrugated Cardboard,Takeaway Container,Food Packaging,6,23.92,9,84.0,1.53,0.838
 Kraft Paper,Perfume Bottle,Cosmetics,5,11.76,10,90.98,1.44,0.624
 Glass,Assembly Kit Box,Furniture,9,39.03,2,96.48,3.07,1.852
 Bagasse Fiber,Medical Container,Healthcare,6,12.67,10,78.05,2.18,0.431
@@ -6476,20 +6476,20 @@ Aluminum,Cosmetic Tube,Cosmetics,9,30.84,1,97.55,5.41,3.426
 Corrugated Cardboard,Appliance Carton,Home Appliances,6,28.81,7,84.34,1.57,0.81
 Kraft Paper,TV Carton,Electronics,7,14.86,10,92.62,1.41,0.579
 Kraft Paper,Electronic Blister Pack,Electronics,7,10.72,9,89.97,0.92,0.683
-Bagasse Fiber,Perfume Bottle,Cosmetics,7,6.21,8,84.77,1,0.515
+Bagasse Fiber,Perfume Bottle,Cosmetics,7,6.21,8,84.77,1.0,0.515
 Kraft Paper,Food Tray,Food Packaging,4,7.62,10,91.74,0.93,0.533
 Mushroom Packaging,Cosmetic Tube,Cosmetics,7,17.16,10,78.96,1.49,0.426
 Glass,Garment Bag,Textiles,10,27.1,1,98.8,4.37,1.726
-Recycled PET,Oil Container,Automotive,10,19.75,2,86,2.71,2.038
+Recycled PET,Oil Container,Automotive,10,19.75,2,86.0,2.71,2.038
 Aluminum,Garment Bag,Textiles,10,34.97,1,95.38,4.37,3.486
 Mushroom Packaging,Mobile Box,Electronics,5,13.91,10,64.36,1.22,0.426
 Corrugated Cardboard,Cement Liner Bag,Construction,9,17.07,8,88.15,0.79,0.808
-Recycled PET,Fabric Wrap,Textiles,8,28,3,85.44,2.73,2.098
+Recycled PET,Fabric Wrap,Textiles,8,28.0,3,85.44,2.73,2.098
 Bagasse Fiber,Laptop Box,Electronics,7,8.6,10,83.49,2.42,0.461
 Aluminum,Board Game Box,Toys,8,29.35,1,97.87,3.65,3.471
 PLA Bioplastic,Clothing Box,Textiles,8,12.99,8,52.1,1.85,1.206
 PLA Bioplastic,Hardware Container,Construction,6,16.22,8,61.13,2.43,1.183
-Corrugated Cardboard,Hardware Container,Construction,9,26,7,80.12,1.41,0.847
+Corrugated Cardboard,Hardware Container,Construction,9,26.0,7,80.12,1.41,0.847
 Bagasse Fiber,Hardware Container,Construction,5,6.32,10,73.6,1.31,0.493
 Glass,Beverage Bottle,Food Packaging,10,31.28,1,97.16,3.64,1.875
 Aluminum,Hardware Container,Construction,9,31.01,1,98.49,3.15,3.528
@@ -6498,8 +6498,8 @@ Bagasse Fiber,Tablet Blister Pack,Healthcare,7,9.52,9,75.84,1.02,0.496
 Recycled PET,Beverage Bottle,Food Packaging,8,16.46,4,88.05,2.43,2.152
 Mushroom Packaging,Battery Packaging,Automotive,6,11.06,9,79.95,1.26,0.393
 Corrugated Cardboard,Tile Packaging,Construction,9,13.91,9,89.41,0.83,0.802
-Mushroom Packaging,Protective Cushioning Pack,Furniture,7,10.63,10,72.58,3,0.336
-Recycled PET,Cosmetic Tube,Cosmetics,10,22.05,4,94.58,2,2.079
+Mushroom Packaging,Protective Cushioning Pack,Furniture,7,10.63,10,72.58,3.0,0.336
+Recycled PET,Cosmetic Tube,Cosmetics,10,22.05,4,94.58,2.0,2.079
 Mushroom Packaging,Action Figure Pack,Toys,7,10.53,10,72.87,1.38,0.447
 Mushroom Packaging,Clothing Box,Textiles,5,12.27,9,75.96,2.29,0.439
 Aluminum,Fabric Wrap,Textiles,10,34.67,1,98.5,2.53,3.442
@@ -6519,12 +6519,12 @@ Kraft Paper,Clothing Box,Textiles,6,14.7,8,85.4,1.31,0.578
 Recycled PET,Protective Box,Home Appliances,9,29.14,2,88.93,3.32,2.109
 Aluminum,Fabric Wrap,Textiles,10,23.65,2,95.54,5.44,3.541
 Kraft Paper,Pizza Box,Food Packaging,4,9.94,10,91.32,0.49,0.696
-Bagasse Fiber,Furniture Carton,Furniture,7,10.47,9,85,1.18,0.463
+Bagasse Fiber,Furniture Carton,Furniture,7,10.47,9,85.0,1.18,0.463
 Corrugated Cardboard,Appliance Carton,Home Appliances,6,20.09,9,87.95,0.82,0.817
 PLA Bioplastic,Oil Container,Automotive,9,17.25,7,52.17,2.59,1.205
 Glass,Foam Insert Package,Home Appliances,10,22.02,2,96.39,2.75,1.749
 Recycled PET,Spare Parts Box,Automotive,8,20.99,3,88.7,1.67,2.099
-PLA Bioplastic,Medicine Box,Healthcare,9,17.38,6,53.48,3,1.225
+PLA Bioplastic,Medicine Box,Healthcare,9,17.38,6,53.48,3.0,1.225
 Bagasse Fiber,Pizza Box,Food Packaging,6,10.72,10,79.88,0.84,0.45
 Glass,Syringe Pack,Healthcare,9,20.98,1,95.23,5.34,1.76
 Aluminum,Furniture Carton,Furniture,9,34.25,2,96.45,3.6,3.484
@@ -6777,7 +6777,7 @@ Glass,Action Figure Pack,Toys,10,21.2,2,95.15,3.72,1.74
 Glass,Takeaway Container,Food Packaging,10,32.64,1,97.35,3.15,1.826
 PLA Bioplastic,Fabric Wrap,Textiles,7,15.81,6,66.03,2.47,1.254
 Glass,Board Game Box,Toys,9,38.07,2,96.96,3.81,1.846
-Kraft Paper,Oil Container,Automotive,5,13,9,87.16,1.49,0.548
+Kraft Paper,Oil Container,Automotive,5,13.0,9,87.16,1.49,0.548
 PLA Bioplastic,TV Carton,Electronics,8,19.21,7,69.18,1.11,1.138
 Mushroom Packaging,Perfume Bottle,Cosmetics,5,16.9,10,78.42,2.02,0.343
 Kraft Paper,Furniture Carton,Furniture,5,13.49,8,93.55,0.88,0.593
@@ -6891,11 +6891,11 @@ Glass,Oil Container,Automotive,10,36.33,2,96.16,2.6,1.639
 Recycled PET,Mobile Box,Electronics,10,29.73,2,90.23,2.77,2.11
 PLA Bioplastic,Takeaway Container,Food Packaging,7,16.05,7,53.24,1.92,1.173
 Kraft Paper,Tablet Blister Pack,Healthcare,6,13.58,9,91.28,1.38,0.643
-Aluminum,Hardware Container,Construction,9,27.02,1,100,5.29,3.528
+Aluminum,Hardware Container,Construction,9,27.02,1,100.0,5.29,3.528
 Mushroom Packaging,Action Figure Pack,Toys,7,10.3,9,66.71,2.08,0.399
 Bagasse Fiber,Oil Container,Automotive,7,11.38,9,81.4,1.64,0.526
 Mushroom Packaging,TV Carton,Electronics,7,10.88,10,79.89,3.26,0.436
-PLA Bioplastic,Food Tray,Food Packaging,6,19.46,6,50,2.61,1.247
+PLA Bioplastic,Food Tray,Food Packaging,6,19.46,6,50.0,2.61,1.247
 Mushroom Packaging,Furniture Carton,Furniture,5,17.66,9,60.12,1.21,0.445
 Mushroom Packaging,Cosmetic Tube,Cosmetics,5,9.03,9,70.41,1.94,0.357
 Kraft Paper,Medicine Box,Healthcare,6,10.72,8,87.2,0.81,0.644
@@ -6920,7 +6920,7 @@ Kraft Paper,Cosmetic Tube,Cosmetics,6,10.19,10,92.08,1.39,0.614
 PLA Bioplastic,Electronic Blister Pack,Electronics,8,15.12,6,57.09,2.23,1.168
 Recycled PET,Food Tray,Food Packaging,10,23.39,4,91.81,2.53,2.119
 Corrugated Cardboard,TV Carton,Electronics,7,13.87,7,80.27,1.9,0.784
-PLA Bioplastic,Fabric Wrap,Textiles,6,11,6,58.56,1.1,1.122
+PLA Bioplastic,Fabric Wrap,Textiles,6,11.0,6,58.56,1.1,1.122
 Aluminum,Mobile Box,Electronics,10,25.9,1,98.85,3.13,3.465
 Glass,TV Carton,Electronics,9,33.5,2,97.36,4.26,1.787
 Corrugated Cardboard,Garment Bag,Textiles,8,30.01,7,81.23,1.42,0.734
@@ -6938,7 +6938,7 @@ Corrugated Cardboard,Foam Insert Package,Home Appliances,8,20.86,7,90.96,1.21,0.
 Aluminum,Tablet Blister Pack,Healthcare,10,25.88,1,99.62,3.45,3.479
 Corrugated Cardboard,Appliance Carton,Home Appliances,7,21.81,9,86.37,1.65,0.886
 Corrugated Cardboard,Makeup Box,Cosmetics,6,26.69,9,85.22,1.25,0.835
-Recycled PET,Protective Box,Home Appliances,9,19,4,90.6,2.28,2.103
+Recycled PET,Protective Box,Home Appliances,9,19.0,4,90.6,2.28,2.103
 Mushroom Packaging,Battery Packaging,Automotive,7,12.89,9,64.24,3.07,0.384
 Aluminum,Cement Liner Bag,Construction,8,31.48,1,95.91,5.1,3.42
 Mushroom Packaging,Electronic Blister Pack,Electronics,6,14.06,10,73.87,2.75,0.365
@@ -6990,7 +6990,7 @@ Kraft Paper,Tablet Blister Pack,Healthcare,6,10.52,8,85.96,0.86,0.656
 Mushroom Packaging,Assembly Kit Box,Furniture,7,16.44,10,67.59,1.56,0.373
 Corrugated Cardboard,Toy Box,Toys,6,16.88,8,83.94,0.55,0.75
 Mushroom Packaging,Fabric Wrap,Textiles,5,14.29,9,77.1,3.38,0.434
-Recycled PET,Appliance Carton,Home Appliances,10,28,3,91.8,2.1,2.149
+Recycled PET,Appliance Carton,Home Appliances,10,28.0,3,91.8,2.1,2.149
 Kraft Paper,Tile Packaging,Construction,5,8.3,8,88.19,0.59,0.578
 Glass,Furniture Carton,Furniture,9,22.97,2,97.78,2.33,1.87
 Corrugated Cardboard,Mobile Box,Electronics,7,11.48,8,85.84,1.89,0.865
@@ -7100,7 +7100,7 @@ Bagasse Fiber,Pizza Box,Food Packaging,7,12.45,10,75.59,0.87,0.457
 Bagasse Fiber,Medical Container,Healthcare,5,9.12,9,82.99,1.2,0.534
 Recycled PET,Perfume Bottle,Cosmetics,10,16.73,4,87.37,3.72,2.075
 Recycled PET,Mobile Box,Electronics,9,19.79,4,86.68,1.52,2.181
-Recycled PET,Fabric Wrap,Textiles,9,20.66,3,91.45,2,2.018
+Recycled PET,Fabric Wrap,Textiles,9,20.66,3,91.45,2.0,2.018
 Aluminum,Action Figure Pack,Toys,8,23.42,2,97.88,5.38,3.42
 Bagasse Fiber,Perfume Bottle,Cosmetics,6,7.65,8,76.33,1.84,0.525
 PLA Bioplastic,Clothing Box,Textiles,8,19.09,6,57.07,1.52,1.17
@@ -7202,7 +7202,7 @@ Recycled PET,Fabric Wrap,Textiles,8,23.34,3,90.38,3.87,2.129
 PLA Bioplastic,Medical Container,Healthcare,9,16.49,7,62.35,1.74,1.229
 Mushroom Packaging,Furniture Carton,Furniture,6,12.2,10,66.18,1.51,0.411
 Corrugated Cardboard,Electronic Blister Pack,Electronics,9,24.64,9,90.06,1.28,0.806
-Aluminum,Foam Insert Package,Home Appliances,10,28,1,96.89,2.84,3.532
+Aluminum,Foam Insert Package,Home Appliances,10,28.0,1,96.89,2.84,3.532
 Aluminum,Spare Parts Box,Automotive,8,22.49,2,98.27,5.3,3.528
 Kraft Paper,Assembly Kit Box,Furniture,4,7.34,9,90.1,0.52,0.593
 Recycled PET,Cosmetic Tube,Cosmetics,8,21.18,3,93.98,2.13,2.129
@@ -7359,7 +7359,7 @@ Bagasse Fiber,Spare Parts Box,Automotive,6,12.19,9,73.4,2.47,0.628
 Mushroom Packaging,Fabric Wrap,Textiles,7,9.5,9,75.81,3.38,0.357
 PLA Bioplastic,Action Figure Pack,Toys,7,11.46,8,54.65,1.39,1.167
 PLA Bioplastic,Cement Liner Bag,Construction,8,17.53,8,62.92,2.75,1.2
-Bagasse Fiber,TV Carton,Electronics,5,7.99,9,72.59,2,0.499
+Bagasse Fiber,TV Carton,Electronics,5,7.99,9,72.59,2.0,0.499
 Recycled PET,Garment Bag,Textiles,9,15.96,3,93.93,2.63,2.093
 Corrugated Cardboard,Oil Container,Automotive,6,15.98,7,83.15,1.31,0.844
 Corrugated Cardboard,Cement Liner Bag,Construction,8,10.32,7,82.69,1.77,0.724
@@ -7454,7 +7454,7 @@ Bagasse Fiber,Protective Box,Home Appliances,6,6.37,9,78.13,1.54,0.51
 Recycled PET,Food Tray,Food Packaging,9,21.98,2,87.06,2.17,2.092
 PLA Bioplastic,Tablet Blister Pack,Healthcare,8,17.67,8,66.09,2.21,1.174
 Corrugated Cardboard,Laptop Box,Electronics,6,33.04,9,90.34,1.81,0.767
-Glass,Medical Container,Healthcare,9,31.43,2,97.39,6,1.816
+Glass,Medical Container,Healthcare,9,31.43,2,97.39,6.0,1.816
 PLA Bioplastic,Fabric Wrap,Textiles,6,16.97,6,60.59,2.22,1.236
 Aluminum,Cosmetic Tube,Cosmetics,10,25.41,1,99.67,3.71,3.54
 Glass,Cement Liner Bag,Construction,9,30.41,1,99.69,2.9,1.833
@@ -7511,7 +7511,7 @@ Glass,Medicine Box,Healthcare,10,28.81,2,98.75,4.43,1.761
 Corrugated Cardboard,Assembly Kit Box,Furniture,8,11.58,7,85.91,1.9,0.756
 Glass,Food Tray,Food Packaging,10,38.89,1,98.79,5.35,1.722
 Corrugated Cardboard,Oil Container,Automotive,9,14.3,9,89.14,1.99,0.771
-Recycled PET,Medical Container,Healthcare,8,15.71,3,91,1.56,2.058
+Recycled PET,Medical Container,Healthcare,8,15.71,3,91.0,1.56,2.058
 Aluminum,Foam Insert Package,Home Appliances,8,21.2,1,96.18,2.84,3.565
 Bagasse Fiber,Appliance Carton,Home Appliances,5,7.35,9,73.41,1.84,0.422
 Recycled PET,Battery Packaging,Automotive,8,15.52,4,93.11,3.55,2.119
@@ -7532,18 +7532,18 @@ Recycled PET,Medical Container,Healthcare,8,25.47,4,93.92,2.15,2.1
 Aluminum,Spare Parts Box,Automotive,8,34.3,2,97.77,2.75,3.543
 Mushroom Packaging,Assembly Kit Box,Furniture,5,14.75,9,76.55,1.47,0.416
 Glass,Medical Container,Healthcare,9,26.08,2,95.68,2.9,1.756
-Aluminum,Protective Cushioning Pack,Furniture,9,30.01,2,97.05,4,3.492
+Aluminum,Protective Cushioning Pack,Furniture,9,30.01,2,97.05,4.0,3.492
 Aluminum,Tablet Blister Pack,Healthcare,9,27.52,1,99.98,5.02,3.459
 Recycled PET,Pizza Box,Food Packaging,9,19.28,2,91.09,3.25,2.14
 Glass,Syringe Pack,Healthcare,10,37.44,1,97.02,5.16,1.725
 Recycled PET,Electronic Blister Pack,Electronics,8,20.36,4,92.57,2.38,2.113
 PLA Bioplastic,Toy Box,Toys,8,14.88,6,53.19,1.81,1.228
-Glass,Action Figure Pack,Toys,10,29.79,2,97,3.57,1.697
+Glass,Action Figure Pack,Toys,10,29.79,2,97.0,3.57,1.697
 Corrugated Cardboard,Medical Container,Healthcare,8,13.04,9,85.19,0.79,0.717
 Glass,Appliance Carton,Home Appliances,10,36.42,1,97.11,2.24,1.83
 Kraft Paper,Electronic Blister Pack,Electronics,7,7.05,10,93.86,1.01,0.654
 Bagasse Fiber,Tile Packaging,Construction,7,14.85,10,82.64,2.48,0.414
-Aluminum,Tablet Blister Pack,Healthcare,9,34.82,2,98.2,3,3.521
+Aluminum,Tablet Blister Pack,Healthcare,9,34.82,2,98.2,3.0,3.521
 PLA Bioplastic,Syringe Pack,Healthcare,6,16.07,8,60.2,1.09,1.201
 Mushroom Packaging,Cement Liner Bag,Construction,6,14.46,10,63.64,2.99,0.336
 Glass,Garment Bag,Textiles,9,39.71,2,98.26,3.01,1.734
@@ -7578,7 +7578,7 @@ Bagasse Fiber,Garment Bag,Textiles,6,10.74,10,76.98,1.09,0.522
 Recycled PET,Tile Packaging,Construction,8,20.28,3,89.29,2.95,2.044
 Glass,Foam Insert Package,Home Appliances,9,31.57,1,98.68,4.86,1.804
 Corrugated Cardboard,Board Game Box,Toys,6,26.79,7,81.44,1.87,0.862
-Recycled PET,Board Game Box,Toys,10,20.06,4,91,3.26,2.055
+Recycled PET,Board Game Box,Toys,10,20.06,4,91.0,3.26,2.055
 Glass,Spare Parts Box,Automotive,10,38.43,1,98.2,4.69,1.757
 Mushroom Packaging,Assembly Kit Box,Furniture,7,14.54,10,73.92,2.11,0.348
 Aluminum,Hardware Container,Construction,10,20.47,1,98.03,2.5,3.53
@@ -7592,12 +7592,12 @@ Glass,Garment Bag,Textiles,10,25.39,1,96.01,2.3,1.745
 PLA Bioplastic,Medicine Box,Healthcare,8,12.49,7,52.04,1.38,1.189
 Glass,Appliance Carton,Home Appliances,10,20.34,2,95.17,5.36,1.77
 Corrugated Cardboard,Mobile Box,Electronics,9,27.44,7,85.89,1.59,0.798
-Glass,Spare Parts Box,Automotive,9,22,2,95.79,5.58,1.748
-Bagasse Fiber,Tile Packaging,Construction,6,7.03,8,74.74,1,0.517
+Glass,Spare Parts Box,Automotive,9,22.0,2,95.79,5.58,1.748
+Bagasse Fiber,Tile Packaging,Construction,6,7.03,8,74.74,1.0,0.517
 Bagasse Fiber,Oil Container,Automotive,6,9.01,10,84.07,2.48,0.533
 Bagasse Fiber,Clothing Box,Textiles,6,14.23,8,81.43,1.16,0.6
 Corrugated Cardboard,Takeaway Container,Food Packaging,9,30.52,8,81.41,0.52,0.838
-Corrugated Cardboard,Spare Parts Box,Automotive,7,29.85,7,82.33,2,0.71
+Corrugated Cardboard,Spare Parts Box,Automotive,7,29.85,7,82.33,2.0,0.71
 Recycled PET,Spare Parts Box,Automotive,9,16.11,3,87.97,2.2,2.047
 Bagasse Fiber,Furniture Carton,Furniture,5,10.83,8,75.59,1.94,0.458
 Corrugated Cardboard,Cream Jar,Cosmetics,7,29.98,9,84.23,0.77,0.827
@@ -7616,7 +7616,7 @@ Recycled PET,Garment Bag,Textiles,8,19.89,4,92.19,2.49,2.096
 PLA Bioplastic,Hardware Container,Construction,7,12.42,6,63.83,1.49,1.225
 Kraft Paper,Appliance Carton,Home Appliances,5,12.01,9,88.05,0.84,0.625
 Recycled PET,Protective Cushioning Pack,Furniture,8,27.52,4,88.65,2.3,2.034
-Recycled PET,Takeaway Container,Food Packaging,9,22.46,4,91,3.36,2.115
+Recycled PET,Takeaway Container,Food Packaging,9,22.46,4,91.0,3.36,2.115
 Kraft Paper,Battery Packaging,Automotive,4,7.27,8,88.87,1.47,0.596
 Mushroom Packaging,Mobile Box,Electronics,7,12.69,9,75.78,2.21,0.396
 Aluminum,Perfume Bottle,Cosmetics,8,34.44,2,98.07,5.08,3.481
@@ -7640,7 +7640,7 @@ Glass,Foam Insert Package,Home Appliances,9,38.82,1,99.95,4.49,1.847
 Aluminum,Pizza Box,Food Packaging,8,22.66,2,98.43,2.67,3.508
 PLA Bioplastic,Medicine Box,Healthcare,7,17.87,6,51.09,1.05,1.124
 PLA Bioplastic,Battery Packaging,Automotive,7,19.76,7,66.25,1.9,1.239
-PLA Bioplastic,Oil Container,Automotive,8,15,7,60.97,1.67,1.275
+PLA Bioplastic,Oil Container,Automotive,8,15.0,7,60.97,1.67,1.275
 Kraft Paper,Protective Box,Home Appliances,4,7.67,10,93.24,0.83,0.512
 Corrugated Cardboard,Action Figure Pack,Toys,9,28.72,9,85.01,0.89,0.873
 Glass,Perfume Bottle,Cosmetics,10,32.56,2,97.89,2.66,1.772
@@ -7662,7 +7662,7 @@ Bagasse Fiber,Takeaway Container,Food Packaging,6,10.2,8,70.3,1.89,0.47
 Bagasse Fiber,Cream Jar,Cosmetics,5,6.82,9,78.98,0.87,0.509
 Mushroom Packaging,Syringe Pack,Healthcare,6,14.65,10,70.19,2.63,0.295
 Corrugated Cardboard,Hardware Container,Construction,7,27.92,9,80.05,1.67,0.779
-Glass,Cream Jar,Cosmetics,10,28.06,2,96.35,4,1.827
+Glass,Cream Jar,Cosmetics,10,28.06,2,96.35,4.0,1.827
 Corrugated Cardboard,Laptop Box,Electronics,8,20.16,8,83.08,1.04,0.82
 Corrugated Cardboard,Action Figure Pack,Toys,6,31.59,9,84.1,0.92,0.782
 Corrugated Cardboard,Cosmetic Tube,Cosmetics,9,33.19,7,91.58,1.46,0.752
@@ -7721,7 +7721,7 @@ Kraft Paper,Tablet Blister Pack,Healthcare,5,14.21,8,88.37,0.81,0.529
 Glass,Clothing Box,Textiles,10,20.69,1,99.02,5.94,1.746
 Glass,Action Figure Pack,Toys,9,38.54,2,96.97,4.22,1.877
 PLA Bioplastic,Oil Container,Automotive,6,18.22,6,54.3,2.86,1.235
-Mushroom Packaging,Battery Packaging,Automotive,7,8,9,76.66,1.21,0.3
+Mushroom Packaging,Battery Packaging,Automotive,7,8.0,9,76.66,1.21,0.3
 Recycled PET,Foam Insert Package,Home Appliances,9,16.86,4,88.46,3.37,2.148
 Kraft Paper,Toy Box,Toys,7,11.77,10,92.54,1.38,0.663
 Corrugated Cardboard,Syringe Pack,Healthcare,8,22.07,7,86.22,0.71,0.753
@@ -7731,7 +7731,7 @@ Corrugated Cardboard,Appliance Carton,Home Appliances,7,24.02,9,83.83,1.9,0.806
 PLA Bioplastic,Appliance Carton,Home Appliances,9,13.86,8,57.56,2.08,1.298
 Kraft Paper,Appliance Carton,Home Appliances,6,7.71,10,89.73,0.93,0.636
 PLA Bioplastic,Makeup Box,Cosmetics,7,10.98,8,55.17,1.28,1.189
-PLA Bioplastic,Furniture Carton,Furniture,8,8.28,6,63.21,1,1.233
+PLA Bioplastic,Furniture Carton,Furniture,8,8.28,6,63.21,1.0,1.233
 Glass,Foam Insert Package,Home Appliances,10,27.49,1,95.98,5.24,1.77
 Mushroom Packaging,Cement Liner Bag,Construction,5,12.25,9,77.19,1.4,0.443
 Kraft Paper,Takeaway Container,Food Packaging,7,5.51,8,90.56,1.06,0.615
@@ -7768,13 +7768,13 @@ PLA Bioplastic,Board Game Box,Toys,8,12.22,7,56.06,2.25,1.265
 Corrugated Cardboard,Battery Packaging,Automotive,7,33.7,8,87.98,0.92,0.778
 Glass,Tablet Blister Pack,Healthcare,9,23.68,2,99.03,3.51,1.811
 Glass,Spare Parts Box,Automotive,10,27.79,1,98.8,2.41,1.781
-PLA Bioplastic,Hardware Container,Construction,6,17.06,7,60,2.44,1.165
+PLA Bioplastic,Hardware Container,Construction,6,17.06,7,60.0,2.44,1.165
 Recycled PET,Beverage Bottle,Food Packaging,9,22.24,2,86.13,2.76,2.11
 Mushroom Packaging,Battery Packaging,Automotive,7,17.32,9,69.67,2.83,0.372
 Mushroom Packaging,Protective Box,Home Appliances,7,16.92,9,74.92,1.77,0.388
 Recycled PET,Medical Container,Healthcare,8,21.32,4,91.72,2.31,2.02
 Kraft Paper,Fabric Wrap,Textiles,5,10.64,8,89.86,0.7,0.604
-Kraft Paper,Appliance Carton,Home Appliances,4,13.54,10,88,0.33,0.65
+Kraft Paper,Appliance Carton,Home Appliances,4,13.54,10,88.0,0.33,0.65
 Mushroom Packaging,Cement Liner Bag,Construction,6,16.24,9,65.4,1.98,0.445
 Corrugated Cardboard,Toy Box,Toys,9,22.37,9,87.89,1.7,0.812
 Aluminum,Clothing Box,Textiles,8,29.51,1,95.96,5.19,3.443
@@ -7794,7 +7794,7 @@ Recycled PET,Oil Container,Automotive,9,28.63,2,85.22,2.05,2.077
 Aluminum,Action Figure Pack,Toys,8,29.39,1,95.08,3.79,3.531
 Mushroom Packaging,Medical Container,Healthcare,5,9.85,10,72.22,2.7,0.315
 Bagasse Fiber,Battery Packaging,Automotive,5,10.48,9,71.01,2.04,0.482
-PLA Bioplastic,Protective Cushioning Pack,Furniture,6,16.61,8,69.48,1,1.144
+PLA Bioplastic,Protective Cushioning Pack,Furniture,6,16.61,8,69.48,1.0,1.144
 Bagasse Fiber,Furniture Carton,Furniture,7,14.05,10,72.67,2.39,0.44
 Kraft Paper,Tablet Blister Pack,Healthcare,5,6.45,10,88.65,0.5,0.565
 Bagasse Fiber,Toy Box,Toys,7,14.64,10,72.41,1.2,0.549
@@ -7803,7 +7803,7 @@ Glass,Cement Liner Bag,Construction,10,29.72,2,98.79,2.15,1.79
 Corrugated Cardboard,Medical Container,Healthcare,8,19.39,9,86.27,0.68,0.85
 Aluminum,Tile Packaging,Construction,8,20.57,1,99.46,5.46,3.431
 Mushroom Packaging,Board Game Box,Toys,7,17.27,10,71.35,1.92,0.399
-Bagasse Fiber,Tile Packaging,Construction,6,12.72,10,77.09,1,0.519
+Bagasse Fiber,Tile Packaging,Construction,6,12.72,10,77.09,1.0,0.519
 Aluminum,Electronic Blister Pack,Electronics,10,34.91,1,99.68,2.82,3.527
 Recycled PET,Cement Liner Bag,Construction,9,27.44,4,91.12,3.3,2.033
 Bagasse Fiber,Electronic Blister Pack,Electronics,6,7.62,10,80.72,2.25,0.558
@@ -7816,7 +7816,7 @@ Aluminum,Tablet Blister Pack,Healthcare,9,31.53,2,96.09,3.79,3.454
 Corrugated Cardboard,Electronic Blister Pack,Electronics,6,28.82,7,80.41,0.84,0.784
 Glass,Laptop Box,Electronics,10,24.3,1,98.9,4.06,1.78
 Glass,Cement Liner Bag,Construction,9,31.87,1,97.38,3.01,1.745
-Kraft Paper,Makeup Box,Cosmetics,5,8,8,94.05,1.43,0.605
+Kraft Paper,Makeup Box,Cosmetics,5,8.0,8,94.05,1.43,0.605
 Mushroom Packaging,Syringe Pack,Healthcare,6,12.27,9,63.84,3.28,0.39
 Mushroom Packaging,Spare Parts Box,Automotive,6,13.65,9,75.59,2.5,0.464
 Corrugated Cardboard,Tablet Blister Pack,Healthcare,9,33.69,9,90.74,1.03,0.776
@@ -7847,7 +7847,7 @@ Recycled PET,Appliance Carton,Home Appliances,8,19.51,2,87.88,3.55,2.094
 Mushroom Packaging,Syringe Pack,Healthcare,6,16.61,10,76.63,2.61,0.356
 Mushroom Packaging,Cream Jar,Cosmetics,5,8.35,9,70.59,3.11,0.455
 Corrugated Cardboard,Makeup Box,Cosmetics,6,27.27,9,82.77,1.24,0.743
-Bagasse Fiber,Clothing Box,Textiles,6,8.13,8,76.37,1,0.475
+Bagasse Fiber,Clothing Box,Textiles,6,8.13,8,76.37,1.0,0.475
 Bagasse Fiber,Foam Insert Package,Home Appliances,6,9.44,9,82.13,0.82,0.541
 Corrugated Cardboard,Garment Bag,Textiles,8,26.97,9,80.79,0.95,0.782
 Recycled PET,Electronic Blister Pack,Electronics,10,21.8,3,86.73,3.24,2.148
@@ -7858,11 +7858,11 @@ Aluminum,Assembly Kit Box,Furniture,8,34.25,1,96.37,3.76,3.502
 Recycled PET,Tile Packaging,Construction,8,22.94,4,93.42,2.53,2.173
 Bagasse Fiber,Hardware Container,Construction,7,14.74,10,75.26,1.19,0.554
 Kraft Paper,Cosmetic Tube,Cosmetics,6,14.61,10,92.38,0.46,0.596
-Kraft Paper,Food Tray,Food Packaging,4,8.16,10,90,0.54,0.531
+Kraft Paper,Food Tray,Food Packaging,4,8.16,10,90.0,0.54,0.531
 Corrugated Cardboard,Perfume Bottle,Cosmetics,8,17.32,9,85.67,0.58,0.896
 Glass,Protective Box,Home Appliances,10,38.7,2,98.34,2.79,1.817
 PLA Bioplastic,Fabric Wrap,Textiles,8,15.17,8,53.92,1.02,1.138
-Glass,Furniture Carton,Furniture,10,26.83,1,98,4.51,1.8
+Glass,Furniture Carton,Furniture,10,26.83,1,98.0,4.51,1.8
 Kraft Paper,Tablet Blister Pack,Healthcare,4,9.02,8,88.97,0.68,0.597
 Bagasse Fiber,Toy Box,Toys,6,10.05,10,78.99,2.45,0.466
 Corrugated Cardboard,Tile Packaging,Construction,6,25.71,7,91.27,0.79,0.776
@@ -7921,7 +7921,7 @@ Recycled PET,Medical Container,Healthcare,8,15.21,2,88.95,1.78,2.051
 Corrugated Cardboard,Tile Packaging,Construction,7,28.25,7,91.38,1.12,0.807
 Aluminum,Fabric Wrap,Textiles,10,29.91,2,97.12,4.44,3.572
 Glass,Takeaway Container,Food Packaging,9,21.39,1,97.13,4.85,1.669
-Bagasse Fiber,Pizza Box,Food Packaging,7,7.04,9,78,1.1,0.495
+Bagasse Fiber,Pizza Box,Food Packaging,7,7.04,9,78.0,1.1,0.495
 Corrugated Cardboard,Garment Bag,Textiles,9,23.96,7,85.41,0.62,0.831
 Kraft Paper,Takeaway Container,Food Packaging,4,8.18,8,89.34,1.43,0.65
 PLA Bioplastic,Syringe Pack,Healthcare,6,18.94,8,57.11,1.52,1.238
@@ -8042,7 +8042,7 @@ Bagasse Fiber,Board Game Box,Toys,5,13.97,9,80.78,2.45,0.475
 Corrugated Cardboard,Hardware Container,Construction,7,21.28,9,84.62,1.97,0.76
 Recycled PET,Action Figure Pack,Toys,8,20.59,3,85.44,2.17,2.144
 Bagasse Fiber,Protective Box,Home Appliances,6,7.2,10,79.94,0.87,0.521
-Bagasse Fiber,Tile Packaging,Construction,7,9.76,9,75.18,2,0.534
+Bagasse Fiber,Tile Packaging,Construction,7,9.76,9,75.18,2.0,0.534
 Kraft Paper,Fabric Wrap,Textiles,4,6.19,10,90.88,0.84,0.561
 Bagasse Fiber,Cream Jar,Cosmetics,5,11.02,9,82.45,0.97,0.343
 Aluminum,Oil Container,Automotive,8,31.88,2,97.17,4.62,3.391
@@ -8066,15 +8066,15 @@ PLA Bioplastic,Board Game Box,Toys,6,12.51,7,60.6,1.34,1.215
 Glass,Cosmetic Tube,Cosmetics,9,37.69,1,98.5,5.86,1.795
 Recycled PET,Fabric Wrap,Textiles,10,20.3,2,89.7,1.54,2.15
 Aluminum,Board Game Box,Toys,8,20.73,1,98.16,3.94,3.516
-Bagasse Fiber,Cosmetic Tube,Cosmetics,7,7,8,71.32,1.37,0.529
+Bagasse Fiber,Cosmetic Tube,Cosmetics,7,7.0,8,71.32,1.37,0.529
 Recycled PET,Garment Bag,Textiles,8,27.69,2,94.64,2.62,2.009
 Corrugated Cardboard,Cement Liner Bag,Construction,6,16.21,8,90.69,1.36,0.722
 Corrugated Cardboard,Perfume Bottle,Cosmetics,9,23.6,7,86.38,1.15,0.839
-PLA Bioplastic,Laptop Box,Electronics,7,11,8,68.49,1.83,1.183
+PLA Bioplastic,Laptop Box,Electronics,7,11.0,8,68.49,1.83,1.183
 PLA Bioplastic,Furniture Carton,Furniture,7,8.96,7,57.31,2.47,1.194
 PLA Bioplastic,Cream Jar,Cosmetics,6,15.87,6,61.72,2.37,1.179
 Bagasse Fiber,Spare Parts Box,Automotive,6,11.75,9,75.14,2.22,0.571
-Glass,Oil Container,Automotive,9,29.98,2,99.58,3,1.838
+Glass,Oil Container,Automotive,9,29.98,2,99.58,3.0,1.838
 PLA Bioplastic,Electronic Blister Pack,Electronics,8,19.41,6,66.35,2.22,1.223
 PLA Bioplastic,Clothing Box,Textiles,6,19.56,7,56.85,2.17,1.098
 Kraft Paper,Cosmetic Tube,Cosmetics,7,13.5,8,90.21,0.74,0.629
@@ -8109,7 +8109,7 @@ Kraft Paper,Medicine Box,Healthcare,7,7.37,9,94.48,0.54,0.654
 Corrugated Cardboard,Fabric Wrap,Textiles,6,19.19,9,84.73,1.24,0.698
 PLA Bioplastic,Syringe Pack,Healthcare,6,18.14,7,68.5,2.48,1.208
 Recycled PET,Foam Insert Package,Home Appliances,10,24.05,4,88.53,3.43,2.091
-Glass,Fabric Wrap,Textiles,9,38.16,1,95.52,4,1.859
+Glass,Fabric Wrap,Textiles,9,38.16,1,95.52,4.0,1.859
 Aluminum,Electronic Blister Pack,Electronics,9,28.05,2,95.81,3.42,3.436
 Kraft Paper,Action Figure Pack,Toys,4,5.97,9,93.72,1.47,0.636
 Bagasse Fiber,Mobile Box,Electronics,7,12.58,9,76.94,1.93,0.566
@@ -8121,12 +8121,12 @@ Aluminum,Cream Jar,Cosmetics,8,22.5,2,98.69,3.02,3.535
 Bagasse Fiber,Beverage Bottle,Food Packaging,5,11.18,9,70.17,1.7,0.542
 Recycled PET,Pizza Box,Food Packaging,8,16.59,3,91.54,2.22,2.095
 Mushroom Packaging,Foam Insert Package,Home Appliances,7,10.64,10,77.97,2.65,0.347
-Bagasse Fiber,Spare Parts Box,Automotive,5,8.4,9,81.4,1,0.521
+Bagasse Fiber,Spare Parts Box,Automotive,5,8.4,9,81.4,1.0,0.521
 Aluminum,Board Game Box,Toys,9,21.03,2,99.44,4.46,3.497
 Mushroom Packaging,Foam Insert Package,Home Appliances,5,12.92,9,72.56,1.85,0.387
-Bagasse Fiber,Action Figure Pack,Toys,7,11,9,82.56,0.8,0.424
+Bagasse Fiber,Action Figure Pack,Toys,7,11.0,9,82.56,0.8,0.424
 Mushroom Packaging,Action Figure Pack,Toys,7,16.95,9,66.49,1.49,0.446
-Recycled PET,TV Carton,Electronics,9,28,3,85.89,3.83,2.173
+Recycled PET,TV Carton,Electronics,9,28.0,3,85.89,3.83,2.173
 Glass,Protective Cushioning Pack,Furniture,9,29.41,2,99.4,5.47,1.818
 Bagasse Fiber,Medical Container,Healthcare,7,10.57,10,82.88,1.2,0.429
 Recycled PET,Oil Container,Automotive,10,22.6,2,94.49,3.45,2.104
@@ -8140,7 +8140,7 @@ Aluminum,Makeup Box,Cosmetics,9,32.23,1,95.88,5.39,3.555
 PLA Bioplastic,Battery Packaging,Automotive,8,17.36,8,67.5,2.08,1.189
 PLA Bioplastic,Makeup Box,Cosmetics,6,10.9,7,55.68,1.58,1.269
 PLA Bioplastic,Cement Liner Bag,Construction,7,14.11,6,61.99,1.24,1.11
-Bagasse Fiber,Toy Box,Toys,7,6.56,8,75.3,2,0.581
+Bagasse Fiber,Toy Box,Toys,7,6.56,8,75.3,2.0,0.581
 Kraft Paper,Protective Cushioning Pack,Furniture,6,14.5,10,93.94,1.07,0.591
 Recycled PET,Furniture Carton,Furniture,10,20.58,2,94.98,2.43,2.114
 Glass,Board Game Box,Toys,9,26.17,1,97.26,5.8,1.865
@@ -8163,7 +8163,7 @@ Recycled PET,Spare Parts Box,Automotive,9,26.03,2,85.37,3.91,2.07
 Mushroom Packaging,Battery Packaging,Automotive,5,11.11,10,70.62,1.49,0.257
 Recycled PET,Action Figure Pack,Toys,10,29.25,3,89.86,2.55,2.103
 Recycled PET,Appliance Carton,Home Appliances,8,18.31,4,86.64,2.7,2.078
-Corrugated Cardboard,Fabric Wrap,Textiles,7,33.95,7,84,1.06,0.789
+Corrugated Cardboard,Fabric Wrap,Textiles,7,33.95,7,84.0,1.06,0.789
 Bagasse Fiber,Hardware Container,Construction,6,14.45,9,75.12,1.42,0.449
 Mushroom Packaging,Cement Liner Bag,Construction,7,16.41,10,70.38,1.32,0.506
 PLA Bioplastic,Battery Packaging,Automotive,8,16.85,8,63.92,2.37,1.222
@@ -8224,7 +8224,7 @@ Bagasse Fiber,Protective Box,Home Appliances,7,6.6,8,74.98,1.13,0.431
 Aluminum,Cement Liner Bag,Construction,8,28.29,2,96.73,2.79,3.473
 Kraft Paper,Medicine Box,Healthcare,5,8.8,10,94.18,1.38,0.614
 Corrugated Cardboard,Laptop Box,Electronics,8,10.32,9,90.02,1.02,0.833
-Glass,Electronic Blister Pack,Electronics,10,30,1,95.36,4.21,1.755
+Glass,Electronic Blister Pack,Electronics,10,30.0,1,95.36,4.21,1.755
 Glass,Foam Insert Package,Home Appliances,9,24.89,2,95.4,3.44,1.813
 Bagasse Fiber,Pizza Box,Food Packaging,5,10.25,10,77.98,1.01,0.55
 Bagasse Fiber,Pizza Box,Food Packaging,5,9.12,9,76.61,1.8,0.564
@@ -8242,7 +8242,7 @@ Glass,Cosmetic Tube,Cosmetics,9,31.93,1,95.9,2.61,1.805
 Glass,Appliance Carton,Home Appliances,9,37.5,1,97.01,4.84,1.748
 Kraft Paper,Assembly Kit Box,Furniture,6,8.95,8,86.19,1.11,0.544
 Aluminum,Laptop Box,Electronics,9,30.82,1,95.6,2.57,3.445
-Bagasse Fiber,TV Carton,Electronics,6,6,9,82.27,1.5,0.49
+Bagasse Fiber,TV Carton,Electronics,6,6.0,9,82.27,1.5,0.49
 Bagasse Fiber,Syringe Pack,Healthcare,5,8.83,10,78.37,1.37,0.555
 Kraft Paper,Furniture Carton,Furniture,7,10.7,8,92.69,1.1,0.547
 Glass,Tile Packaging,Construction,9,20.09,1,98.76,2.86,1.857
@@ -8261,7 +8261,7 @@ Aluminum,Fabric Wrap,Textiles,10,34.81,1,98.72,4.34,3.429
 Mushroom Packaging,Medical Container,Healthcare,6,16.85,10,64.04,3.03,0.259
 Kraft Paper,Action Figure Pack,Toys,5,7.96,10,88.64,0.4,0.578
 Kraft Paper,Garment Bag,Textiles,6,14.93,10,93.96,0.52,0.628
-Kraft Paper,Foam Insert Package,Home Appliances,7,7,10,93.8,1.21,0.596
+Kraft Paper,Foam Insert Package,Home Appliances,7,7.0,10,93.8,1.21,0.596
 Corrugated Cardboard,Takeaway Container,Food Packaging,7,20.85,7,88.46,0.53,0.733
 Mushroom Packaging,Protective Cushioning Pack,Furniture,7,12.39,9,78.32,3.08,0.413
 Bagasse Fiber,Clothing Box,Textiles,6,10.17,9,72.43,0.82,0.536
@@ -8319,8 +8319,8 @@ Aluminum,Takeaway Container,Food Packaging,8,26.04,1,95.51,5.1,3.496
 Glass,Mobile Box,Electronics,10,31.27,1,95.62,4.99,1.875
 Aluminum,Protective Box,Home Appliances,9,26.55,2,96.74,5.07,3.349
 Glass,Fabric Wrap,Textiles,9,22.13,1,98.22,3.98,1.788
-PLA Bioplastic,Hardware Container,Construction,6,19.3,6,59,1.26,1.252
-PLA Bioplastic,Board Game Box,Toys,6,11,6,54.92,2.39,1.16
+PLA Bioplastic,Hardware Container,Construction,6,19.3,6,59.0,1.26,1.252
+PLA Bioplastic,Board Game Box,Toys,6,11.0,6,54.92,2.39,1.16
 Kraft Paper,Tile Packaging,Construction,7,13.91,9,90.9,0.55,0.577
 Recycled PET,Makeup Box,Cosmetics,10,23.73,2,85.19,2.6,1.995
 Recycled PET,Medicine Box,Healthcare,8,21.11,2,87.21,1.66,2.051
@@ -8399,8 +8399,8 @@ Recycled PET,Protective Cushioning Pack,Furniture,9,20.24,4,94.88,2.97,2.137
 Recycled PET,Protective Box,Home Appliances,9,26.54,4,94.62,2.62,2.179
 Recycled PET,Cosmetic Tube,Cosmetics,9,16.19,4,92.46,3.65,2.09
 Bagasse Fiber,Tablet Blister Pack,Healthcare,7,8.33,9,74.2,2.43,0.537
-Aluminum,Pizza Box,Food Packaging,8,20.38,2,98.88,4,3.399
-Kraft Paper,Tablet Blister Pack,Healthcare,6,6,8,93.46,1.42,0.624
+Aluminum,Pizza Box,Food Packaging,8,20.38,2,98.88,4.0,3.399
+Kraft Paper,Tablet Blister Pack,Healthcare,6,6.0,8,93.46,1.42,0.624
 Corrugated Cardboard,Clothing Box,Textiles,6,33.38,9,85.92,1.37,0.772
 Bagasse Fiber,Board Game Box,Toys,5,8.7,9,81.58,1.72,0.434
 Bagasse Fiber,Protective Cushioning Pack,Furniture,6,10.28,9,81.72,1.57,0.48
@@ -8428,8 +8428,8 @@ Recycled PET,Medical Container,Healthcare,9,27.14,3,87.42,2.27,2.105
 Glass,Clothing Box,Textiles,9,26.04,2,99.37,2.47,1.851
 Glass,Clothing Box,Textiles,9,30.18,1,95.08,5.94,1.775
 Aluminum,Pizza Box,Food Packaging,9,25.28,1,98.67,3.43,3.432
-Bagasse Fiber,Cement Liner Bag,Construction,5,11,8,84.01,1.02,0.522
-Recycled PET,Beverage Bottle,Food Packaging,9,21.24,2,93.08,2,2.06
+Bagasse Fiber,Cement Liner Bag,Construction,5,11.0,8,84.01,1.02,0.522
+Recycled PET,Beverage Bottle,Food Packaging,9,21.24,2,93.08,2.0,2.06
 Recycled PET,Fabric Wrap,Textiles,10,20.3,3,89.12,2.97,1.987
 Bagasse Fiber,Mobile Box,Electronics,6,6.42,10,78.95,0.91,0.519
 Bagasse Fiber,Assembly Kit Box,Furniture,5,10.81,8,82.21,2.27,0.458
@@ -8503,14 +8503,14 @@ Kraft Paper,Electronic Blister Pack,Electronics,5,9.74,9,86.28,0.81,0.61
 Kraft Paper,Cement Liner Bag,Construction,4,6.62,8,86.88,0.67,0.599
 Mushroom Packaging,Electronic Blister Pack,Electronics,5,16.61,10,68.92,1.85,0.357
 Mushroom Packaging,Tablet Blister Pack,Healthcare,5,16.41,10,75.79,3.44,0.474
-Recycled PET,Medical Container,Healthcare,10,21,3,89.65,1.88,2.042
+Recycled PET,Medical Container,Healthcare,10,21.0,3,89.65,1.88,2.042
 Glass,Hardware Container,Construction,9,37.11,2,95.19,4.93,1.843
-Glass,Clothing Box,Textiles,10,20.91,1,98.59,2,1.839
+Glass,Clothing Box,Textiles,10,20.91,1,98.59,2.0,1.839
 PLA Bioplastic,Cement Liner Bag,Construction,8,9.76,8,58.41,2.19,1.142
 Corrugated Cardboard,Tile Packaging,Construction,8,32.94,9,91.62,1.87,0.791
 Bagasse Fiber,Food Tray,Food Packaging,7,6.73,10,81.17,1.29,0.484
 Mushroom Packaging,Oil Container,Automotive,5,16.7,10,70.94,1.63,0.41
-Bagasse Fiber,Protective Box,Home Appliances,7,14.69,8,72,1.91,0.563
+Bagasse Fiber,Protective Box,Home Appliances,7,14.69,8,72.0,1.91,0.563
 Kraft Paper,Appliance Carton,Home Appliances,5,11.97,8,87.38,1.16,0.591
 Aluminum,Medicine Box,Healthcare,9,30.9,2,99.6,4.56,3.485
 PLA Bioplastic,Syringe Pack,Healthcare,6,9.29,8,57.16,1.64,1.195
@@ -8561,7 +8561,7 @@ Glass,Syringe Pack,Healthcare,10,20.94,1,98.61,5.09,1.72
 PLA Bioplastic,Tablet Blister Pack,Healthcare,8,14.17,7,57.94,2.66,1.27
 Mushroom Packaging,Cement Liner Bag,Construction,7,17.86,10,70.53,1.59,0.438
 Corrugated Cardboard,Garment Bag,Textiles,9,34.73,8,89.93,1.85,0.703
-Recycled PET,Appliance Carton,Home Appliances,8,24,3,92.14,3.14,2.137
+Recycled PET,Appliance Carton,Home Appliances,8,24.0,3,92.14,3.14,2.137
 Glass,Fabric Wrap,Textiles,10,33.07,2,96.23,5.53,1.848
 Recycled PET,Makeup Box,Cosmetics,9,21.94,2,93.35,2.71,2.089
 Corrugated Cardboard,Cement Liner Bag,Construction,9,15.58,7,85.72,1.31,0.73
@@ -8575,7 +8575,7 @@ Kraft Paper,Fabric Wrap,Textiles,4,6.59,9,93.24,0.64,0.672
 Mushroom Packaging,Assembly Kit Box,Furniture,5,10.61,10,65.73,1.82,0.386
 Glass,Hardware Container,Construction,10,24.27,2,95.72,5.44,1.816
 PLA Bioplastic,Clothing Box,Textiles,6,14.27,7,50.41,1.14,1.156
-Recycled PET,Oil Container,Automotive,9,23.57,3,92,3.19,2.087
+Recycled PET,Oil Container,Automotive,9,23.57,3,92.0,3.19,2.087
 Corrugated Cardboard,Action Figure Pack,Toys,7,31.25,8,82.32,0.76,0.804
 Bagasse Fiber,Battery Packaging,Automotive,7,13.47,9,75.37,1.39,0.597
 Corrugated Cardboard,Beverage Bottle,Food Packaging,7,23.99,8,88.85,0.59,0.853
@@ -8652,7 +8652,7 @@ Recycled PET,Cement Liner Bag,Construction,8,15.96,3,87.05,2.03,2.103
 Aluminum,Appliance Carton,Home Appliances,9,27.1,1,97.34,3.09,3.557
 Mushroom Packaging,Electronic Blister Pack,Electronics,6,16.51,10,64.73,2.15,0.396
 Recycled PET,Toy Box,Toys,10,16.23,3,86.4,2.07,2.103
-Kraft Paper,Tile Packaging,Construction,4,14.74,10,94.3,1,0.613
+Kraft Paper,Tile Packaging,Construction,4,14.74,10,94.3,1.0,0.613
 Glass,Laptop Box,Electronics,10,23.6,1,97.39,3.49,1.779
 Mushroom Packaging,Oil Container,Automotive,6,9.12,10,72.2,2.23,0.447
 Corrugated Cardboard,Makeup Box,Cosmetics,9,31.6,7,87.96,1.31,0.79
@@ -8690,7 +8690,7 @@ Corrugated Cardboard,TV Carton,Electronics,7,14.54,8,80.35,0.63,0.799
 Mushroom Packaging,Pizza Box,Food Packaging,7,17.97,9,62.4,1.71,0.435
 Bagasse Fiber,Cosmetic Tube,Cosmetics,5,7.03,8,76.64,1.12,0.57
 Bagasse Fiber,Mobile Box,Electronics,7,13.97,9,79.43,1.53,0.479
-Kraft Paper,Cream Jar,Cosmetics,6,9,9,85.65,1.09,0.594
+Kraft Paper,Cream Jar,Cosmetics,6,9.0,9,85.65,1.09,0.594
 Aluminum,Cement Liner Bag,Construction,10,31.37,2,96.76,3.29,3.528
 PLA Bioplastic,Takeaway Container,Food Packaging,8,8.28,6,69.32,1.02,1.154
 Bagasse Fiber,Garment Bag,Textiles,7,12.98,8,79.97,1.68,0.562
@@ -8707,7 +8707,7 @@ Aluminum,Appliance Carton,Home Appliances,8,32.29,1,95.56,3.29,3.525
 Mushroom Packaging,Furniture Carton,Furniture,6,17.31,9,73.13,2.36,0.313
 Aluminum,Cement Liner Bag,Construction,9,31.44,2,98.78,4.73,3.536
 Mushroom Packaging,Pizza Box,Food Packaging,5,14.9,10,79.06,2.36,0.443
-PLA Bioplastic,Oil Container,Automotive,7,9.48,6,61,1.14,1.241
+PLA Bioplastic,Oil Container,Automotive,7,9.48,6,61.0,1.14,1.241
 Glass,Medical Container,Healthcare,10,31.42,1,99.53,4.89,1.798
 PLA Bioplastic,Syringe Pack,Healthcare,9,14.46,8,55.49,2.61,1.26
 PLA Bioplastic,Takeaway Container,Food Packaging,9,14.21,6,60.23,1.58,1.198
@@ -8809,13 +8809,13 @@ Corrugated Cardboard,Cosmetic Tube,Cosmetics,7,25.28,9,85.06,1.12,0.777
 Mushroom Packaging,Food Tray,Food Packaging,6,14.11,10,75.74,2.97,0.427
 Corrugated Cardboard,Appliance Carton,Home Appliances,6,12.14,8,90.58,0.56,0.75
 Bagasse Fiber,Furniture Carton,Furniture,5,9.28,10,70.15,1.01,0.338
-Aluminum,Tablet Blister Pack,Healthcare,8,31.77,2,97,3.11,3.496
+Aluminum,Tablet Blister Pack,Healthcare,8,31.77,2,97.0,3.11,3.496
 Mushroom Packaging,Fabric Wrap,Textiles,7,13.46,9,77.02,2.12,0.352
 Mushroom Packaging,Medicine Box,Healthcare,6,8.02,9,75.9,3.15,0.476
 Kraft Paper,Pizza Box,Food Packaging,5,9.52,8,85.39,0.72,0.621
 Glass,Pizza Box,Food Packaging,9,34.9,1,95.01,4.62,1.76
 Mushroom Packaging,Pizza Box,Food Packaging,6,8.25,10,79.28,2.83,0.36
-Kraft Paper,Takeaway Container,Food Packaging,4,8.1,10,89.73,1,0.664
+Kraft Paper,Takeaway Container,Food Packaging,4,8.1,10,89.73,1.0,0.664
 Bagasse Fiber,Oil Container,Automotive,6,6.23,10,70.63,1.41,0.45
 Aluminum,Appliance Carton,Home Appliances,9,32.61,2,95.57,4.23,3.509
 Aluminum,Protective Cushioning Pack,Furniture,10,23.31,2,95.35,3.53,3.506
@@ -8892,13 +8892,13 @@ Mushroom Packaging,Syringe Pack,Healthcare,5,11.41,9,60.88,1.43,0.334
 Recycled PET,Tablet Blister Pack,Healthcare,10,23.67,2,90.96,2.18,2.065
 Kraft Paper,Battery Packaging,Automotive,7,9.27,9,94.15,1.3,0.624
 Recycled PET,Takeaway Container,Food Packaging,9,18.46,3,87.53,3.95,2.152
-Bagasse Fiber,Laptop Box,Electronics,7,15,8,77.88,1.64,0.464
+Bagasse Fiber,Laptop Box,Electronics,7,15.0,8,77.88,1.64,0.464
 Aluminum,Cement Liner Bag,Construction,10,31.46,2,96.37,2.53,3.512
 Aluminum,Oil Container,Automotive,8,32.59,2,97.35,2.92,3.485
 Corrugated Cardboard,Tile Packaging,Construction,6,26.23,7,81.83,0.98,0.764
 Glass,Takeaway Container,Food Packaging,9,30.37,1,97.88,4.31,1.752
 PLA Bioplastic,Makeup Box,Cosmetics,8,11.96,7,60.68,1.15,1.182
-Mushroom Packaging,Board Game Box,Toys,6,14,10,76.7,3.37,0.38
+Mushroom Packaging,Board Game Box,Toys,6,14.0,10,76.7,3.37,0.38
 Kraft Paper,Tile Packaging,Construction,7,9.38,10,89.29,0.74,0.696
 Kraft Paper,Fabric Wrap,Textiles,7,14.82,9,94.99,1.4,0.549
 Glass,Fabric Wrap,Textiles,9,35.81,1,99.6,5.12,1.804
@@ -8978,7 +8978,7 @@ Mushroom Packaging,Makeup Box,Cosmetics,7,15.2,9,71.58,2.47,0.316
 Bagasse Fiber,Tile Packaging,Construction,5,13.26,9,78.64,1.36,0.535
 Mushroom Packaging,Cement Liner Bag,Construction,7,10.78,9,76.91,2.86,0.303
 Corrugated Cardboard,Cement Liner Bag,Construction,8,16.41,9,86.64,1.47,0.779
-Corrugated Cardboard,Board Game Box,Toys,8,26.43,8,83.89,1,0.756
+Corrugated Cardboard,Board Game Box,Toys,8,26.43,8,83.89,1.0,0.756
 Glass,Cement Liner Bag,Construction,10,30.06,2,97.02,5.02,1.833
 Recycled PET,Perfume Bottle,Cosmetics,8,15.45,3,93.89,3.12,2.082
 Glass,Protective Box,Home Appliances,9,27.6,1,95.8,4.55,1.788
