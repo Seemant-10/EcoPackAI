@@ -231,14 +231,5 @@ Each row contains: `Material_Type`, `Product_Type`, `Industry`, `Strength (1-10)
 ## 👤 Author
 
 **Seemant**
-College / University Project
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-```
-MIT License — free to use, modify, and distribute with attribution.
-```
