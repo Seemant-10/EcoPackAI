@@ -10,17 +10,21 @@ def rank_materials(df):
     df["norm_bio"] = scaler.fit_transform(df[["Biodegradability Score (1-10)"]])
     df["norm_rec"] = scaler.fit_transform(df[["Recyclability (%)"]])
 
-    df["score"] = (
+    # Sustainability score 
+    df["sustainability_score"] = (
         0.5 * (1 - df["norm_co2"]) +
         0.3 * df["norm_bio"] +
         0.2 * df["norm_rec"]
     )
 
-    df = df.sort_values(by="score", ascending=False)
+    # FINAL SCORE
+    df["final_score"] = (
+        0.55 * df["sustainability_score"] +
+        0.45 * df["compatibility"]
+    )
 
-    df = df.drop_duplicates(subset=["Material_Type"])
+    df = df.sort_values(by="final_score", ascending=False)
 
-    # Keep best configuration per material
-    # df = df.loc[df.groupby("Material_Type")["score"].idxmax()]
+    df = df.loc[df.groupby("Material_Type")["final_score"].idxmax()]
 
     return df.head(3)

@@ -1,4 +1,4 @@
-material_type,product_type,industry,strength,weight_capacity,biodegradability_score,recyclability,cost,co2_emission
+Material_Type,Product_Type,Industry,Strength (1-10),Weight Capacity (kg),Biodegradability Score (1-10),Recyclability (%),Cost (USD),CO2 Emission (kg CO2/kg)
 HDPE Plastic,Mailer Bag,Logistics,9,4.28,3,66.15,2.71,4.55
 PP Plastic,Fertilizer Bag,Agriculture,9,8.7,1,58.32,2.72,4.31
 Corrugated Cardboard,Heavy Crate,Logistics,5,95.75,9,75.33,1.04,0.82
