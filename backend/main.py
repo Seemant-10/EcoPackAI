@@ -93,26 +93,26 @@ def recommend_material(request: ProductRequest, db: Session = Depends(get_db)):
         "industry": "Industry"
     })
 
-    if "laptop" in user_product:
-        df = df[df["Material_Type"].isin([
-            "Corrugated Cardboard", "Cardboard", "Foam", 
-            "Molded Pulp", "Mushroom Packaging"
-        ])]
+    # if "laptop" in user_product:
+    #     df = df[df["Material_Type"].isin([
+    #         "Corrugated Cardboard", "Cardboard", "Foam", 
+    #         "Molded Pulp", "Mushroom Packaging"
+    #     ])]
 
-    elif "bottle" in user_product:
-        df = df[df["Material_Type"].isin([
-            "PET Plastic", "Glass", "Aluminum",
-            "Bioplastic (PLA)", "Recycled Plastic",  
-            "HDPE Plastic",                           
-            "HDPE Plastic", "Steel", "PP Plastic"     
-        ])]
+    # elif "bottle" in user_product:
+    #     df = df[df["Material_Type"].isin([
+    #         "PET Plastic", "Glass", "Aluminum",
+    #         "Bioplastic (PLA)", "Recycled Plastic",  
+    #         "HDPE Plastic",                           
+    #         "HDPE Plastic", "Steel", "PP Plastic"     
+    #     ])]
 
-    elif "pizza" in user_product or "food" in user_product:
-        df = df[df["Material_Type"].isin([
-            "Corrugated Cardboard", "Kraft Paper", "Cardboard",
-            "Bagasse Fiber", "Mushroom Packaging",    
-            "Bioplastic (PLA)", "PP Plastic"          
-        ])]
+    # elif "pizza" in user_product or "food" in user_product:
+    #     df = df[df["Material_Type"].isin([
+    #         "Corrugated Cardboard", "Kraft Paper", "Cardboard",
+    #         "Bagasse Fiber", "Mushroom Packaging",    
+    #         "Bioplastic (PLA)", "PP Plastic"          
+    #     ])]
 
     if df.empty:
         return {"results": [], "message": "No suitable materials found"}
