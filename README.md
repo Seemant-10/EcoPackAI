@@ -207,7 +207,6 @@ Returns top 3 recommended packaging materials for a given product.
 | Product Types | 37 |
 | Industries | 9 |
 | Materials | 19 |
-| Materials per Product | 5 (every product) |
 
 **Industries covered:** Food & Beverage, Cosmetics, Electronics, Logistics, Pharmaceuticals, Chemicals, Agriculture, Retail, Healthcare
 
