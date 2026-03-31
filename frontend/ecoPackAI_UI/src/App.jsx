@@ -54,7 +54,7 @@ function App() {
             weight: parseFloat(weight) || 10,
             topMaterial: data[0].Material_Type,
           };
-          return [newEntry, ...filtered].slice(0, 8);
+          return [newEntry, ...filtered].slice(0, 10);
         });
       }
     } catch (error) {
