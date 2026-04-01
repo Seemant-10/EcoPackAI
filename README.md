@@ -1,25 +1,36 @@
 # 🌿 EcoPackAI : AI Powered Sustainable Packaging Recommendation System
 
-> A machine learning powered web application that recommends the most sustainable packaging materials for any product type.
+> A machine learning powered web application that recommends the most sustainable and cost-effective packaging materials for any product type.
+
 ---
 
 ## 📌 Project Overview
 
 EcoPackAI helps businesses and individuals make smarter, greener packaging decisions. Given a product type, required strength, and weight capacity, the system uses trained ML models to predict cost and CO₂ emissions for available materials, then ranks them using a combined sustainability and compatibility score.
 
-The system covers **37 product types** across **9 industries** and evaluates **19 packaging materials** — scoring each based on biodegradability, recyclability, carbon footprint, and physical compatibility.
+The system covers **70 product types** across **12 industries** and evaluates **19 packaging materials** — scoring each based on biodegradability, recyclability, carbon footprint, and physical compatibility.
 
 ---
 
 ## ✨ Features
 
 - 🔍 **Fuzzy product matching** — handles typos and partial inputs using RapidFuzz
+
 - 🤖 **ML-based predictions** — Random Forest for cost, XGBoost for CO₂ emissions
+
 - 🌱 **Sustainability scoring** — weighted ranking based on CO₂, biodegradability, and recyclability
+
 - ⚖️ **Compatibility scoring** — matches materials to user's strength and weight requirements
+
 - 🏆 **Top 3 recommendations** — ranked by a combined final score
+
+- 🕘 **Search history sidebar** — shows last 8 searches with top material, click to reload into form
+
+- 📥 **Report download** — export current results as PDF or CSV
+
 - 🗄️ **Prediction logging** — every recommendation is stored in a PostgreSQL database
-- 🖥️ **Clean React frontend** — simple form-based UI with visual progress bars
+
+- 🖥️ **Clean React frontend** — form-based UI with visual progress bars and sidebar layout
 
 ---
 
@@ -44,15 +55,20 @@ The system covers **37 product types** across **9 industries** and evaluates **1
 EcoPackAI/
 │
 ├── backend/
-│   ├── main.py               # FastAPI app & recommendation endpoint
-│   ├── ranking.py            # Sustainability + compatibility scoring logic
-│   ├── models.py             # SQLAlchemy table definitions
-│   ├── database.py           # PostgreSQL connection setup
-│   └── schema.py             # Pydantic request schema
+│   ├── main.py                   # FastAPI app & recommendation endpoint
+│   ├── ranking.py                # Sustainability + compatibility scoring logic
+│   ├── models.py                 # SQLAlchemy table definitions
+│   ├── database.py               # PostgreSQL connection setup
+│   └── schema.py                 # Pydantic request schema
 │
 ├── frontend/
-│   └── src/
-│       └── App.jsx           # React UI
+│   └── ecoPackAI_UI/
+│       ├── src/
+│       │   └── App.jsx           # React UI (form, sidebar, results, download)
+│       ├── public/
+│       ├── index.html
+│       ├── package.json
+│       └── vite.config.js
 │
 ├── trained_models/
 │   ├── cost_model.pkl
@@ -61,7 +77,7 @@ EcoPackAI/
 │   └── co2_feature_columns.pkl
 │
 ├── dataset/
-│   ├── EcoPackAI_Final_6.csv     # Master dataset (10,360 rows)
+│   ├── EcoPackAI_Final_7.csv     # Master dataset (19,600 rows)
 │   └── ecoPackAI_db.csv          # DB-ready version (for pgAdmin import)
 │
 └── main.ipynb                    # Model training notebook
@@ -108,7 +124,7 @@ Create the database in pgAdmin 4:
 CREATE DATABASE "ecoPackAI";
 ```
 
-Then create the tables by running the models:
+Then create the tables:
 
 ```bash
 python -c "from database import engine; from models import Base; Base.metadata.create_all(engine)"
@@ -124,6 +140,7 @@ Import the dataset into the `materials` table via pgAdmin 4:
 ### 4. Train the Models
 
 Open and run all cells in `main.ipynb`. This will:
+
 - Train the Random Forest (cost) and XGBoost (CO₂) models
 - Save `.pkl` files to `trained_models/`
 - Save the processed DB CSV to `dataset/`
@@ -140,7 +157,7 @@ Backend runs at: `http://127.0.0.1:8000`
 ### 6. Frontend Setup
 
 ```bash
-cd frontend
+cd frontend/ecoPackAI_UI
 npm install
 npm run dev
 ```
@@ -152,9 +169,11 @@ Frontend runs at: `http://localhost:5173`
 ## 🔌 API Endpoints
 
 ### `GET /`
+
 Health check.
 
 **Response:**
+
 ```json
 { "message": "EcoPackAI backend running" }
 ```
@@ -162,9 +181,11 @@ Health check.
 ---
 
 ### `POST /recommend-material`
+
 Returns top 3 recommended packaging materials for a given product.
 
 **Request Body:**
+
 ```json
 {
   "product_type": "Water Bottle",
@@ -174,6 +195,7 @@ Returns top 3 recommended packaging materials for a given product.
 ```
 
 **Response:**
+
 ```json
 {
   "results": [
@@ -182,8 +204,7 @@ Returns top 3 recommended packaging materials for a given product.
       "predicted_cost": 2.14,
       "predicted_co2": 1.87,
       "final_score": 0.82
-    },
-    ...
+    }
   ],
   "message": "Recommendations generated successfully"
 }
@@ -203,14 +224,15 @@ Returns top 3 recommended packaging materials for a given product.
 
 | Property | Value |
 |---|---|
-| Total Rows | 10,360 |
-| Product Types | 37 |
-| Industries | 9 |
+| Total Rows | 19,600 |
+| Product Types | 70 |
+| Industries | 12 |
 | Materials | 19 |
+| Materials per Product | 5 (every product) |
 
-**Industries covered:** Food & Beverage, Cosmetics, Electronics, Logistics, Pharmaceuticals, Chemicals, Agriculture, Retail, Healthcare
+**Industries covered:** Food & Beverage, Cosmetics, Personal Care, Electronics, Logistics, Pharmaceuticals, Chemicals, Agriculture, Retail, Healthcare, Household, Pet Care
 
-**Sample materials:** Aluminum, Bioplastic (PLA), Recycled Plastic, Corrugated Cardboard, Kraft Paper, Glass, Bamboo, Jute, Mushroom Packaging, and more.
+**Materials included:** Aluminum, Bioplastic (PLA), Recycled Plastic, PP Plastic, Corrugated Cardboard, Kraft Paper, Glass, Tempered Glass, Bamboo, Jute, Mushroom Packaging, Foam, Steel, Wood, Molded Pulp, Bagasse Fiber, HDPE Plastic, PET Plastic, Cardboard
 
 Each row contains: `Material_Type`, `Product_Type`, `Industry`, `Strength (1-10)`, `Weight Capacity (kg)`, `Biodegradability Score (1-10)`, `Recyclability (%)`, `Cost (USD)`, `CO2 Emission (kg CO2/kg)`
 
@@ -218,7 +240,7 @@ Each row contains: `Material_Type`, `Product_Type`, `Industry`, `Strength (1-10)
 
 ## 🚀 Future Improvements
 
-- [ ] Add user authentication and saved recommendation history
+- [ ] Add user authentication and saved recommendation history across sessions
 - [ ] Expand dataset with real-world supplier pricing data
 - [ ] Add a comparison view to visualize materials side by side
 - [ ] Support bulk product recommendations via CSV upload
@@ -232,4 +254,14 @@ Each row contains: `Material_Type`, `Product_Type`, `Industry`, `Strength (1-10)
 
 **Seemant**
 
+College / University Project
+
 ---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+```
+MIT License — free to use, modify, and distribute with attribution.
+```
