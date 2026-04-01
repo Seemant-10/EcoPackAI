@@ -228,7 +228,6 @@ Returns top 3 recommended packaging materials for a given product.
 | Product Types | 70 |
 | Industries | 12 |
 | Materials | 19 |
-| Materials per Product | 5 (every product) |
 
 **Industries covered:** Food & Beverage, Cosmetics, Personal Care, Electronics, Logistics, Pharmaceuticals, Chemicals, Agriculture, Retail, Healthcare, Household, Pet Care
 
@@ -254,14 +253,4 @@ Each row contains: `Material_Type`, `Product_Type`, `Industry`, `Strength (1-10)
 
 **Seemant**
 
-College / University Project
-
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-```
-MIT License — free to use, modify, and distribute with attribution.
-```
