@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
 import { jsPDF } from "jspdf";
+import { useNavigate } from "react-router-dom";
 import html2canvas from "html2canvas";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,56 +30,103 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [strength, setStrength] = useState(5);
   const [weight, setWeight] = useState("");
-  const [history, setHistory] = useState(() => {
-    const saved = localStorage.getItem("eco_history");
-    return saved ? JSON.parse(saved).slice(0, 8) : [];
-  });
+  const username = localStorage.getItem("username") || "User";
+  const historyKey = `eco_history_${username}`;
+  const [history, setHistory] = useState([]);
+  const [historyLoaded, setHistoryLoaded] = useState(false);
+  const navigate = useNavigate();
+  const logout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("username");
+    localStorage.removeItem("email");
+    navigate("/login");
+  };
   useEffect(() => {
-    localStorage.setItem("eco_history", JSON.stringify(history));
-  }, [history]);
+    const saved = localStorage.getItem(historyKey);
+
+    if (saved) {
+      setHistory(JSON.parse(saved).slice(0, 8));
+    } else {
+      setHistory([]);
+    }
+
+    setHistoryLoaded(true);
+  }, [historyKey]);
+
+  useEffect(() => {
+    if (!historyLoaded) return;
+
+    localStorage.setItem(
+      historyKey,
+      JSON.stringify(history)
+    );
+  }, [history, historyKey, historyLoaded]);
 
   // ── Submit ──────────────────────────────────────────────────────────────
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     setResults([]);
     setMessage("");
     setLoading(true);
 
+    const payload = {
+      product_type: product,
+      strength: Number(strength),
+      weight_capacity: Number(weight)
+    };
+
     try {
       const response = await axios.post(
         "http://127.0.0.1:8000/recommend-material",
+        payload,
         {
-          product_type: product,
-          strength: strength ? parseInt(strength) : 5,
-          weight_capacity: weight ? parseFloat(weight) : 10,
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("token")}`
+          }
         }
       );
 
       const data = response.data.results || [];
+
       setResults(data);
       setMessage(response.data.message || "");
 
-      // Save to history (max 8, newest first, no duplicate product names)
       if (data.length > 0) {
         setHistory((prev) => {
           const filtered = prev.filter(
-            (h) => h.product.toLowerCase() !== product.toLowerCase()
+            (h) =>
+              h.product.toLowerCase() !==
+              product.toLowerCase()
           );
+
           const newEntry = {
             product,
-            strength: parseInt(strength),
-            weight: parseFloat(weight) || 10,
-            topMaterial: data[0].Material_Type,
+            strength: Number(strength),
+            weight: Number(weight),
+            topMaterial: data[0].Material_Type
           };
+
           return [newEntry, ...filtered].slice(0, 8);
         });
       }
-    } catch (error) {
-      console.error(error);
-      setMessage("Error connecting to backend.");
-    }
 
-    setLoading(false);
+    } catch (error) {
+      console.log(error);
+
+      if (error.response) {
+        setMessage(
+          error.response.data.detail ||
+          error.response.data.message ||
+          "Request failed"
+        );
+      } else {
+        setMessage("Backend not reachable");
+      }
+
+    } finally {
+      setLoading(false);
+    }
   };
 
   // ── Load history item into form (does NOT submit) ────────────────────────
@@ -97,7 +145,7 @@ function App() {
       if (!confirmDelete) return;
 
       setHistory([]);
-      localStorage.removeItem("eco_history");
+      localStorage.removeItem(historyKey);
     };
 
   // ── CSV Download ─────────────────────────────────────────────────────────
@@ -222,18 +270,86 @@ function App() {
       <div className="container-fluid px-4">
 
         {/* Header */}
-        <div className="text-center mb-5">
-          <h1 className="fw-bold text-success">EcoPackAI</h1>
-          <p className="text-muted">AI-Powered Sustainable Material Recommendation</p>
-          <div>
-            <a
-              href="/dashboard"
-              className="btn btn-success btn-lg mt-2"
-              >
-              Open Analytics Dashboard
-            </a>
-          </div>
+        <div className="d-flex align-items-center mb-5 flex-wrap gap-3">
+        {/* Left */}
+        <div style={{marginLeft: "35vw",marginRight: "15vw", textAlign: "center"}}>
+          <h1 className="fw-bold text-success mb-1">
+            EcoPackAI
+          </h1>
+
+          <p className="text-muted mb-0">
+            AI-Powered Sustainable Material Recommendation
+          </p>
         </div>
+
+        {/* Right */}
+        <div className="dropdown">
+
+          <button
+            className="btn btn-success dropdown-toggle px-3"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            👤 {username}
+          </button>
+
+          <ul
+            className="dropdown-menu dropdown-menu-end shadow"
+            style={{ minWidth: "240px" }}
+          >
+
+            <li className="px-3 pt-2">
+              <div className="fw-bold">
+                {username}
+              </div>
+            </li>
+
+            <li className="px-3 pb-2">
+              <small className="text-muted">
+                {localStorage.getItem("email") || "No email"}
+              </small>
+            </li>
+
+            <li>
+              <hr className="dropdown-divider" />
+            </li>
+
+            <li>
+              <button
+                className="dropdown-item"
+                onClick={() => navigate("/app")}
+              >
+                Home
+              </button>
+            </li>
+
+            <li>
+              <button
+                className="dropdown-item"
+                onClick={() => navigate("/dashboard")}
+              >
+                Dashboard
+              </button>
+            </li>
+
+            <li>
+              <hr className="dropdown-divider" />
+            </li>
+
+            <li>
+              <button
+                className="dropdown-item text-danger"
+                onClick={logout}
+              >
+                Logout
+              </button>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
 
         <div className="row g-4">
 

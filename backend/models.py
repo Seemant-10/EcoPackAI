@@ -1,5 +1,15 @@
 from sqlalchemy import Column, Integer, Float, String # type: ignore
 from database import Base
+from sqlalchemy import Boolean # type: ignore
+
+
+class User(Base):
+    __tablename__ = "users"
+
+    user_id = Column(Integer, primary_key=True, index=True)
+    username = Column(String, unique=True, nullable=False)
+    email = Column(String, unique=True, nullable=False)
+    password_hash = Column(String, nullable=False)
 
 class Material(Base):
     __tablename__ = "materials"
@@ -25,3 +35,4 @@ class Prediction(Base):
     predicted_cost = Column(Float)
     predicted_co2 = Column(Float)
     sustainability_score = Column(Float)
+    user_id = Column(Integer)

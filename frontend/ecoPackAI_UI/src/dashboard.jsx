@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
@@ -14,6 +15,16 @@ import {
 } from "recharts";
 
 function Dashboard() {
+  const navigate = useNavigate();
+  const username =
+    localStorage.getItem("username") || "User";
+    
+  const logout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("username");
+    localStorage.removeItem("email");
+    navigate("/login");
+  };
   const [data, setData] = useState(null);
   const pieData = data?.top_products?.map((item, index) => {
   const colors = [
@@ -31,12 +42,19 @@ function Dashboard() {
   };
 });
 
-  useEffect(() => {
+    useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/analytics")
-      .then((res) => setData(res.data))
-      .catch((err) => console.error(err));
-  }, []);
+        .get(
+        "http://127.0.0.1:8000/analytics",
+        {
+            headers: {
+            Authorization: `Bearer ${localStorage.getItem("token")}`
+            }
+        }
+        )
+        .then((res) => setData(res.data))
+        .catch((err) => console.error(err));
+    }, []);
 
   if (!data) {
     return (
@@ -49,16 +67,84 @@ function Dashboard() {
   return (
     <div className="bg-light min-vh-100 py-5">
         <div className="container py-5">
-        <h1 className="text-success fw-bold mb-4">
-            EcoPackAI Analytics Dashboard
-        </h1>
-        <div className="mb-3">
-            <a
-              href="/"
-              className="btn btn-success btn-lg mt-2"
-              >
-              Home
-            </a>
+          <div className="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3">
+
+            <div>
+                <h1 className="text-success fw-bold mb-1">
+                EcoPackAI Analytics Dashboard
+                </h1>
+
+                <p className="text-muted mb-0">
+                Personalized sustainability insights
+                </p>
+            </div>
+
+            <div className="dropdown">
+
+                <button
+                    className="btn btn-success dropdown-toggle px-3"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                    👤 {username}
+                </button>
+
+                <ul
+                    className="dropdown-menu dropdown-menu-end shadow"
+                    style={{ minWidth: "240px" }}
+                >
+
+                    <li className="px-3 pt-2">
+                    <div className="fw-bold">
+                        {username}
+                    </div>
+                    </li>
+
+                    <li className="px-3 pb-2">
+                    <small className="text-muted">
+                        {localStorage.getItem("email") || "No email"}
+                    </small>
+                    </li>
+
+                    <li>
+                    <hr className="dropdown-divider" />
+                    </li>
+
+                    <li>
+                    <button
+                        className="dropdown-item"
+                        onClick={() => navigate("/app")}
+                    >
+                        Home
+                    </button>
+                    </li>
+
+                    <li>
+                    <button
+                        className="dropdown-item"
+                        onClick={() => navigate("/dashboard")}
+                    >
+                        Dashboard
+                    </button>
+                    </li>
+
+                    <li>
+                    <hr className="dropdown-divider" />
+                    </li>
+
+                    <li>
+                    <button
+                        className="dropdown-item text-danger"
+                        onClick={logout}
+                    >
+                        Logout
+                    </button>
+                    </li>
+
+                </ul>
+            </div>
+
           </div>
         {/* KPI Cards */}
         <div className="row g-4 mb-5">
