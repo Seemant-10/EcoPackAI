@@ -40,6 +40,55 @@ def get_db():
     finally:
         db.close()
 
+@app.get("/analytics")
+def get_analytics(db: Session = Depends(get_db)):
+
+    # Total recommendations generated
+    total_predictions = db.query(Prediction).count()
+
+    # Top recommended materials
+    top_materials = db.query(
+        Prediction.recommended_material,
+        func.count(Prediction.recommended_material).label("count")
+    ).group_by(
+        Prediction.recommended_material
+    ).order_by(
+        func.count(Prediction.recommended_material).desc()
+    ).limit(5).all()
+
+    # Top searched product types
+    top_products = db.query(
+        Prediction.product_type,
+        func.count(Prediction.product_type).label("count")
+    ).group_by(
+        Prediction.product_type
+    ).order_by(
+        func.count(Prediction.product_type).desc()
+    ).limit(5).all()
+
+    # Average values
+    avg_cost = db.query(func.avg(Prediction.predicted_cost)).scalar() or 0
+    avg_co2 = db.query(func.avg(Prediction.predicted_co2)).scalar() or 0
+    avg_score = db.query(func.avg(Prediction.sustainability_score)).scalar() or 0
+
+    return {
+        "total_predictions": total_predictions,
+
+        "top_materials": [
+            {"name": row[0], "count": row[1]}
+            for row in top_materials
+        ],
+
+        "top_products": [
+            {"name": row[0], "count": row[1]}
+            for row in top_products
+        ],
+
+        "avg_cost": round(avg_cost, 2),
+        "avg_co2": round(avg_co2, 2),
+        "avg_score": round(avg_score * 100, 1)
+    }
+
 @app.post("/recommend-material")
 def recommend_material(request: ProductRequest, db: Session = Depends(get_db)):
 
@@ -126,9 +175,11 @@ def recommend_material(request: ProductRequest, db: Session = Depends(get_db)):
 
 
     df["strength_match"] = 1 - abs(df["Strength (1-10)"] - user_strength) / 10
+    df["strength_match"] = df["strength_match"].clip(lower=0, upper=1)
 
     max_weight = df["Weight Capacity (kg)"].max()
     df["weight_match"] = 1 - abs(df["Weight Capacity (kg)"] - user_weight) / max_weight
+    df["weight_match"] = df["weight_match"].clip(lower=0, upper=1)
 
     df["compatibility"] = (
         0.6 * df["strength_match"] +
@@ -153,7 +204,17 @@ def recommend_material(request: ProductRequest, db: Session = Depends(get_db)):
 
     return {
         "results": ranked[
-            ["Material_Type", "predicted_cost", "predicted_co2", "final_score"]
+            [
+                "Material_Type",
+                "predicted_cost",
+                "predicted_co2",
+                "final_score",
+                "co2_score",
+                "bio_score",
+                "rec_score",
+                "compatibility"
+            ]
         ].head(3).to_dict(orient="records"),
+
         "message": "Recommendations generated successfully"
     }
