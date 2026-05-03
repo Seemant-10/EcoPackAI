@@ -116,8 +116,9 @@ function Login() {
             </p>
 
             <img
-              src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?w=800"
-              className="img-fluid rounded shadow mt-4"
+              src="./public/image.jpeg"
+              className="img-fluid rounded shadow"
+              style={{maxHeight: "80vh"}}
               alt="eco"
             />
           </div>
