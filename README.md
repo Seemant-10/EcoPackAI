@@ -16,21 +16,33 @@ The system covers **70 product types** across **12 industries** and evaluates **
 
 - 🔍 **Fuzzy product matching** — handles typos and partial inputs using RapidFuzz
 
-- 🤖 **ML-based predictions** — Random Forest for cost, XGBoost for CO₂ emissions
+- 🤖 **ML-based predictions** — Random Forest for cost prediction and XGBoost for CO₂ emission prediction
 
-- 🌱 **Sustainability scoring** — weighted ranking based on CO₂, biodegradability, and recyclability
+- 🌱 **Sustainability scoring** — weighted ranking based on CO₂ emissions, biodegradability, and recyclability
 
-- ⚖️ **Compatibility scoring** — matches materials to user's strength and weight requirements
+- ⚖️ **Compatibility scoring** — matches packaging materials to user strength and weight requirements
 
-- 🏆 **Top 3 recommendations** — ranked by a combined final score
+- 🧠 **Explainable AI (SHAP)** — displays top factors influencing predicted cost and CO₂ emissions
 
-- 🕘 **Search history sidebar** — shows last 8 searches with top material, click to reload into form
+- 🏆 **Top 3 recommendations** — ranked by a combined sustainability + compatibility score
 
-- 📥 **Report download** — export current results as PDF or CSV
+- 📊 **Analytics dashboard** — visual insights including top materials, product trends, average cost, CO₂, and sustainability score
 
-- 🗄️ **Prediction logging** — every recommendation is stored in a PostgreSQL database
+- 🔐 **JWT authentication system** — secure login and registration with hashed passwords using Passlib bcrypt
 
-- 🖥️ **Clean React frontend** — form-based UI with visual progress bars and sidebar layout
+- 👤 **Protected routes** — authenticated users only can access recommendations and analytics
+
+- 🕘 **Search history sidebar** — stores and reloads last 8 searches per user
+
+- 📥 **Report download** — export recommendation reports as PDF or CSV
+
+- 📈 **Interactive charts** — Bar charts, radar charts, pie charts, and comparison visualizations using Recharts
+
+- 🗄️ **Prediction logging** — every recommendation is stored in PostgreSQL for analytics tracking
+
+- 🖥️ **Modern React frontend** — responsive UI with dashboards, progress indicators, dropdown profile menu, and visual scoring system
+
+- 🌐 **REST API architecture** — FastAPI backend with modular endpoints and SQLAlchemy ORM
 
 ---
 
@@ -42,7 +54,10 @@ The system covers **70 product types** across **12 industries** and evaluates **
 | Backend | FastAPI (Python) |
 | Database | PostgreSQL (via pgAdmin 4) |
 | ORM | SQLAlchemy |
-| ML Models | Random Forest (cost), XGBoost (CO₂) |
+| ML Models | Random Forest (Cost), XGBoost (CO₂) |
+| Explainable AI | SHAP |
+| Authentication | JWT Tokens, Passlib bcrypt |
+| Visualization | Recharts, html2canvas, jsPDF |
 | Fuzzy Matching | RapidFuzz |
 | Model Serialization | Joblib |
 | Data Processing | Pandas, NumPy, Scikit-learn |
@@ -51,20 +66,25 @@ The system covers **70 product types** across **12 industries** and evaluates **
 
 ## 📁 Project Structure
 
-```
+```text
 EcoPackAI/
 │
 ├── backend/
-│   ├── main.py                   # FastAPI app & recommendation endpoint
+│   ├── main.py                   # FastAPI app, authentication & recommendation endpoints
 │   ├── ranking.py                # Sustainability + compatibility scoring logic
-│   ├── models.py                 # SQLAlchemy table definitions
+│   ├── models.py                 # SQLAlchemy database models
 │   ├── database.py               # PostgreSQL connection setup
-│   └── schema.py                 # Pydantic request schema
+│   └── schema.py                 # Pydantic request schemas
 │
 ├── frontend/
 │   └── ecoPackAI_UI/
 │       ├── src/
-│       │   └── App.jsx           # React UI (form, sidebar, results, download)
+│       │   ├── App.jsx           # Recommendation interface & SHAP explanations
+│       │   ├── Dashboard.jsx     # Analytics dashboard & charts
+│       │   ├── Login.jsx         # User login page
+│       │   ├── Register.jsx      # User registration page
+│       │   └── main.jsx          # Routing & protected routes
+│       │
 │       ├── public/
 │       ├── index.html
 │       ├── package.json
@@ -77,12 +97,11 @@ EcoPackAI/
 │   └── co2_feature_columns.pkl
 │
 ├── dataset/
-│   ├── EcoPackAI_Final_7.csv     # Master dataset (19,600 rows)
-│   └── ecoPackAI_db.csv          # DB-ready version (for pgAdmin import)
+│   ├── EcoPackAI_Final_7.csv
+│   └── ecoPackAI_db.csv
 │
-└── main.ipynb                    # Model training notebook
+└── main.ipynb                    # ML model training notebook
 ```
-
 ---
 
 ## ⚙️ Setup & Installation
@@ -237,15 +256,49 @@ Each row contains: `Material_Type`, `Product_Type`, `Industry`, `Strength (1-10)
 
 ---
 
+## 🧠 Explainable AI (SHAP)
+
+EcoPackAI integrates SHAP (SHapley Additive exPlanations) to improve transparency and interpretability of ML predictions.
+
+For each recommended material, the system displays:
+
+- Cost impact factors
+- CO₂ impact factors
+- Positive and negative feature contributions
+- Feature influence magnitude
+
+This allows users to understand WHY a particular material was recommended instead of receiving black-box predictions.
+
+Example SHAP insights:
+
+- Higher recyclability improved sustainability score
+- Lower CO₂ emissions reduced environmental impact
+- Better strength compatibility increased recommendation ranking
+
+---
+
 ## 🚀 Future Improvements
 
-- [ ] Add user authentication and saved recommendation history across sessions
+- [ ] Add forgot-password email recovery system
+- [ ] Add user profile customization & saved preferences
+- [ ] Improve ML accuracy using CatBoost and feature engineering
+- [ ] Add NLP-based product understanding
 - [ ] Expand dataset with real-world supplier pricing data
-- [ ] Add a comparison view to visualize materials side by side
-- [ ] Support bulk product recommendations via CSV upload
-- [ ] Deploy backend on Railway / Render and frontend on Vercel
-- [ ] Add region-based recommendations (material availability varies by country)
-- [ ] Integrate a carbon offset calculator based on predicted CO₂
+- [ ] Add bulk product recommendation via CSV upload
+- [ ] Add carbon footprint forecasting
+- [ ] Deploy backend on Railway/Render and frontend on Vercel
+- [ ] Add region-based packaging recommendations
+- [ ] Integrate live sustainability APIs
+
+---
+
+## 🔒 Security Features
+
+- Passwords securely hashed using Passlib bcrypt
+- JWT-based authentication system
+- Protected API routes
+- Secure user-specific analytics access
+- Session-based frontend route protection
 
 ---
 
