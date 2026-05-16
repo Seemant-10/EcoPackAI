@@ -5,6 +5,7 @@ from sqlalchemy import func # type: ignore
 import pandas as pd
 import joblib
 from rapidfuzz import process, fuzz # type: ignore
+import shap # type: ignore
 
 from database import SessionLocal
 from models import Material, Prediction
@@ -120,6 +121,9 @@ co2_model = joblib.load("../trained_models/co2_model.pkl")
 
 cost_features = joblib.load("../trained_models/cost_feature_columns.pkl")
 co2_features = joblib.load("../trained_models/co2_feature_columns.pkl")
+
+cost_explainer = shap.TreeExplainer(cost_model)
+co2_explainer = shap.TreeExplainer(co2_model)
 
 @app.post("/register")
 def register_user(request: RegisterRequest, db: Session = Depends(get_db)):
@@ -385,7 +389,6 @@ def predict(
     df["predicted_cost"] = cost_model.predict(X_cost)
     df["predicted_co2"] = co2_model.predict(X_co2)
 
-
     df["strength_match"] = 1 - abs(df["Strength (1-10)"] - user_strength) / 10
     df["strength_match"] = df["strength_match"].clip(lower=0, upper=1)
 
@@ -398,9 +401,46 @@ def predict(
         0.4 * df["weight_match"]
     )
 
-    ranked = rank_materials(df)
+    ranked_preview = rank_materials(df.copy()).head(3)
+    top_idx = ranked_preview.index
 
-    ranked = ranked.sort_values(by="final_score", ascending=False)
+    X_cost_top = X_cost.loc[top_idx]
+    X_co2_top  = X_co2.loc[top_idx]
+
+    cost_shap_values = cost_explainer.shap_values(X_cost_top)
+    co2_shap_values  = co2_explainer.shap_values(X_co2_top)
+
+    shap_cost_df = pd.DataFrame(cost_shap_values, columns=cost_features, index=top_idx)
+    shap_co2_df  = pd.DataFrame(co2_shap_values,  columns=co2_features,  index=top_idx)
+
+    EXCLUDE_PREFIXES = ("Material_Type_", "Product_Type_", "Industry_")
+    meaningful_cost_cols = [c for c in shap_cost_df.columns if not c.startswith(EXCLUDE_PREFIXES)]
+    meaningful_co2_cols  = [c for c in shap_co2_df.columns  if not c.startswith(EXCLUDE_PREFIXES)]
+
+    TOP_N = 4
+    df["shap_cost"] = shap_cost_df[meaningful_cost_cols].apply(
+        lambda row: row.abs().nlargest(TOP_N).index.tolist(), axis=1
+    )
+    df["shap_cost_vals"] = shap_cost_df[meaningful_cost_cols].apply(
+        lambda row: row.abs().nlargest(TOP_N).round(4).tolist(), axis=1
+    )
+    df["shap_co2"] = shap_co2_df[meaningful_co2_cols].apply(
+        lambda row: row.abs().nlargest(TOP_N).index.tolist(), axis=1
+    )
+    df["shap_co2_vals"] = shap_co2_df[meaningful_co2_cols].apply(
+        lambda row: row.abs().nlargest(TOP_N).round(4).tolist(), axis=1
+    )
+
+    # Merge SHAP columns into ranked_preview
+    ranked_preview["shap_cost"] = df.loc[top_idx, "shap_cost"]
+    ranked_preview["shap_cost_vals"] = df.loc[top_idx, "shap_cost_vals"]
+    ranked_preview["shap_co2"] = df.loc[top_idx, "shap_co2"]
+    ranked_preview["shap_co2_vals"] = df.loc[top_idx, "shap_co2_vals"]
+
+    ranked = ranked_preview.sort_values(
+        by="final_score",
+        ascending=False
+    )
 
     for _, row in ranked.iterrows():
         prediction = Prediction(
@@ -415,19 +455,22 @@ def predict(
 
     db.commit()
 
-    return {
-        "results": ranked[
-            [
-                "Material_Type",
-                "predicted_cost",
-                "predicted_co2",
-                "final_score",
-                "co2_score",
-                "bio_score",
-                "rec_score",
-                "compatibility"
-            ]
-        ].head(3).to_dict(orient="records"),
+    output_cols = [
+        "Material_Type",
+        "predicted_cost",
+        "predicted_co2",
+        "final_score",
+        "co2_score",
+        "bio_score",
+        "rec_score",
+        "compatibility",
+        "shap_cost",
+        "shap_cost_vals",
+        "shap_co2",
+        "shap_co2_vals"
+    ]
 
+    return {
+        "results": ranked[output_cols].head(3).to_dict(orient="records"),
         "message": "Recommendations generated successfully"
     }

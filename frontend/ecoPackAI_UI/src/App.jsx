@@ -569,47 +569,47 @@ function App() {
                             </div>
                             <div className="mt-4">
                               <small className="fw-semibold text-muted d-block mb-2">
-                                Why this material was selected
+                                Top factors driving this prediction
                               </small>
 
-                              <ResponsiveContainer width="100%" height={240}>
-                                <BarChart
-                                  data={[
-                                    {
-                                      name: "Carbon",
-                                      value: Number((item.co2_score * 100).toFixed(2))
-                                    },
-                                    {
-                                      name: "Bio",
-                                      value: Number((item.bio_score * 100).toFixed(2))
-                                    },
-                                    {
-                                      name: "Recycle",
-                                      value: Number((item.rec_score * 100).toFixed(2))
-                                    },
-                                    {
-                                      name: "Fit",
-                                      value: Number((item.compatibility * 100).toFixed(2))
-                                    }
-                                  ]}
-                                  margin={{ top: 10, right: 10, left: 0, bottom: 10 }}
-                                >
-                                  <XAxis dataKey="name" fontSize={11} />
-                                  <YAxis domain={[0, 100]} />
-                                  <Tooltip
-                                    formatter={(value) => [`${value}%`, "Contribution"]}
-                                  />
-                                  <Bar
-                                    dataKey="value"
-                                    fill="#198754"
-                                    radius={[4, 4, 0, 0]}
-                                  />
-                                </BarChart>
-                              </ResponsiveContainer>
+                              {/* Cost SHAP Drivers Breakdown */}
+                                {item.shap_cost && item.shap_cost.length > 0 && (
+                                  <div className="mt-2 text-start bg-light p-2 rounded" style={{ fontSize: "12px" }}>
+                                    <div className="fw-bold text-secondary mb-1">Cost Impact Factors:</div>
+                                    {item.shap_cost.map((feat, idx) => {
+                                      const val = item.shap_cost_vals[idx];
+                                      const numericVal = Number(val);
+                                      const isPositive = numericVal > 0;
+                                      return (
+                                        <div key={idx} className="d-flex justify-content-between align-items-center mb-1">
+                                          <span className="text-muted">{feat}</span>
+                                          <span className={`badge ${isPositive ? 'bg-success' : 'bg-danger'}`}>
+                                            {isPositive ? '↑ +' : '↓ -'}{Math.abs(numericVal).toFixed(2)}
+                                          </span>
+                                        </div>
+                                      );
+                                    })}
+                                  </div>
+                                )}
 
-                              <small className="text-muted">
-                                Higher values indicate stronger contribution to recommendation.
-                              </small>
+                                {/* CO2 SHAP Drivers Breakdown */}
+                                {item.shap_co2 && item.shap_co2.length > 0 && (
+                                  <div className="mt-2 text-start bg-light p-2 rounded" style={{ fontSize: "12px" }}>
+                                    <div className="fw-bold text-secondary mb-1">CO₂ Impact Factors:</div>
+                                    {item.shap_co2.map((feat, idx) => {
+                                      const val = item.shap_co2_vals[idx];
+                                      const isPositive = val > 0; // Positive means it increases emissions (bad)
+                                      return (
+                                        <div key={idx} className="d-flex justify-content-between align-items-center mb-1">
+                                          <span className="text-muted">{feat}</span>
+                                          <span className={`badge ${isPositive ? 'bg-success' : 'bg-danger'}`}>
+                                            {isPositive ? '↑ +' : '↓ -'}{Math.abs(val).toFixed(2)}
+                                          </span>
+                                        </div>
+                                      );
+                                    })}
+                                  </div>
+                                )}
                             </div>
                           </div>
                         </div>

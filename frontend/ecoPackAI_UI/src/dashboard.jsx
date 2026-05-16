@@ -35,7 +35,6 @@ function Dashboard() {
     "#dc3545",
     "#6f42c1"
   ];
-
   return {
     ...item,
     fill: colors[index % colors.length]
@@ -151,7 +150,7 @@ function Dashboard() {
             <div className="col-md-3">
             <div className="card shadow-sm text-center p-3">
                 <h6>Total Recommendations</h6>
-                <h3>{data.total_predictions}</h3>
+                <h3>{data.total_predictions/3}</h3>
             </div>
             </div>
 
