@@ -133,7 +133,7 @@ function Register() {
             </p>
 
             <img
-              src="./public/image.jpeg"
+              src="/image.jpeg"
               alt="eco"
               className="img-fluid rounded shadow"
               style={{maxHeight: "80vh"}}

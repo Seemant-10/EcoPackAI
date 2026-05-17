@@ -116,7 +116,7 @@ function Login() {
             </p>
 
             <img
-              src="./public/image.jpeg"
+              src="/image.jpeg"
               className="img-fluid rounded shadow"
               style={{maxHeight: "80vh"}}
               alt="eco"
